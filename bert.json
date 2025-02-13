@@ -1,0 +1,20 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "metadata": {
+        "component": {
+            "name": "bert",
+            "source": "https://github.com/onnx/models",
+            "properties": [
+                {
+                    "name": "model.source",
+                    "value": "onnx_model_zoo"
+                },
+                {
+                    "name": "model.url",
+                    "value": "https://github.com/onnx/models"
+                }
+            ]
+        }
+    }
+}

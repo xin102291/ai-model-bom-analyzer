@@ -1,0 +1,76 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.0/spdx-context.jsonld",
+    "@graph": [
+        {
+            "type": "Person",
+            "spdxId": "https://my-aibom.com/ai-bom-generator",
+            "creationInfo": "_:creationinfo-2df469c9-cec0-42ce-8f62-e25ca7be7055",
+            "name": "AI-BOM-Generator-1.0"
+        },
+        {
+            "type": "CreationInfo",
+            "@id": "_:creationinfo-2df469c9-cec0-42ce-8f62-e25ca7be7055",
+            "specVersion": "SPDX-3.0",
+            "createdBy": [
+                "https://my-aibom.com/ai-bom-generator"
+            ],
+            "created": "2025-02-25T14:29:50Z"
+        },
+        {
+            "type": "SpdxDocument",
+            "spdxId": "https://my-aibom.com/document",
+            "creationInfo": "_:creationinfo-2df469c9-cec0-42ce-8f62-e25ca7be7055",
+            "profileConformance": [
+                "core",
+                "software",
+                "ai",
+                "dataset"
+            ],
+            "rootElement": [
+                "https://my-aibom.com/SPDXRef-AIModel",
+                "https://my-aibom.com/SPDXRef-Dataset"
+            ]
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://my-aibom.com/SPDXRef-AIModel",
+            "creationInfo": "_:creationinfo-2df469c9-cec0-42ce-8f62-e25ca7be7055",
+            "name": "GPT-2",
+            "software_downloadLocation": "https://github.com/openai/gpt-2",
+            "originatedBy": [
+                "https://my-aibom.com/ai-bom-generator"
+            ],
+            "software_primaryPurpose": "自然語言處理 (NLP)",
+            "software_version": "1.5",
+            "releaseTime": "2019-02-14",
+            "buildTime": "2025-02-25",
+            "supplier": "OpenAI",
+            "licenseConcluded": "MIT License",
+            "licenseDeclared": "MIT License"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://my-aibom.com/SPDXRef-Dataset",
+            "creationInfo": "_:creationinfo-2df469c9-cec0-42ce-8f62-e25ca7be7055",
+            "name": "OpenWebText2",
+            "software_downloadLocation": "https://github.com/EleutherAI/openwebtext2",
+            "originatedBy": [
+                "https://my-aibom.com/ai-bom-generator"
+            ],
+            "software_primaryPurpose": "語料庫資料集",
+            "fileLicenseConcluded": "Unknown (需確認 OpenWebText2 授權)",
+            "fileLicenseDeclared": "Unknown (需確認 OpenWebText2 授權)",
+            "software_fileKind": "dataset"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "https://my-aibom.com/relationship-2b88a498-cf47-4aad-a0ff-f0dcf389e5f1",
+            "creationInfo": "_:creationinfo-2df469c9-cec0-42ce-8f62-e25ca7be7055",
+            "relationshipType": "GENERATES",
+            "from": "https://my-aibom.com/SPDXRef-Dataset",
+            "to": [
+                "https://my-aibom.com/SPDXRef-AIModel"
+            ]
+        }
+    ]
+}

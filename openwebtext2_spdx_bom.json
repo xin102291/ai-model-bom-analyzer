@@ -1,0 +1,1015 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.0/spdx-context.jsonld",
+    "@graph": [
+        {
+            "type": "Person",
+            "spdxId": "https://github.com/EleutherAI",
+            "name": "EleutherAI"
+        },
+        {
+            "type": "CreationInfo",
+            "@id": "_:creationinfo",
+            "specVersion": "3.0.0",
+            "createdBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "created": "2020-09-03T00:55:17Z"
+        },
+        {
+            "type": "SpdxDocument",
+            "spdxId": "https://my-first-aibom.com/openwebtext2-bom",
+            "creationInfo": "_:creationinfo",
+            "profileConformance": [
+                "core",
+                "software",
+                "ai",
+                "dataset"
+            ],
+            "rootElement": [
+                "https://my-first-aibom.com/openwebtext2-bom"
+            ]
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://my-first-aibom.com/gpt2",
+            "creationInfo": "_:creationinfo",
+            "name": "gpt2",
+            "software_downloadLocation": "https://github.com/EleutherAI/openwebtext2/tree/master/gpt2",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://my-first-aibom.com/openwebtext2",
+            "creationInfo": "_:creationinfo",
+            "name": "openwebtext2",
+            "software_downloadLocation": "https://github.com/EleutherAI/openwebtext2/tree/master/openwebtext2",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/zstandard/",
+            "creationInfo": "_:creationinfo",
+            "name": "zstandard",
+            "software_downloadLocation": "https://pypi.org/project/zstandard/",
+            "software_homePage": "https://pypi.org/project/zstandard/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package zstandard version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/requests/",
+            "creationInfo": "_:creationinfo",
+            "name": "requests",
+            "software_downloadLocation": "https://pypi.org/project/requests/",
+            "software_homePage": "https://pypi.org/project/requests/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package requests version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/python-dateutil/",
+            "creationInfo": "_:creationinfo",
+            "name": "python-dateutil",
+            "software_downloadLocation": "https://pypi.org/project/python-dateutil/",
+            "software_homePage": "https://pypi.org/project/python-dateutil/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package python-dateutil version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/tqdm/",
+            "creationInfo": "_:creationinfo",
+            "name": "tqdm",
+            "software_downloadLocation": "https://pypi.org/project/tqdm/",
+            "software_homePage": "https://pypi.org/project/tqdm/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package tqdm version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/tldextract/",
+            "creationInfo": "_:creationinfo",
+            "name": "tldextract",
+            "software_downloadLocation": "https://pypi.org/project/tldextract/",
+            "software_homePage": "https://pypi.org/project/tldextract/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package tldextract version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/beautifulsoup4/",
+            "creationInfo": "_:creationinfo",
+            "name": "beautifulsoup4",
+            "software_downloadLocation": "https://pypi.org/project/beautifulsoup4/",
+            "software_homePage": "https://pypi.org/project/beautifulsoup4/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package beautifulsoup4 version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/newspaper3k/",
+            "creationInfo": "_:creationinfo",
+            "name": "newspaper3k",
+            "software_downloadLocation": "https://pypi.org/project/newspaper3k/",
+            "software_homePage": "https://pypi.org/project/newspaper3k/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package newspaper3k version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/htmlmin/",
+            "creationInfo": "_:creationinfo",
+            "name": "htmlmin",
+            "software_downloadLocation": "https://pypi.org/project/htmlmin/",
+            "software_homePage": "https://pypi.org/project/htmlmin/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package htmlmin version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/lm_dataformat/",
+            "creationInfo": "_:creationinfo",
+            "name": "lm_dataformat",
+            "software_downloadLocation": "https://pypi.org/project/lm_dataformat/",
+            "software_homePage": "https://pypi.org/project/lm_dataformat/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package lm_dataformat version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/jsonlines/",
+            "creationInfo": "_:creationinfo",
+            "name": "jsonlines",
+            "software_downloadLocation": "https://pypi.org/project/jsonlines/",
+            "software_homePage": "https://pypi.org/project/jsonlines/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package jsonlines version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/datasketch/",
+            "creationInfo": "_:creationinfo",
+            "name": "datasketch",
+            "software_downloadLocation": "https://pypi.org/project/datasketch/",
+            "software_homePage": "https://pypi.org/project/datasketch/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package datasketch version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/colorama/",
+            "creationInfo": "_:creationinfo",
+            "name": "colorama",
+            "software_downloadLocation": "https://pypi.org/project/colorama/",
+            "software_homePage": "https://pypi.org/project/colorama/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package colorama version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/cutie/",
+            "creationInfo": "_:creationinfo",
+            "name": "cutie",
+            "software_downloadLocation": "https://pypi.org/project/cutie/",
+            "software_homePage": "https://pypi.org/project/cutie/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package cutie version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/sqlalchemy/",
+            "creationInfo": "_:creationinfo",
+            "name": "sqlalchemy",
+            "software_downloadLocation": "https://pypi.org/project/sqlalchemy/",
+            "software_homePage": "https://pypi.org/project/sqlalchemy/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package sqlalchemy version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/tqdm-multiprocess/",
+            "creationInfo": "_:creationinfo",
+            "name": "tqdm-multiprocess",
+            "software_downloadLocation": "https://pypi.org/project/tqdm-multiprocess/",
+            "software_homePage": "https://pypi.org/project/tqdm-multiprocess/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package tqdm-multiprocess version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/base36/",
+            "creationInfo": "_:creationinfo",
+            "name": "base36",
+            "software_downloadLocation": "https://pypi.org/project/base36/",
+            "software_homePage": "https://pypi.org/project/base36/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package base36 version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/alembic/",
+            "creationInfo": "_:creationinfo",
+            "name": "alembic",
+            "software_downloadLocation": "https://pypi.org/project/alembic/",
+            "software_homePage": "https://pypi.org/project/alembic/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package alembic version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/cassandra-driver/",
+            "creationInfo": "_:creationinfo",
+            "name": "cassandra-driver",
+            "software_downloadLocation": "https://pypi.org/project/cassandra-driver/",
+            "software_homePage": "https://pypi.org/project/cassandra-driver/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package cassandra-driver version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/best-download/",
+            "creationInfo": "_:creationinfo",
+            "name": "best-download",
+            "software_downloadLocation": "https://pypi.org/project/best-download/",
+            "software_homePage": "https://pypi.org/project/best-download/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package best-download version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project//",
+            "creationInfo": "_:creationinfo",
+            "name": "",
+            "software_downloadLocation": "https://pypi.org/project//",
+            "software_homePage": "https://pypi.org/project//",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package  version latest"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://pypi.org/project/mkdocs/",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs",
+            "software_downloadLocation": "https://pypi.org/project/mkdocs/",
+            "software_homePage": "https://pypi.org/project/mkdocs/",
+            "software_packageVersion": "latest",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "library",
+            "description": "Package mkdocs version latest"
+        },
+        {
+            "type": "simplelicensing_LicenseExpression",
+            "spdxId": "https://spdx.org/licenses/MIT",
+            "simplelicensing_licenseExpression": "MIT License",
+            "simplelicensing_licenseListVersion": "3.24.0"
+        },
+        {
+            "type": "simplelicensing_LicenseExpression",
+            "spdxId": "https://spdx.org/licenses/Copyright",
+            "simplelicensing_licenseExpression": "Copyright (c) 2020 EleutherAI",
+            "simplelicensing_licenseListVersion": "3.24.0"
+        },
+        {
+            "type": "simplelicensing_LicenseExpression",
+            "spdxId": "https://spdx.org/licenses/Permission",
+            "simplelicensing_licenseExpression": "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:",
+            "simplelicensing_licenseListVersion": "3.24.0"
+        },
+        {
+            "type": "simplelicensing_LicenseExpression",
+            "spdxId": "https://spdx.org/licenses/The",
+            "simplelicensing_licenseExpression": "The above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.",
+            "simplelicensing_licenseListVersion": "3.24.0"
+        },
+        {
+            "type": "simplelicensing_LicenseExpression",
+            "spdxId": "https://spdx.org/licenses/THE",
+            "simplelicensing_licenseExpression": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+            "simplelicensing_licenseListVersion": "3.24.0"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/.gitattributes",
+            "creationInfo": "_:creationinfo",
+            "name": ".gitattributes",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/.gitignore",
+            "creationInfo": "_:creationinfo",
+            "name": ".gitignore",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/.readthedocs.yml",
+            "creationInfo": "_:creationinfo",
+            "name": ".readthedocs.yml",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/LICENSE",
+            "creationInfo": "_:creationinfo",
+            "name": "LICENSE",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/README.md",
+            "creationInfo": "_:creationinfo",
+            "name": "README.md",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/alembic.ini.template",
+            "creationInfo": "_:creationinfo",
+            "name": "alembic.ini.template",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/alembic",
+            "creationInfo": "_:creationinfo",
+            "name": "alembic",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/alembic/README",
+            "creationInfo": "_:creationinfo",
+            "name": "alembic/README",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/alembic/env.py",
+            "creationInfo": "_:creationinfo",
+            "name": "alembic/env.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/alembic/script.py.mako",
+            "creationInfo": "_:creationinfo",
+            "name": "alembic/script.py.mako",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/cleaning",
+            "creationInfo": "_:creationinfo",
+            "name": "cleaning",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/cleaning/__init__.py",
+            "creationInfo": "_:creationinfo",
+            "name": "cleaning/__init__.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/cleaning/dedupe_from_indexes.py",
+            "creationInfo": "_:creationinfo",
+            "name": "cleaning/dedupe_from_indexes.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/cleaning/filter_from_reddit_scores.py",
+            "creationInfo": "_:creationinfo",
+            "name": "cleaning/filter_from_reddit_scores.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/cleaning/generate_minhashes.py",
+            "creationInfo": "_:creationinfo",
+            "name": "cleaning/generate_minhashes.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/cleaning/minhash_lsh_batching.py",
+            "creationInfo": "_:creationinfo",
+            "name": "cleaning/minhash_lsh_batching.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/cleaning/minhash_lsh_dedupe.py",
+            "creationInfo": "_:creationinfo",
+            "name": "cleaning/minhash_lsh_dedupe.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/data_analysis",
+            "creationInfo": "_:creationinfo",
+            "name": "data_analysis",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/data_analysis/__init__.py",
+            "creationInfo": "_:creationinfo",
+            "name": "data_analysis/__init__.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/data_analysis/final_stats.py",
+            "creationInfo": "_:creationinfo",
+            "name": "data_analysis/final_stats.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs/docs",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs/docs",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs/docs/background.md",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs/docs/background.md",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs/docs/css",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs/docs/css",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs/docs/css/extra.css",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs/docs/css/extra.css",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs/docs/index.md",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs/docs/index.md",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs/docs/licence.md",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs/docs/licence.md",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs/docs/replication.md",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs/docs/replication.md",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/mkdocs/mkdocs.yml",
+            "creationInfo": "_:creationinfo",
+            "name": "mkdocs/mkdocs.yml",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/pushshift",
+            "creationInfo": "_:creationinfo",
+            "name": "pushshift",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/pushshift/__init__.py",
+            "creationInfo": "_:creationinfo",
+            "name": "pushshift/__init__.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/pushshift/download_pushshift_dumps.py",
+            "creationInfo": "_:creationinfo",
+            "name": "pushshift/download_pushshift_dumps.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/pushshift/generate_urls.py",
+            "creationInfo": "_:creationinfo",
+            "name": "pushshift/generate_urls.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/pushshift/models.py",
+            "creationInfo": "_:creationinfo",
+            "name": "pushshift/models.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/pushshift/models.py-contains",
+            "creationInfo": "_:creationinfo",
+            "relationshipType": "contains",
+            "from": "https://github.com/EleutherAI/openwebtext2/tree/pushshift/models.py",
+            "to": [
+                "https://github.com/EleutherAI/openwebtext2/tree/model/word-model/charList",
+                "https://github.com/EleutherAI/openwebtext2/tree/model/word-model/checkpoint"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/pushshift/process_dump_files_sqlite.py",
+            "creationInfo": "_:creationinfo",
+            "name": "pushshift/process_dump_files_sqlite.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/pushshift/pushshift_to_sqlite.py",
+            "creationInfo": "_:creationinfo",
+            "name": "pushshift/pushshift_to_sqlite.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/requirements.txt",
+            "creationInfo": "_:creationinfo",
+            "name": "requirements.txt",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/scraping",
+            "creationInfo": "_:creationinfo",
+            "name": "scraping",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/scraping/__init__.py",
+            "creationInfo": "_:creationinfo",
+            "name": "scraping/__init__.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/scraping/filter.py",
+            "creationInfo": "_:creationinfo",
+            "name": "scraping/filter.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/scraping/scrape_urls.py",
+            "creationInfo": "_:creationinfo",
+            "name": "scraping/scrape_urls.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/scraping/scrapers.py",
+            "creationInfo": "_:creationinfo",
+            "name": "scraping/scrapers.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/utils",
+            "creationInfo": "_:creationinfo",
+            "name": "utils",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ]
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/utils/__init__.py",
+            "creationInfo": "_:creationinfo",
+            "name": "utils/__init__.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/utils/archive_stream_readers.py",
+            "creationInfo": "_:creationinfo",
+            "name": "utils/archive_stream_readers.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/utils/archiver.py",
+            "creationInfo": "_:creationinfo",
+            "name": "utils/archiver.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/utils/logger.py",
+            "creationInfo": "_:creationinfo",
+            "name": "utils/logger.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        },
+        {
+            "type": "software_File",
+            "spdxId": "https://github.com/EleutherAI/openwebtext2/tree/utils/utils.py",
+            "creationInfo": "_:creationinfo",
+            "name": "utils/utils.py",
+            "originatedBy": [
+                "https://github.com/EleutherAI"
+            ],
+            "software_primaryPurpose": "executable",
+            "software_additionalPurpose": [
+                "source"
+            ],
+            "software_fileKind": "file"
+        }
+    ]
+}

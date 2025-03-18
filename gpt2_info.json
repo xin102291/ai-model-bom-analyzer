@@ -3,10 +3,10 @@
     "spdxId": "https://huggingface.co/gpt2",
     "creationInfo": "_:creationinfo",
     "name": "gpt2",
-    "releaseTime": "2025-03-11T11:14:42Z",
+    "releaseTime": "2025-03-14T10:26:27Z",
     "suppliedBy": "https://huggingface.co/gpt2",
     "software_downloadLocation": "https://huggingface.co/gpt2/resolve/main/gpt2.bin",
-    "software_packageVersion": "2.0",
+    "software_packageVersion": "Unknown",
     "software_primaryPurpose": "Define yourself",
     "comment": "Define yourself",
     "ai_autonomyType": "no",
@@ -409,6 +409,18 @@
         {
             "key": "vocab_size",
             "value": 50257
+        }
+    ],
+    "vulnerabilities": [
+        {
+            "version": "1.0",
+            "issues": "存在生成有害內容的風險",
+            "fixed_in": "2.0"
+        },
+        {
+            "version": "1.5",
+            "issues": "某些情境下可能洩漏訓練數據",
+            "fixed_in": "2.0"
         }
     ]
 }

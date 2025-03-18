@@ -3,10 +3,10 @@
     "spdxId": "https://huggingface.co/bert-base-uncased",
     "creationInfo": "_:creationinfo",
     "name": "bert-base-uncased",
-    "releaseTime": "2025-03-11T11:14:42Z",
+    "releaseTime": "2025-03-14T10:26:27Z",
     "suppliedBy": "https://huggingface.co/bert-base-uncased",
     "software_downloadLocation": "https://huggingface.co/bert-base-uncased/resolve/main/bert-base-uncased.bin",
-    "software_packageVersion": "2.0",
+    "software_packageVersion": "Unknown",
     "software_primaryPurpose": "Define yourself",
     "comment": "Define yourself",
     "ai_autonomyType": "no",
@@ -369,6 +369,13 @@
         {
             "key": "vocab_size",
             "value": 30522
+        }
+    ],
+    "vulnerabilities": [
+        {
+            "version": "1.0",
+            "issues": "對特定輸入過於敏感，容易被攻擊",
+            "fixed_in": "1.2"
         }
     ]
 }

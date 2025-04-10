@@ -1,0 +1,689 @@
+{
+    "type": "ai_AIPackage",
+    "spdxId": "https://huggingface.co/albert-base-v2",
+    "creationInfo": "_:creationinfo",
+    "name": "albert-base-v2",
+    "releaseTime": "2025-04-10T16:06:32Z",
+    "suppliedBy": "https://huggingface.co/albert-base-v2",
+    "software_downloadLocation": "https://huggingface.co/albert-base-v2/resolve/main/albert-base-v2.bin",
+    "software_packageVersion": "2.0",
+    "training_datasets": [
+        "bookcorpus",
+        "wikipedia"
+    ],
+    "software_primaryPurpose": "Define yourself",
+    "comment": "Define yourself",
+    "ai_autonomyType": "no",
+    "ai_domain": [
+        "Define yourself"
+    ],
+    "model_version": "albert",
+    "model_architecture": [
+        "AlbertForMaskedLM"
+    ],
+    "layer_count": "12",
+    "embedding_size": "768",
+    "attention_heads": "12",
+    "activation_function": "Unknown",
+    "hyperparameters": [
+        {
+            "key": "_attn_implementation",
+            "value": "eager"
+        },
+        {
+            "key": "_attn_implementation_autoset",
+            "value": false
+        },
+        {
+            "key": "_attn_implementation_internal",
+            "value": null
+        },
+        {
+            "key": "_auto_class",
+            "value": null
+        },
+        {
+            "key": "_commit_hash",
+            "value": "8e2f239c5f8a2c0f253781ca60135db913e5c80c"
+        },
+        {
+            "key": "_name_or_path",
+            "value": "albert-base-v2"
+        },
+        {
+            "key": "add_cross_attention",
+            "value": false
+        },
+        {
+            "key": "architectures",
+            "value": [
+                "AlbertForMaskedLM"
+            ]
+        },
+        {
+            "key": "attention_probs_dropout_prob",
+            "value": 0
+        },
+        {
+            "key": "attribute_map",
+            "value": {}
+        },
+        {
+            "key": "bad_words_ids",
+            "value": null
+        },
+        {
+            "key": "base_config_key",
+            "value": ""
+        },
+        {
+            "key": "base_model_tp_plan",
+            "value": null
+        },
+        {
+            "key": "begin_suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "bos_token_id",
+            "value": 2
+        },
+        {
+            "key": "chunk_size_feed_forward",
+            "value": 0
+        },
+        {
+            "key": "classifier_dropout_prob",
+            "value": 0.1
+        },
+        {
+            "key": "cross_attention_hidden_size",
+            "value": null
+        },
+        {
+            "key": "decoder_start_token_id",
+            "value": null
+        },
+        {
+            "key": "diversity_penalty",
+            "value": 0.0
+        },
+        {
+            "key": "do_sample",
+            "value": false
+        },
+        {
+            "key": "down_scale_factor",
+            "value": 1
+        },
+        {
+            "key": "early_stopping",
+            "value": false
+        },
+        {
+            "key": "embedding_size",
+            "value": 128
+        },
+        {
+            "key": "encoder_no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "eos_token_id",
+            "value": 3
+        },
+        {
+            "key": "exponential_decay_length_penalty",
+            "value": null
+        },
+        {
+            "key": "finetuning_task",
+            "value": null
+        },
+        {
+            "key": "forced_bos_token_id",
+            "value": null
+        },
+        {
+            "key": "forced_eos_token_id",
+            "value": null
+        },
+        {
+            "key": "gap_size",
+            "value": 0
+        },
+        {
+            "key": "hidden_act",
+            "value": "gelu_new"
+        },
+        {
+            "key": "hidden_dropout_prob",
+            "value": 0
+        },
+        {
+            "key": "hidden_size",
+            "value": 768
+        },
+        {
+            "key": "id2label",
+            "value": {
+                "0": "LABEL_0",
+                "1": "LABEL_1"
+            }
+        },
+        {
+            "key": "initializer_range",
+            "value": 0.02
+        },
+        {
+            "key": "inner_group_num",
+            "value": 1
+        },
+        {
+            "key": "intermediate_size",
+            "value": 3072
+        },
+        {
+            "key": "is_composition",
+            "value": false
+        },
+        {
+            "key": "is_decoder",
+            "value": false
+        },
+        {
+            "key": "is_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "label2id",
+            "value": {
+                "LABEL_0": 0,
+                "LABEL_1": 1
+            }
+        },
+        {
+            "key": "layer_norm_eps",
+            "value": 1e-12
+        },
+        {
+            "key": "length_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "max_length",
+            "value": 20
+        },
+        {
+            "key": "max_position_embeddings",
+            "value": 512
+        },
+        {
+            "key": "min_length",
+            "value": 0
+        },
+        {
+            "key": "model_type",
+            "value": "albert"
+        },
+        {
+            "key": "name_or_path",
+            "value": "albert-base-v2"
+        },
+        {
+            "key": "net_structure_type",
+            "value": 0
+        },
+        {
+            "key": "no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "num_attention_heads",
+            "value": 12
+        },
+        {
+            "key": "num_beam_groups",
+            "value": 1
+        },
+        {
+            "key": "num_beams",
+            "value": 1
+        },
+        {
+            "key": "num_hidden_groups",
+            "value": 1
+        },
+        {
+            "key": "num_hidden_layers",
+            "value": 12
+        },
+        {
+            "key": "num_labels",
+            "value": 2
+        },
+        {
+            "key": "num_memory_blocks",
+            "value": 0
+        },
+        {
+            "key": "num_return_sequences",
+            "value": 1
+        },
+        {
+            "key": "output_attentions",
+            "value": false
+        },
+        {
+            "key": "output_hidden_states",
+            "value": false
+        },
+        {
+            "key": "output_scores",
+            "value": false
+        },
+        {
+            "key": "pad_token_id",
+            "value": 0
+        },
+        {
+            "key": "position_embedding_type",
+            "value": "absolute"
+        },
+        {
+            "key": "prefix",
+            "value": null
+        },
+        {
+            "key": "problem_type",
+            "value": null
+        },
+        {
+            "key": "pruned_heads",
+            "value": {}
+        },
+        {
+            "key": "remove_invalid_values",
+            "value": false
+        },
+        {
+            "key": "repetition_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "return_dict",
+            "value": true
+        },
+        {
+            "key": "return_dict_in_generate",
+            "value": false
+        },
+        {
+            "key": "sep_token_id",
+            "value": null
+        },
+        {
+            "key": "sub_configs",
+            "value": {}
+        },
+        {
+            "key": "suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "task_specific_params",
+            "value": null
+        },
+        {
+            "key": "temperature",
+            "value": 1.0
+        },
+        {
+            "key": "tf_legacy_loss",
+            "value": false
+        },
+        {
+            "key": "tie_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "tie_word_embeddings",
+            "value": true
+        },
+        {
+            "key": "tokenizer_class",
+            "value": null
+        },
+        {
+            "key": "top_k",
+            "value": 50
+        },
+        {
+            "key": "top_p",
+            "value": 1.0
+        },
+        {
+            "key": "torch_dtype",
+            "value": null
+        },
+        {
+            "key": "torchscript",
+            "value": false
+        },
+        {
+            "key": "transformers_version",
+            "value": null
+        },
+        {
+            "key": "type_vocab_size",
+            "value": 2
+        },
+        {
+            "key": "typical_p",
+            "value": 1.0
+        },
+        {
+            "key": "use_bfloat16",
+            "value": false
+        },
+        {
+            "key": "use_return_dict",
+            "value": true
+        },
+        {
+            "key": "vocab_size",
+            "value": 30000
+        }
+    ],
+    "weights_info": {
+        "total_parameters": 11683584,
+        "layers": [
+            {
+                "layer_name": "embeddings.word_embeddings.weight",
+                "shape": [
+                    30000,
+                    128
+                ],
+                "num_parameters": 3840000,
+                "weight_mean": "-0.0054782275",
+                "weight_std": "0.035806812",
+                "min_value": "-0.19462019",
+                "max_value": "0.20025325"
+            },
+            {
+                "layer_name": "embeddings.position_embeddings.weight",
+                "shape": [
+                    512,
+                    128
+                ],
+                "num_parameters": 65536,
+                "weight_mean": "0.00010579545",
+                "weight_std": "0.03295008",
+                "min_value": "-0.23435372",
+                "max_value": "0.2774054"
+            },
+            {
+                "layer_name": "embeddings.token_type_embeddings.weight",
+                "shape": [
+                    2,
+                    128
+                ],
+                "num_parameters": 256,
+                "weight_mean": "0.00013393129",
+                "weight_std": "0.015025662",
+                "min_value": "-0.08032787",
+                "max_value": "0.044311784"
+            },
+            {
+                "layer_name": "embeddings.LayerNorm.weight",
+                "shape": [
+                    128
+                ],
+                "num_parameters": 128,
+                "weight_mean": "3.2644148",
+                "weight_std": "0.28034702",
+                "min_value": "1.2972027",
+                "max_value": "3.6749425"
+            },
+            {
+                "layer_name": "embeddings.LayerNorm.bias",
+                "shape": [
+                    128
+                ],
+                "num_parameters": 128,
+                "weight_mean": "-0.03477344",
+                "weight_std": "0.6158135",
+                "min_value": "-1.3984047",
+                "max_value": "2.529791"
+            },
+            {
+                "layer_name": "encoder.embedding_hidden_mapping_in.weight",
+                "shape": [
+                    768,
+                    128
+                ],
+                "num_parameters": 98304,
+                "weight_mean": "0.00038676252",
+                "weight_std": "0.03446066",
+                "min_value": "-0.26243314",
+                "max_value": "0.27091846"
+            },
+            {
+                "layer_name": "encoder.embedding_hidden_mapping_in.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.023280727",
+                "weight_std": "0.20544973",
+                "min_value": "-2.4842544",
+                "max_value": "2.250122"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.full_layer_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.3497753",
+                "weight_std": "0.13387638",
+                "min_value": "0.23734061",
+                "max_value": "3.0672908"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.full_layer_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.04060339",
+                "weight_std": "0.23470357",
+                "min_value": "-0.75919133",
+                "max_value": "4.3308167"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.1494297e-05",
+                "weight_std": "0.038904995",
+                "min_value": "-0.27429467",
+                "max_value": "0.36126637"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.061026007",
+                "weight_std": "0.8370508",
+                "min_value": "-4.117248",
+                "max_value": "4.8056784"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "0.00010600756",
+                "weight_std": "0.03919981",
+                "min_value": "-0.3136278",
+                "max_value": "0.2668884"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.012911518",
+                "weight_std": "0.5668426",
+                "min_value": "-1.6887615",
+                "max_value": "1.642637"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-9.619002e-05",
+                "weight_std": "0.052496012",
+                "min_value": "-0.2961893",
+                "max_value": "0.29975015"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.000866092",
+                "weight_std": "0.090988375",
+                "min_value": "-0.61531734",
+                "max_value": "0.5063647"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.8402991e-06",
+                "weight_std": "0.05500864",
+                "min_value": "-0.5056574",
+                "max_value": "0.72271174"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.003475548",
+                "weight_std": "0.54688317",
+                "min_value": "-8.748",
+                "max_value": "5.1485124"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.57026577",
+                "weight_std": "0.23127605",
+                "min_value": "0.35347757",
+                "max_value": "2.477772"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.attention.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0066975565",
+                "weight_std": "0.2543487",
+                "min_value": "-3.4208748",
+                "max_value": "2.4113188"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.ffn.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-1.6089076e-05",
+                "weight_std": "0.055196453",
+                "min_value": "-1.7788965",
+                "max_value": "1.9315716"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.ffn.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.55599195",
+                "weight_std": "0.47746122",
+                "min_value": "-8.999621",
+                "max_value": "0.51471835"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.ffn_output.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-1.575622e-05",
+                "weight_std": "0.04506683",
+                "min_value": "-2.4745193",
+                "max_value": "1.22565"
+            },
+            {
+                "layer_name": "encoder.albert_layer_groups.0.albert_layers.0.ffn_output.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.014451454",
+                "weight_std": "0.58719397",
+                "min_value": "-14.705431",
+                "max_value": "1.9060198"
+            },
+            {
+                "layer_name": "pooler.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.2916596e-05",
+                "weight_std": "0.032366138",
+                "min_value": "-0.28174934",
+                "max_value": "0.28297067"
+            },
+            {
+                "layer_name": "pooler.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.005837182",
+                "weight_std": "0.52829134",
+                "min_value": "-1.2785445",
+                "max_value": "1.4085827"
+            }
+        ]
+    }
+}

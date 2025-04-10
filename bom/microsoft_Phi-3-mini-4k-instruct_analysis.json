@@ -1,0 +1,58 @@
+{
+    "name": "microsoft/Phi-3-mini-4k-instruct",
+    "version": "2.0",
+    "interpretability": {
+      "explainability_method": "Attention visualization, LIME",
+      "difficulty_level": "High",
+      "interpretability_notes": "Phi-3 models, like other large transformers, rely heavily on attention mechanisms, making them interpretable through attention maps. However, due to the model size, full interpretability can be challenging."
+    },
+    "security": {
+      "adversarial_attack_vulnerabilities": {
+        "susceptibility_level": "Medium",
+        "notes": "As with other large language models, Phi-3-mini is susceptible to adversarial attacks, but mitigations like adversarial training can reduce risk."
+      },
+      "privacy": {
+        "data_leakage": "Medium",
+        "notes": "Given that Phi-3-mini is trained on a large corpus, it may have the potential to encode sensitive data inadvertently, requiring extra care in its deployment."
+      },
+      "defense_mechanism": {
+        "methods_used": ["Adversarial training", "Robust optimization"],
+        "notes": "The model uses defenses like adversarial training to reduce risks posed by malicious input manipulations."
+      }
+    },
+    "vulnerabilities": {
+      "known_exploits": [
+        {
+          "exploit_name": "Bias propagation",
+          "details": "Phi-3-mini may propagate societal biases present in its training data.",
+          "patch_status": "Ongoing research",
+          "severity": "High"
+        },
+        {
+          "exploit_name": "Large model inference latency",
+          "details": "Due to the large model size, inference latency may become a bottleneck in real-time applications.",
+          "patch_status": "Optimizations ongoing",
+          "severity": "Medium"
+        }
+      ]
+    },
+    "inference_mechanism": {
+      "type": "Transformer-based instruction-following model",
+      "processing_pipeline": "Tokenization -> Embedding -> Transformer layers -> Output generation",
+      "time_per_inference": "Approx. 0.5 seconds per 100 tokens (depending on hardware)",
+      "hardware_requirements": "High-performance GPU recommended for inference at scale"
+    },
+    "input_mechanism": {
+      "tokenization_method": "SentencePiece",
+      "input_type": "Text (plain text)",
+      "max_sequence_length": 4096,
+      "special_tokens": ["[PAD]", "[UNK]", "[CLS]", "[SEP]"],
+      "input_limitation": "Truncates input sequences longer than 4096 tokens"
+    },
+    "regulatory_compliance": {
+      "eu_ai_act_compliance": "Under review",
+      "data_privacy_compliance": "GDPR compliant",
+      "notes": "The model complies with GDPR, but care should be taken when using it in regulated industries or with sensitive data."
+    }
+  }
+  

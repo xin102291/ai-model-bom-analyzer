@@ -1,0 +1,58 @@
+{
+    "name": "google/mobilebert-uncased",
+    "version": "1.0",
+    "interpretability": {
+      "explainability_method": "Attention visualization, LIME, SHAP",
+      "difficulty_level": "Medium",
+      "interpretability_notes": "MobileBERT, as a compact version of BERT, retains much of the original interpretability features, including attention visualization and methods like LIME and SHAP to analyze its behavior."
+    },
+    "security": {
+      "adversarial_attack_vulnerabilities": {
+        "susceptibility_level": "Medium",
+        "notes": "MobileBERT, though optimized for mobile, still shares some vulnerabilities with its larger counterparts in terms of adversarial attacks, which can affect the model's output in classification tasks."
+      },
+      "privacy": {
+        "data_leakage": "Low",
+        "notes": "Similar to BERT, MobileBERT does not pose a significant risk for data leakage, but care should be taken when using it with sensitive datasets."
+      },
+      "defense_mechanism": {
+        "methods_used": ["Adversarial training", "Robust optimization"],
+        "notes": "Adversarial training techniques are often employed to harden MobileBERT against adversarial inputs, though its mobile-optimized nature may limit the extent of defensive mechanisms."
+      }
+    },
+    "vulnerabilities": {
+      "known_exploits": [
+        {
+          "exploit_name": "Bias and fairness issues",
+          "details": "MobileBERT, like other language models, may propagate biases in the data it was trained on, especially when deployed in production environments for tasks involving human-related data.",
+          "patch_status": "Ongoing research",
+          "severity": "High"
+        },
+        {
+          "exploit_name": "Toxicity in language generation",
+          "details": "MobileBERT can generate harmful or toxic content when misused or fine-tuned on biased or inappropriate datasets.",
+          "patch_status": "Ongoing research",
+          "severity": "Medium"
+        }
+      ]
+    },
+    "inference_mechanism": {
+      "type": "Bidirectional encoder with mobile optimization",
+      "processing_pipeline": "Tokenization -> Embedding -> Transformer Layers (Bidirectional) -> Output (CLS token)",
+      "time_per_inference": "0.2 seconds per 100 tokens (on mobile hardware)",
+      "hardware_requirements": "Optimized for mobile CPUs and GPUs"
+    },
+    "input_mechanism": {
+      "tokenization_method": "WordPiece",
+      "input_type": "Text (plain text)",
+      "max_sequence_length": 512,
+      "special_tokens": ["[PAD]", "[UNK]", "[CLS]", "[SEP]"],
+      "input_limitation": "Inputs longer than 512 tokens will be truncated"
+    },
+    "regulatory_compliance": {
+      "eu_ai_act_compliance": "Under review",
+      "data_privacy_compliance": "GDPR compliant",
+      "notes": "As with other BERT-based models, MobileBERT should be used with care to ensure compliance with privacy and fairness regulations, especially when dealing with personal or sensitive data."
+    }
+  }
+  

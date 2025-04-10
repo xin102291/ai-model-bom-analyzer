@@ -1,0 +1,2648 @@
+{
+    "type": "ai_AIPackage",
+    "spdxId": "https://huggingface.co/bert-base-uncased",
+    "creationInfo": "_:creationinfo",
+    "name": "bert-base-uncased",
+    "releaseTime": "2025-04-10T16:06:28Z",
+    "suppliedBy": "https://huggingface.co/bert-base-uncased",
+    "software_downloadLocation": "https://huggingface.co/bert-base-uncased/resolve/main/bert-base-uncased.bin",
+    "software_packageVersion": "2.0",
+    "training_datasets": [
+        "bookcorpus",
+        "wikipedia"
+    ],
+    "software_primaryPurpose": "Define yourself",
+    "comment": "Define yourself",
+    "ai_autonomyType": "no",
+    "ai_domain": [
+        "Define yourself"
+    ],
+    "model_version": "bert",
+    "model_architecture": [
+        "BertForMaskedLM"
+    ],
+    "layer_count": "12",
+    "embedding_size": "768",
+    "attention_heads": "12",
+    "activation_function": "Unknown",
+    "hyperparameters": [
+        {
+            "key": "_attn_implementation",
+            "value": "eager"
+        },
+        {
+            "key": "_attn_implementation_autoset",
+            "value": false
+        },
+        {
+            "key": "_attn_implementation_internal",
+            "value": null
+        },
+        {
+            "key": "_auto_class",
+            "value": null
+        },
+        {
+            "key": "_commit_hash",
+            "value": "86b5e0934494bd15c9632b12f734a8a67f723594"
+        },
+        {
+            "key": "_name_or_path",
+            "value": "bert-base-uncased"
+        },
+        {
+            "key": "add_cross_attention",
+            "value": false
+        },
+        {
+            "key": "architectures",
+            "value": [
+                "BertForMaskedLM"
+            ]
+        },
+        {
+            "key": "attention_probs_dropout_prob",
+            "value": 0.1
+        },
+        {
+            "key": "attribute_map",
+            "value": {}
+        },
+        {
+            "key": "bad_words_ids",
+            "value": null
+        },
+        {
+            "key": "base_config_key",
+            "value": ""
+        },
+        {
+            "key": "base_model_tp_plan",
+            "value": null
+        },
+        {
+            "key": "begin_suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "bos_token_id",
+            "value": null
+        },
+        {
+            "key": "chunk_size_feed_forward",
+            "value": 0
+        },
+        {
+            "key": "classifier_dropout",
+            "value": null
+        },
+        {
+            "key": "cross_attention_hidden_size",
+            "value": null
+        },
+        {
+            "key": "decoder_start_token_id",
+            "value": null
+        },
+        {
+            "key": "diversity_penalty",
+            "value": 0.0
+        },
+        {
+            "key": "do_sample",
+            "value": false
+        },
+        {
+            "key": "early_stopping",
+            "value": false
+        },
+        {
+            "key": "encoder_no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "eos_token_id",
+            "value": null
+        },
+        {
+            "key": "exponential_decay_length_penalty",
+            "value": null
+        },
+        {
+            "key": "finetuning_task",
+            "value": null
+        },
+        {
+            "key": "forced_bos_token_id",
+            "value": null
+        },
+        {
+            "key": "forced_eos_token_id",
+            "value": null
+        },
+        {
+            "key": "gradient_checkpointing",
+            "value": false
+        },
+        {
+            "key": "hidden_act",
+            "value": "gelu"
+        },
+        {
+            "key": "hidden_dropout_prob",
+            "value": 0.1
+        },
+        {
+            "key": "hidden_size",
+            "value": 768
+        },
+        {
+            "key": "id2label",
+            "value": {
+                "0": "LABEL_0",
+                "1": "LABEL_1"
+            }
+        },
+        {
+            "key": "initializer_range",
+            "value": 0.02
+        },
+        {
+            "key": "intermediate_size",
+            "value": 3072
+        },
+        {
+            "key": "is_composition",
+            "value": false
+        },
+        {
+            "key": "is_decoder",
+            "value": false
+        },
+        {
+            "key": "is_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "label2id",
+            "value": {
+                "LABEL_0": 0,
+                "LABEL_1": 1
+            }
+        },
+        {
+            "key": "layer_norm_eps",
+            "value": 1e-12
+        },
+        {
+            "key": "length_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "max_length",
+            "value": 20
+        },
+        {
+            "key": "max_position_embeddings",
+            "value": 512
+        },
+        {
+            "key": "min_length",
+            "value": 0
+        },
+        {
+            "key": "model_type",
+            "value": "bert"
+        },
+        {
+            "key": "name_or_path",
+            "value": "bert-base-uncased"
+        },
+        {
+            "key": "no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "num_attention_heads",
+            "value": 12
+        },
+        {
+            "key": "num_beam_groups",
+            "value": 1
+        },
+        {
+            "key": "num_beams",
+            "value": 1
+        },
+        {
+            "key": "num_hidden_layers",
+            "value": 12
+        },
+        {
+            "key": "num_labels",
+            "value": 2
+        },
+        {
+            "key": "num_return_sequences",
+            "value": 1
+        },
+        {
+            "key": "output_attentions",
+            "value": false
+        },
+        {
+            "key": "output_hidden_states",
+            "value": false
+        },
+        {
+            "key": "output_scores",
+            "value": false
+        },
+        {
+            "key": "pad_token_id",
+            "value": 0
+        },
+        {
+            "key": "position_embedding_type",
+            "value": "absolute"
+        },
+        {
+            "key": "prefix",
+            "value": null
+        },
+        {
+            "key": "problem_type",
+            "value": null
+        },
+        {
+            "key": "pruned_heads",
+            "value": {}
+        },
+        {
+            "key": "remove_invalid_values",
+            "value": false
+        },
+        {
+            "key": "repetition_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "return_dict",
+            "value": true
+        },
+        {
+            "key": "return_dict_in_generate",
+            "value": false
+        },
+        {
+            "key": "sep_token_id",
+            "value": null
+        },
+        {
+            "key": "sub_configs",
+            "value": {}
+        },
+        {
+            "key": "suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "task_specific_params",
+            "value": null
+        },
+        {
+            "key": "temperature",
+            "value": 1.0
+        },
+        {
+            "key": "tf_legacy_loss",
+            "value": false
+        },
+        {
+            "key": "tie_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "tie_word_embeddings",
+            "value": true
+        },
+        {
+            "key": "tokenizer_class",
+            "value": null
+        },
+        {
+            "key": "top_k",
+            "value": 50
+        },
+        {
+            "key": "top_p",
+            "value": 1.0
+        },
+        {
+            "key": "torch_dtype",
+            "value": null
+        },
+        {
+            "key": "torchscript",
+            "value": false
+        },
+        {
+            "key": "transformers_version",
+            "value": "4.6.0.dev0"
+        },
+        {
+            "key": "type_vocab_size",
+            "value": 2
+        },
+        {
+            "key": "typical_p",
+            "value": 1.0
+        },
+        {
+            "key": "use_bfloat16",
+            "value": false
+        },
+        {
+            "key": "use_cache",
+            "value": true
+        },
+        {
+            "key": "use_return_dict",
+            "value": true
+        },
+        {
+            "key": "vocab_size",
+            "value": 30522
+        }
+    ],
+    "weights_info": {
+        "total_parameters": 109482240,
+        "layers": [
+            {
+                "layer_name": "embeddings.word_embeddings.weight",
+                "shape": [
+                    30522,
+                    768
+                ],
+                "num_parameters": 23440896,
+                "weight_mean": "-0.028024513",
+                "weight_std": "0.04266705",
+                "min_value": "-0.95036876",
+                "max_value": "0.8728918"
+            },
+            {
+                "layer_name": "embeddings.position_embeddings.weight",
+                "shape": [
+                    512,
+                    768
+                ],
+                "num_parameters": 393216,
+                "weight_mean": "-3.8739825e-05",
+                "weight_std": "0.016068805",
+                "min_value": "-0.94872916",
+                "max_value": "0.72689223"
+            },
+            {
+                "layer_name": "embeddings.token_type_embeddings.weight",
+                "shape": [
+                    2,
+                    768
+                ],
+                "num_parameters": 1536,
+                "weight_mean": "-0.00091922964",
+                "weight_std": "0.0335437",
+                "min_value": "-0.6951669",
+                "max_value": "0.29730737"
+            },
+            {
+                "layer_name": "embeddings.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8493085",
+                "weight_std": "0.13390099",
+                "min_value": "0.08930355",
+                "max_value": "0.98305887"
+            },
+            {
+                "layer_name": "embeddings.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.019596022",
+                "weight_std": "0.0692509",
+                "min_value": "-0.5555246",
+                "max_value": "0.8020752"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "3.5583795e-05",
+                "weight_std": "0.043119404",
+                "min_value": "-0.52491736",
+                "max_value": "0.45409948"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0063358154",
+                "weight_std": "0.2806866",
+                "min_value": "-1.0507234",
+                "max_value": "0.8619886"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "4.959387e-06",
+                "weight_std": "0.042788815",
+                "min_value": "-0.7098266",
+                "max_value": "0.833463"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00030759603",
+                "weight_std": "0.0031856871",
+                "min_value": "-0.0124451",
+                "max_value": "0.010560889"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-3.3003147e-05",
+                "weight_std": "0.028810903",
+                "min_value": "-0.16439176",
+                "max_value": "0.19317074"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0018207309",
+                "weight_std": "0.04068954",
+                "min_value": "-0.17886831",
+                "max_value": "0.25031704"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.0735584e-05",
+                "weight_std": "0.028576432",
+                "min_value": "-0.49465838",
+                "max_value": "0.5869761"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.001123726",
+                "weight_std": "0.03545677",
+                "min_value": "-0.3073207",
+                "max_value": "0.14768931"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.95848054",
+                "weight_std": "0.08341577",
+                "min_value": "0.7153004",
+                "max_value": "2.9968393"
+            },
+            {
+                "layer_name": "encoder.layer.0.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.018173277",
+                "weight_std": "0.32897252",
+                "min_value": "-4.2050343",
+                "max_value": "0.8336061"
+            },
+            {
+                "layer_name": "encoder.layer.0.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-3.0438814e-05",
+                "weight_std": "0.03742156",
+                "min_value": "-0.29784212",
+                "max_value": "0.32221562"
+            },
+            {
+                "layer_name": "encoder.layer.0.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.10811424",
+                "weight_std": "0.04938253",
+                "min_value": "-0.35148737",
+                "max_value": "0.40574893"
+            },
+            {
+                "layer_name": "encoder.layer.0.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-8.50341e-05",
+                "weight_std": "0.035847377",
+                "min_value": "-1.679095",
+                "max_value": "0.7699132"
+            },
+            {
+                "layer_name": "encoder.layer.0.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0020538445",
+                "weight_std": "0.08016905",
+                "min_value": "-0.5255518",
+                "max_value": "0.33932135"
+            },
+            {
+                "layer_name": "encoder.layer.0.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.7558718",
+                "weight_std": "0.056285094",
+                "min_value": "0.10011039",
+                "max_value": "0.81203336"
+            },
+            {
+                "layer_name": "encoder.layer.0.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.03663818",
+                "weight_std": "0.09846807",
+                "min_value": "-1.3253225",
+                "max_value": "0.41903484"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-0.00029593593",
+                "weight_std": "0.042532444",
+                "min_value": "-0.38935438",
+                "max_value": "0.30423334"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.01578102",
+                "weight_std": "0.18058792",
+                "min_value": "-0.8809636",
+                "max_value": "0.88817465"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.7257533e-05",
+                "weight_std": "0.042525027",
+                "min_value": "-0.36052474",
+                "max_value": "0.36085168"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "6.387497e-05",
+                "weight_std": "0.005122543",
+                "min_value": "-0.028028997",
+                "max_value": "0.022085173"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "7.1435966e-06",
+                "weight_std": "0.028363924",
+                "min_value": "-0.21300493",
+                "max_value": "0.19265544"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.5099882e-05",
+                "weight_std": "0.041904308",
+                "min_value": "-0.48128605",
+                "max_value": "0.2518968"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.9250356e-05",
+                "weight_std": "0.028000167",
+                "min_value": "-0.3103194",
+                "max_value": "0.3610253"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0016351069",
+                "weight_std": "0.060329616",
+                "min_value": "-0.2887908",
+                "max_value": "0.23761775"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8756976",
+                "weight_std": "0.08775447",
+                "min_value": "0.6565543",
+                "max_value": "3.0383494"
+            },
+            {
+                "layer_name": "encoder.layer.1.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.017840454",
+                "weight_std": "0.19345474",
+                "min_value": "-2.4628687",
+                "max_value": "0.543948"
+            },
+            {
+                "layer_name": "encoder.layer.1.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "9.177094e-05",
+                "weight_std": "0.03922518",
+                "min_value": "-0.3095531",
+                "max_value": "0.5060413"
+            },
+            {
+                "layer_name": "encoder.layer.1.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.09307023",
+                "weight_std": "0.06119876",
+                "min_value": "-0.31290922",
+                "max_value": "0.66639835"
+            },
+            {
+                "layer_name": "encoder.layer.1.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-5.743039e-05",
+                "weight_std": "0.037863694",
+                "min_value": "-2.152227",
+                "max_value": "1.1917609"
+            },
+            {
+                "layer_name": "encoder.layer.1.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.001549973",
+                "weight_std": "0.060548995",
+                "min_value": "-0.305614",
+                "max_value": "0.26541826"
+            },
+            {
+                "layer_name": "encoder.layer.1.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8695356",
+                "weight_std": "0.06891604",
+                "min_value": "0.27788755",
+                "max_value": "0.96881133"
+            },
+            {
+                "layer_name": "encoder.layer.1.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.033522278",
+                "weight_std": "0.086232744",
+                "min_value": "-0.67786175",
+                "max_value": "0.40597177"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "4.4332344e-05",
+                "weight_std": "0.04774433",
+                "min_value": "-0.5283",
+                "max_value": "0.51809704"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00051640946",
+                "weight_std": "0.1295255",
+                "min_value": "-0.8218548",
+                "max_value": "0.50454676"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "3.7601276e-05",
+                "weight_std": "0.04666306",
+                "min_value": "-0.4553306",
+                "max_value": "0.4601783"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-3.0301273e-05",
+                "weight_std": "0.0041990466",
+                "min_value": "-0.016030414",
+                "max_value": "0.027058931"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-5.0979514e-05",
+                "weight_std": "0.027902018",
+                "min_value": "-0.18934692",
+                "max_value": "0.20702815"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0037940796",
+                "weight_std": "0.05754388",
+                "min_value": "-0.28195548",
+                "max_value": "0.600959"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.535047e-06",
+                "weight_std": "0.027090743",
+                "min_value": "-0.26867256",
+                "max_value": "0.24440153"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0011404069",
+                "weight_std": "0.08939843",
+                "min_value": "-0.41689578",
+                "max_value": "0.41301373"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8675208",
+                "weight_std": "0.07396292",
+                "min_value": "0.5520349",
+                "max_value": "2.2832782"
+            },
+            {
+                "layer_name": "encoder.layer.2.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.015413779",
+                "weight_std": "0.17585588",
+                "min_value": "-2.0184557",
+                "max_value": "0.6735601"
+            },
+            {
+                "layer_name": "encoder.layer.2.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "7.529718e-05",
+                "weight_std": "0.039878108",
+                "min_value": "-0.6285344",
+                "max_value": "0.573384"
+            },
+            {
+                "layer_name": "encoder.layer.2.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.09639415",
+                "weight_std": "0.063923016",
+                "min_value": "-0.35859755",
+                "max_value": "0.6128214"
+            },
+            {
+                "layer_name": "encoder.layer.2.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-3.9510534e-05",
+                "weight_std": "0.038261846",
+                "min_value": "-3.3303323",
+                "max_value": "1.0374956"
+            },
+            {
+                "layer_name": "encoder.layer.2.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0013623895",
+                "weight_std": "0.07151695",
+                "min_value": "-0.36737806",
+                "max_value": "0.24420814"
+            },
+            {
+                "layer_name": "encoder.layer.2.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8513255",
+                "weight_std": "0.052411415",
+                "min_value": "0.40844527",
+                "max_value": "0.9434693"
+            },
+            {
+                "layer_name": "encoder.layer.2.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.03095895",
+                "weight_std": "0.07477373",
+                "min_value": "-0.2980793",
+                "max_value": "0.23033378"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "0.00028864364",
+                "weight_std": "0.04300809",
+                "min_value": "-0.33602616",
+                "max_value": "0.33337513"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0113204075",
+                "weight_std": "0.13732621",
+                "min_value": "-0.7680706",
+                "max_value": "0.5715216"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.5101483e-05",
+                "weight_std": "0.04283092",
+                "min_value": "-0.34470472",
+                "max_value": "0.34538698"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00017970828",
+                "weight_std": "0.0047890153",
+                "min_value": "-0.021858761",
+                "max_value": "0.021508325"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-6.74768e-05",
+                "weight_std": "0.031165592",
+                "min_value": "-0.18246335",
+                "max_value": "0.19132951"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0011600031",
+                "weight_std": "0.03269511",
+                "min_value": "-0.2597642",
+                "max_value": "0.3207625"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "7.1363884e-06",
+                "weight_std": "0.02905999",
+                "min_value": "-0.3878361",
+                "max_value": "0.26478344"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00060329726",
+                "weight_std": "0.07200092",
+                "min_value": "-0.22837414",
+                "max_value": "0.2785754"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.862693",
+                "weight_std": "0.11830237",
+                "min_value": "0.55582523",
+                "max_value": "3.4967473"
+            },
+            {
+                "layer_name": "encoder.layer.3.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.011122224",
+                "weight_std": "0.15953282",
+                "min_value": "-1.5130439",
+                "max_value": "0.6471134"
+            },
+            {
+                "layer_name": "encoder.layer.3.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-7.169818e-05",
+                "weight_std": "0.040451527",
+                "min_value": "-0.65765566",
+                "max_value": "0.63043517"
+            },
+            {
+                "layer_name": "encoder.layer.3.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.09728501",
+                "weight_std": "0.056379728",
+                "min_value": "-0.38953772",
+                "max_value": "0.5937027"
+            },
+            {
+                "layer_name": "encoder.layer.3.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-3.598555e-05",
+                "weight_std": "0.039305437",
+                "min_value": "-6.640357",
+                "max_value": "0.77917296"
+            },
+            {
+                "layer_name": "encoder.layer.3.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.001675271",
+                "weight_std": "0.07314598",
+                "min_value": "-0.6083547",
+                "max_value": "0.20601638"
+            },
+            {
+                "layer_name": "encoder.layer.3.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8110943",
+                "weight_std": "0.043804254",
+                "min_value": "0.38812822",
+                "max_value": "0.90944654"
+            },
+            {
+                "layer_name": "encoder.layer.3.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.033216685",
+                "weight_std": "0.052275866",
+                "min_value": "-0.25705335",
+                "max_value": "0.17468005"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-0.0001231199",
+                "weight_std": "0.04208046",
+                "min_value": "-0.3893369",
+                "max_value": "0.34996548"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0022614521",
+                "weight_std": "0.14771062",
+                "min_value": "-0.72069234",
+                "max_value": "0.62344074"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.2568348e-05",
+                "weight_std": "0.0418363",
+                "min_value": "-0.36630246",
+                "max_value": "0.39104614"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.000108273525",
+                "weight_std": "0.0048217825",
+                "min_value": "-0.01751642",
+                "max_value": "0.022146357"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "5.9832877e-05",
+                "weight_std": "0.03490713",
+                "min_value": "-0.20894077",
+                "max_value": "0.20931585"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00035660923",
+                "weight_std": "0.026794115",
+                "min_value": "-0.15994059",
+                "max_value": "0.16724333"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.5333826e-05",
+                "weight_std": "0.03251721",
+                "min_value": "-0.32894155",
+                "max_value": "0.23675276"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-8.3269704e-05",
+                "weight_std": "0.041539703",
+                "min_value": "-0.14322306",
+                "max_value": "0.5205368"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.83866805",
+                "weight_std": "0.12370514",
+                "min_value": "0.5653402",
+                "max_value": "3.7373548"
+            },
+            {
+                "layer_name": "encoder.layer.4.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.018218003",
+                "weight_std": "0.14411037",
+                "min_value": "-1.2970042",
+                "max_value": "0.7243297"
+            },
+            {
+                "layer_name": "encoder.layer.4.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "8.538368e-05",
+                "weight_std": "0.040755313",
+                "min_value": "-0.53552127",
+                "max_value": "0.86439115"
+            },
+            {
+                "layer_name": "encoder.layer.4.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.09711925",
+                "weight_std": "0.071252145",
+                "min_value": "-0.40785053",
+                "max_value": "0.50842965"
+            },
+            {
+                "layer_name": "encoder.layer.4.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-1.6500953e-05",
+                "weight_std": "0.039859097",
+                "min_value": "-6.8175616",
+                "max_value": "1.9449015"
+            },
+            {
+                "layer_name": "encoder.layer.4.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0009512678",
+                "weight_std": "0.053922538",
+                "min_value": "-0.34301656",
+                "max_value": "0.20724642"
+            },
+            {
+                "layer_name": "encoder.layer.4.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.839726",
+                "weight_std": "0.04447893",
+                "min_value": "0.36048126",
+                "max_value": "0.9394327"
+            },
+            {
+                "layer_name": "encoder.layer.4.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.031183682",
+                "weight_std": "0.050743572",
+                "min_value": "-0.24891473",
+                "max_value": "0.21014018"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.6862645e-05",
+                "weight_std": "0.043372095",
+                "min_value": "-0.34015167",
+                "max_value": "0.36714175"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0014482808",
+                "weight_std": "0.12601",
+                "min_value": "-0.55177486",
+                "max_value": "0.6926779"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-5.9039274e-05",
+                "weight_std": "0.043344323",
+                "min_value": "-0.3216269",
+                "max_value": "0.35946846"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00011854299",
+                "weight_std": "0.0059725144",
+                "min_value": "-0.018651739",
+                "max_value": "0.023574112"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-3.821547e-05",
+                "weight_std": "0.034922633",
+                "min_value": "-0.2209414",
+                "max_value": "0.21367095"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00034547446",
+                "weight_std": "0.027371023",
+                "min_value": "-0.19727156",
+                "max_value": "0.09909081"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.6166196e-05",
+                "weight_std": "0.0331522",
+                "min_value": "-0.2976266",
+                "max_value": "0.3215669"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "7.4997856e-06",
+                "weight_std": "0.043653265",
+                "min_value": "-0.115256004",
+                "max_value": "0.77097774"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8466061",
+                "weight_std": "0.1107011",
+                "min_value": "0.61315346",
+                "max_value": "3.3955317"
+            },
+            {
+                "layer_name": "encoder.layer.5.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0182715",
+                "weight_std": "0.1364617",
+                "min_value": "-1.3959992",
+                "max_value": "0.6273843"
+            },
+            {
+                "layer_name": "encoder.layer.5.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "4.6656434e-05",
+                "weight_std": "0.04054628",
+                "min_value": "-0.3539624",
+                "max_value": "0.5516349"
+            },
+            {
+                "layer_name": "encoder.layer.5.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.09814074",
+                "weight_std": "0.07258156",
+                "min_value": "-0.43634194",
+                "max_value": "0.58982414"
+            },
+            {
+                "layer_name": "encoder.layer.5.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "5.8151654e-06",
+                "weight_std": "0.039293468",
+                "min_value": "-6.023455",
+                "max_value": "2.4972675"
+            },
+            {
+                "layer_name": "encoder.layer.5.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00025175794",
+                "weight_std": "0.05778708",
+                "min_value": "-0.61680007",
+                "max_value": "0.19401707"
+            },
+            {
+                "layer_name": "encoder.layer.5.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8322342",
+                "weight_std": "0.03697976",
+                "min_value": "0.41058373",
+                "max_value": "0.9391297"
+            },
+            {
+                "layer_name": "encoder.layer.5.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.031770606",
+                "weight_std": "0.059592556",
+                "min_value": "-0.3944164",
+                "max_value": "0.4025969"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "6.366468e-05",
+                "weight_std": "0.042978894",
+                "min_value": "-0.27171734",
+                "max_value": "0.32027495"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00538674",
+                "weight_std": "0.12801433",
+                "min_value": "-0.6010485",
+                "max_value": "0.5922257"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-5.1652096e-05",
+                "weight_std": "0.042955343",
+                "min_value": "-0.3337151",
+                "max_value": "0.36005646"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00011518658",
+                "weight_std": "0.00533924",
+                "min_value": "-0.02312007",
+                "max_value": "0.021624103"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.3584718e-05",
+                "weight_std": "0.03404264",
+                "min_value": "-0.19377254",
+                "max_value": "0.18513685"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00038972512",
+                "weight_std": "0.035305902",
+                "min_value": "-0.15687594",
+                "max_value": "0.15817359"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.876886e-06",
+                "weight_std": "0.03222139",
+                "min_value": "-0.21602026",
+                "max_value": "0.20038967"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "5.9109956e-05",
+                "weight_std": "0.05047566",
+                "min_value": "-0.20157473",
+                "max_value": "0.8215049"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.82752675",
+                "weight_std": "0.108039975",
+                "min_value": "0.6245178",
+                "max_value": "3.3444684"
+            },
+            {
+                "layer_name": "encoder.layer.6.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.019015355",
+                "weight_std": "0.14095853",
+                "min_value": "-2.0029247",
+                "max_value": "0.6333717"
+            },
+            {
+                "layer_name": "encoder.layer.6.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-3.4460127e-06",
+                "weight_std": "0.040751565",
+                "min_value": "-0.2982274",
+                "max_value": "0.3509214"
+            },
+            {
+                "layer_name": "encoder.layer.6.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.09549373",
+                "weight_std": "0.072514646",
+                "min_value": "-0.4642198",
+                "max_value": "0.7195019"
+            },
+            {
+                "layer_name": "encoder.layer.6.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "1.5482345e-05",
+                "weight_std": "0.038788605",
+                "min_value": "-4.8091516",
+                "max_value": "1.6329283"
+            },
+            {
+                "layer_name": "encoder.layer.6.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00020141783",
+                "weight_std": "0.070186354",
+                "min_value": "-0.5503272",
+                "max_value": "0.24344383"
+            },
+            {
+                "layer_name": "encoder.layer.6.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.83362514",
+                "weight_std": "0.036518674",
+                "min_value": "0.37472448",
+                "max_value": "0.91522384"
+            },
+            {
+                "layer_name": "encoder.layer.6.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.03323649",
+                "weight_std": "0.06338386",
+                "min_value": "-0.33700094",
+                "max_value": "0.7848561"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-5.805659e-06",
+                "weight_std": "0.043357868",
+                "min_value": "-0.26866597",
+                "max_value": "0.33023047"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0035085243",
+                "weight_std": "0.14500193",
+                "min_value": "-0.86547506",
+                "max_value": "0.5887827"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.1958025e-05",
+                "weight_std": "0.04348982",
+                "min_value": "-0.38547167",
+                "max_value": "0.43432617"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00012601659",
+                "weight_std": "0.005400469",
+                "min_value": "-0.021361945",
+                "max_value": "0.02026083"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "9.529308e-05",
+                "weight_std": "0.03290733",
+                "min_value": "-0.19491936",
+                "max_value": "0.16887386"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0023138958",
+                "weight_std": "0.04130911",
+                "min_value": "-0.23632552",
+                "max_value": "0.18783517"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.4654673e-05",
+                "weight_std": "0.031689387",
+                "min_value": "-0.2449519",
+                "max_value": "0.2465004"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00060633617",
+                "weight_std": "0.06272801",
+                "min_value": "-0.12704974",
+                "max_value": "1.3826852"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.822071",
+                "weight_std": "0.10586748",
+                "min_value": "0.6463621",
+                "max_value": "3.3634086"
+            },
+            {
+                "layer_name": "encoder.layer.7.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.025483487",
+                "weight_std": "0.14387941",
+                "min_value": "-2.0484412",
+                "max_value": "0.43846133"
+            },
+            {
+                "layer_name": "encoder.layer.7.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.0003175483",
+                "weight_std": "0.039108522",
+                "min_value": "-0.3186417",
+                "max_value": "0.39758015"
+            },
+            {
+                "layer_name": "encoder.layer.7.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.10211307",
+                "weight_std": "0.0624058",
+                "min_value": "-0.47198617",
+                "max_value": "0.5761568"
+            },
+            {
+                "layer_name": "encoder.layer.7.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "5.4477573e-07",
+                "weight_std": "0.03750066",
+                "min_value": "-3.5619884",
+                "max_value": "0.9513964"
+            },
+            {
+                "layer_name": "encoder.layer.7.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00026931163",
+                "weight_std": "0.08154745",
+                "min_value": "-0.74453175",
+                "max_value": "0.20955"
+            },
+            {
+                "layer_name": "encoder.layer.7.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8104995",
+                "weight_std": "0.030083708",
+                "min_value": "0.33498067",
+                "max_value": "1.162949"
+            },
+            {
+                "layer_name": "encoder.layer.7.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.032977086",
+                "weight_std": "0.064874426",
+                "min_value": "-0.21645357",
+                "max_value": "0.9590063"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "0.000121056335",
+                "weight_std": "0.04402017",
+                "min_value": "-0.37962705",
+                "max_value": "0.35009924"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.008939021",
+                "weight_std": "0.1743527",
+                "min_value": "-0.6897562",
+                "max_value": "0.7404932"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-4.2690226e-05",
+                "weight_std": "0.044131443",
+                "min_value": "-0.40166378",
+                "max_value": "0.3841118"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00024041983",
+                "weight_std": "0.0066526453",
+                "min_value": "-0.018065993",
+                "max_value": "0.025295682"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "9.540911e-06",
+                "weight_std": "0.03540624",
+                "min_value": "-0.18717618",
+                "max_value": "0.17780016"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0005842854",
+                "weight_std": "0.044278",
+                "min_value": "-0.44916645",
+                "max_value": "0.23946445"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.6891167e-06",
+                "weight_std": "0.033557896",
+                "min_value": "-0.5421142",
+                "max_value": "0.41073886"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00026064165",
+                "weight_std": "0.0638376",
+                "min_value": "-0.19562988",
+                "max_value": "1.2156602"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.83675385",
+                "weight_std": "0.10302251",
+                "min_value": "0.6144183",
+                "max_value": "3.4025073"
+            },
+            {
+                "layer_name": "encoder.layer.8.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.026650334",
+                "weight_std": "0.12762706",
+                "min_value": "-1.7459608",
+                "max_value": "0.36315605"
+            },
+            {
+                "layer_name": "encoder.layer.8.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.0003912025",
+                "weight_std": "0.039008293",
+                "min_value": "-0.4337041",
+                "max_value": "0.37640873"
+            },
+            {
+                "layer_name": "encoder.layer.8.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.0997087",
+                "weight_std": "0.048417922",
+                "min_value": "-0.4334365",
+                "max_value": "0.44552308"
+            },
+            {
+                "layer_name": "encoder.layer.8.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-3.6737694e-07",
+                "weight_std": "0.03734726",
+                "min_value": "-3.1352038",
+                "max_value": "1.1222259"
+            },
+            {
+                "layer_name": "encoder.layer.8.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-6.303246e-05",
+                "weight_std": "0.08664892",
+                "min_value": "-0.8094791",
+                "max_value": "0.43277052"
+            },
+            {
+                "layer_name": "encoder.layer.8.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.83105344",
+                "weight_std": "0.04217716",
+                "min_value": "0.2616315",
+                "max_value": "1.6178532"
+            },
+            {
+                "layer_name": "encoder.layer.8.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.034983575",
+                "weight_std": "0.06155077",
+                "min_value": "-0.2501217",
+                "max_value": "0.6952295"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-0.000120251",
+                "weight_std": "0.04589378",
+                "min_value": "-0.24494678",
+                "max_value": "0.2692243"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0061100237",
+                "weight_std": "0.19165616",
+                "min_value": "-0.7547899",
+                "max_value": "0.76531416"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.9485646e-05",
+                "weight_std": "0.045923967",
+                "min_value": "-0.5265079",
+                "max_value": "0.6269592"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "9.76595e-05",
+                "weight_std": "0.006626518",
+                "min_value": "-0.024764696",
+                "max_value": "0.032333314"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.8407729e-05",
+                "weight_std": "0.034493815",
+                "min_value": "-0.19814117",
+                "max_value": "0.20933148"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00075845834",
+                "weight_std": "0.038003467",
+                "min_value": "-0.23962939",
+                "max_value": "0.25591874"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.0377033e-05",
+                "weight_std": "0.0326994",
+                "min_value": "-0.37368962",
+                "max_value": "0.35814473"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00041673763",
+                "weight_std": "0.06143307",
+                "min_value": "-0.16211505",
+                "max_value": "0.6454756"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.81719065",
+                "weight_std": "0.08064939",
+                "min_value": "0.60583764",
+                "max_value": "2.5250201"
+            },
+            {
+                "layer_name": "encoder.layer.9.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.029711789",
+                "weight_std": "0.1331411",
+                "min_value": "-1.4833043",
+                "max_value": "1.0448744"
+            },
+            {
+                "layer_name": "encoder.layer.9.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.00046331913",
+                "weight_std": "0.039683305",
+                "min_value": "-0.8227961",
+                "max_value": "0.73702264"
+            },
+            {
+                "layer_name": "encoder.layer.9.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.10464337",
+                "weight_std": "0.047214404",
+                "min_value": "-0.36383653",
+                "max_value": "0.57082"
+            },
+            {
+                "layer_name": "encoder.layer.9.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-1.04009605e-05",
+                "weight_std": "0.038986076",
+                "min_value": "-3.0745726",
+                "max_value": "2.1868944"
+            },
+            {
+                "layer_name": "encoder.layer.9.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0005532733",
+                "weight_std": "0.08005718",
+                "min_value": "-0.63819",
+                "max_value": "0.34622112"
+            },
+            {
+                "layer_name": "encoder.layer.9.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8005066",
+                "weight_std": "0.06039927",
+                "min_value": "0.13835743",
+                "max_value": "1.4368247"
+            },
+            {
+                "layer_name": "encoder.layer.9.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.03221128",
+                "weight_std": "0.05685056",
+                "min_value": "-0.4157922",
+                "max_value": "0.43429917"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "0.0001520749",
+                "weight_std": "0.04597883",
+                "min_value": "-0.4196734",
+                "max_value": "0.46387058"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.010435328",
+                "weight_std": "0.22982699",
+                "min_value": "-0.9731196",
+                "max_value": "1.0762787"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.814847e-05",
+                "weight_std": "0.045724016",
+                "min_value": "-0.32208595",
+                "max_value": "0.26120737"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-5.682753e-05",
+                "weight_std": "0.006355306",
+                "min_value": "-0.022034533",
+                "max_value": "0.023480235"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-3.9745122e-05",
+                "weight_std": "0.035589",
+                "min_value": "-0.24700247",
+                "max_value": "0.25291488"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0009505374",
+                "weight_std": "0.028193332",
+                "min_value": "-0.20502886",
+                "max_value": "0.31207603"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "6.590788e-06",
+                "weight_std": "0.03335315",
+                "min_value": "-0.26114014",
+                "max_value": "0.2857337"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00018251412",
+                "weight_std": "0.052700747",
+                "min_value": "-0.15934283",
+                "max_value": "0.16523682"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8407526",
+                "weight_std": "0.1319484",
+                "min_value": "0.5300374",
+                "max_value": "3.1994493"
+            },
+            {
+                "layer_name": "encoder.layer.10.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.020614568",
+                "weight_std": "0.13002315",
+                "min_value": "-1.888182",
+                "max_value": "0.765941"
+            },
+            {
+                "layer_name": "encoder.layer.10.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "3.7272217e-05",
+                "weight_std": "0.03894398",
+                "min_value": "-1.6418862",
+                "max_value": "1.6365557"
+            },
+            {
+                "layer_name": "encoder.layer.10.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.10424919",
+                "weight_std": "0.038395513",
+                "min_value": "-0.34112644",
+                "max_value": "0.38730767"
+            },
+            {
+                "layer_name": "encoder.layer.10.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-7.990734e-06",
+                "weight_std": "0.03792228",
+                "min_value": "-6.3730702",
+                "max_value": "0.90375805"
+            },
+            {
+                "layer_name": "encoder.layer.10.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00061256747",
+                "weight_std": "0.10250223",
+                "min_value": "-1.167377",
+                "max_value": "0.2844645"
+            },
+            {
+                "layer_name": "encoder.layer.10.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8172881",
+                "weight_std": "0.061790477",
+                "min_value": "0.14495736",
+                "max_value": "1.6714326"
+            },
+            {
+                "layer_name": "encoder.layer.10.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.04029293",
+                "weight_std": "0.068148986",
+                "min_value": "-0.6670143",
+                "max_value": "1.2341716"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.self.query.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-0.00014348194",
+                "weight_std": "0.045504946",
+                "min_value": "-0.7210238",
+                "max_value": "0.6601176"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.self.query.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.011840199",
+                "weight_std": "0.21878834",
+                "min_value": "-0.8306965",
+                "max_value": "0.7960456"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.self.key.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "0.00024993432",
+                "weight_std": "0.04449305",
+                "min_value": "-0.47333726",
+                "max_value": "0.3146648"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.self.key.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00015529814",
+                "weight_std": "0.00528133",
+                "min_value": "-0.022570476",
+                "max_value": "0.033157635"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.self.value.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.2046783e-05",
+                "weight_std": "0.039210696",
+                "min_value": "-0.26224077",
+                "max_value": "0.28118798"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.self.value.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00040050843",
+                "weight_std": "0.020237854",
+                "min_value": "-0.12437335",
+                "max_value": "0.09192743"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.output.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-3.3344477e-06",
+                "weight_std": "0.036772437",
+                "min_value": "-0.3128301",
+                "max_value": "0.19967034"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00018047025",
+                "weight_std": "0.037745874",
+                "min_value": "-0.1163051",
+                "max_value": "0.13760495"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.85283566",
+                "weight_std": "0.056617826",
+                "min_value": "0.65823686",
+                "max_value": "1.6116681"
+            },
+            {
+                "layer_name": "encoder.layer.11.attention.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.03673264",
+                "weight_std": "0.10770471",
+                "min_value": "-2.257531",
+                "max_value": "0.33220023"
+            },
+            {
+                "layer_name": "encoder.layer.11.intermediate.dense.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.00042076077",
+                "weight_std": "0.03917925",
+                "min_value": "-0.44754195",
+                "max_value": "0.2824044"
+            },
+            {
+                "layer_name": "encoder.layer.11.intermediate.dense.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.07621193",
+                "weight_std": "0.053430267",
+                "min_value": "-0.42432505",
+                "max_value": "0.5640608"
+            },
+            {
+                "layer_name": "encoder.layer.11.output.dense.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-6.743967e-06",
+                "weight_std": "0.035828676",
+                "min_value": "-2.14839",
+                "max_value": "0.9530387"
+            },
+            {
+                "layer_name": "encoder.layer.11.output.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0007643302",
+                "weight_std": "0.057366185",
+                "min_value": "-0.5730934",
+                "max_value": "0.14564358"
+            },
+            {
+                "layer_name": "encoder.layer.11.output.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.6330338",
+                "weight_std": "0.027478231",
+                "min_value": "0.27328318",
+                "max_value": "0.778208"
+            },
+            {
+                "layer_name": "encoder.layer.11.output.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.019211842",
+                "weight_std": "0.049493197",
+                "min_value": "-0.19218926",
+                "max_value": "0.22506146"
+            },
+            {
+                "layer_name": "pooler.dense.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "3.075549e-05",
+                "weight_std": "0.028542755",
+                "min_value": "-0.3934976",
+                "max_value": "0.38592008"
+            },
+            {
+                "layer_name": "pooler.dense.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00083040725",
+                "weight_std": "0.034675352",
+                "min_value": "-0.09655669",
+                "max_value": "0.1042778"
+            }
+        ]
+    }
+}

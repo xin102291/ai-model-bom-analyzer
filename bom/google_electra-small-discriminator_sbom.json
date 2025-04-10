@@ -1,0 +1,1305 @@
+{
+    "components": [
+        {
+            "bom-ref": "4e78552a-eb07-44d3-87a6-e9ca5cf1611f",
+            "description": "Python Package Dependency",
+            "name": "Jinja2",
+            "type": "library",
+            "version": "3.1.5"
+        },
+        {
+            "bom-ref": "b4498379-1c9d-4042-900b-d29d7a1d06e2",
+            "description": "Python Package Dependency",
+            "name": "MarkupSafe",
+            "type": "library",
+            "version": "3.0.2"
+        },
+        {
+            "bom-ref": "919e293f-dc13-480a-a3b6-aa39325a10c7",
+            "description": "Python Package Dependency",
+            "name": "PySocks",
+            "type": "library",
+            "version": "1.7.1"
+        },
+        {
+            "bom-ref": "27614def-8643-4949-9fdd-86b03f958d02",
+            "description": "Python Package Dependency",
+            "name": "PyYAML",
+            "type": "library",
+            "version": "6.0.2"
+        },
+        {
+            "bom-ref": "40e72e4d-192f-4917-a461-8a49bd695221",
+            "description": "Python Package Dependency",
+            "name": "Pygments",
+            "type": "library",
+            "version": "2.19.1"
+        },
+        {
+            "bom-ref": "54bed3cc-e01b-4dd4-a961-25e3ac49253b",
+            "description": "Python Package Dependency",
+            "name": "aiohappyeyeballs",
+            "type": "library",
+            "version": "2.4.6"
+        },
+        {
+            "bom-ref": "6811639a-ce41-40d6-903b-2b96d023392b",
+            "description": "Python Package Dependency",
+            "name": "aiohttp",
+            "type": "library",
+            "version": "3.11.13"
+        },
+        {
+            "bom-ref": "53389142-1a1a-4ed0-8287-034b34222391",
+            "description": "Python Package Dependency",
+            "name": "aiosignal",
+            "type": "library",
+            "version": "1.3.2"
+        },
+        {
+            "bom-ref": "c822ceb6-50ba-437a-bf97-37e56b13808f",
+            "description": "Python Package Dependency",
+            "name": "arrow",
+            "type": "library",
+            "version": "1.3.0"
+        },
+        {
+            "bom-ref": "8e4a6e97-dd4d-4942-8ee0-6c2c0d65c0e2",
+            "description": "Python Package Dependency",
+            "name": "asttokens",
+            "type": "library",
+            "version": "3.0.0"
+        },
+        {
+            "bom-ref": "0e55dff6-a332-4693-a159-179721d4ce2c",
+            "description": "Python Package Dependency",
+            "name": "attrs",
+            "type": "library",
+            "version": "25.1.0"
+        },
+        {
+            "bom-ref": "353a4566-040c-4c4c-94b1-758a8e45ebe6",
+            "description": "Python Package Dependency",
+            "name": "beautifulsoup4",
+            "type": "library",
+            "version": "4.13.3"
+        },
+        {
+            "bom-ref": "54844ae2-0af6-42b7-9085-a54d44f5b751",
+            "description": "Python Package Dependency",
+            "name": "boolean.py",
+            "type": "library",
+            "version": "4.0"
+        },
+        {
+            "bom-ref": "2b53c221-58c3-454f-aaba-1b157aa98f89",
+            "description": "Python Package Dependency",
+            "name": "bs4",
+            "type": "library",
+            "version": "0.0.2"
+        },
+        {
+            "bom-ref": "e9fa99cc-4f41-4e45-accf-dc8f1656f4b2",
+            "description": "Python Package Dependency",
+            "name": "certifi",
+            "type": "library",
+            "version": "2025.1.31"
+        },
+        {
+            "bom-ref": "fd7cec6a-40ae-444b-9f21-bfd550501c50",
+            "description": "Python Package Dependency",
+            "name": "cffi",
+            "type": "library",
+            "version": "1.17.1"
+        },
+        {
+            "bom-ref": "f5ca9b50-fa14-4d88-bf59-736059ff1e7c",
+            "description": "Python Package Dependency",
+            "name": "chardet",
+            "type": "library",
+            "version": "5.2.0"
+        },
+        {
+            "bom-ref": "f2690697-b023-4e94-9700-adcbba2c8551",
+            "description": "Python Package Dependency",
+            "name": "charset-normalizer",
+            "type": "library",
+            "version": "3.4.1"
+        },
+        {
+            "bom-ref": "4002135c-9db4-459e-9a79-4d664cd05c28",
+            "description": "Python Package Dependency",
+            "name": "colorama",
+            "type": "library",
+            "version": "0.4.6"
+        },
+        {
+            "bom-ref": "a9e0ee3a-cb05-459e-9e7d-208b1df79ebb",
+            "description": "Python Package Dependency",
+            "name": "coloredlogs",
+            "type": "library",
+            "version": "15.0.1"
+        },
+        {
+            "bom-ref": "d3386711-29eb-441c-894d-dc9cc6ffbee2",
+            "description": "Python Package Dependency",
+            "name": "comm",
+            "type": "library",
+            "version": "0.2.2"
+        },
+        {
+            "bom-ref": "04dd41bc-2b2d-45fa-8ecc-4a0cd2ec85ed",
+            "description": "Python Package Dependency",
+            "name": "cyclonedx-bom",
+            "type": "library",
+            "version": "5.1.2"
+        },
+        {
+            "bom-ref": "6ae40a74-39b9-4848-afbf-2947003814e5",
+            "description": "Python Package Dependency",
+            "name": "cyclonedx-python-lib",
+            "type": "library",
+            "version": "5.2.0"
+        },
+        {
+            "bom-ref": "ae9a2b90-24b9-49b4-89a1-a2b1b49dc96d",
+            "description": "Python Package Dependency",
+            "name": "datasets",
+            "type": "library",
+            "version": "3.3.2"
+        },
+        {
+            "bom-ref": "88e9f404-1a20-4865-afbc-3a04f6db902d",
+            "description": "Python Package Dependency",
+            "name": "debugpy",
+            "type": "library",
+            "version": "1.8.12"
+        },
+        {
+            "bom-ref": "61a90178-d211-479b-aad6-b64e599910c8",
+            "description": "Python Package Dependency",
+            "name": "decorator",
+            "type": "library",
+            "version": "5.1.1"
+        },
+        {
+            "bom-ref": "657cd2d3-f185-4137-bce3-9fa9bc666ccc",
+            "description": "Python Package Dependency",
+            "name": "defusedxml",
+            "type": "library",
+            "version": "0.7.1"
+        },
+        {
+            "bom-ref": "d628980d-709f-4eab-85b7-5889b5968ae6",
+            "description": "Python Package Dependency",
+            "name": "dill",
+            "type": "library",
+            "version": "0.3.8"
+        },
+        {
+            "bom-ref": "e1ece01a-e1f2-424f-87b3-f516c4e329f7",
+            "description": "Python Package Dependency",
+            "name": "executing",
+            "type": "library",
+            "version": "2.2.0"
+        },
+        {
+            "bom-ref": "11de0e39-9b1d-468e-bd83-a51a4278b6d6",
+            "description": "Python Package Dependency",
+            "name": "filelock",
+            "type": "library",
+            "version": "3.17.0"
+        },
+        {
+            "bom-ref": "ac933dff-868c-4334-a355-3f84856c744b",
+            "description": "Python Package Dependency",
+            "name": "flatbuffers",
+            "type": "library",
+            "version": "25.2.10"
+        },
+        {
+            "bom-ref": "a214e555-4330-46db-a61d-adbb6d1ef7cb",
+            "description": "Python Package Dependency",
+            "name": "fqdn",
+            "type": "library",
+            "version": "1.5.1"
+        },
+        {
+            "bom-ref": "d618e6dc-637b-4b39-8a3b-3b528dee1edb",
+            "description": "Python Package Dependency",
+            "name": "frozenlist",
+            "type": "library",
+            "version": "1.5.0"
+        },
+        {
+            "bom-ref": "6abc97a4-79a1-41fc-8fbc-e832bf82e3fb",
+            "description": "Python Package Dependency",
+            "name": "fsspec",
+            "type": "library",
+            "version": "2024.12.0"
+        },
+        {
+            "bom-ref": "f4295b4e-05e4-4f83-8cdc-ca39796f2e4f",
+            "description": "Hugging Face AI Model",
+            "name": "google/electra-small-discriminator",
+            "type": "library",
+            "version": "electra"
+        },
+        {
+            "bom-ref": "da5443c2-70da-4ec5-add7-68761dfc682b",
+            "description": "Python Package Dependency",
+            "name": "h11",
+            "type": "library",
+            "version": "0.14.0"
+        },
+        {
+            "bom-ref": "73ebfe06-9ad0-48bf-abaa-718ecf2e0389",
+            "description": "Python Package Dependency",
+            "name": "huggingface-hub",
+            "type": "library",
+            "version": "0.28.1"
+        },
+        {
+            "bom-ref": "01e15091-a927-4096-9bf9-a26a47a0fda5",
+            "description": "Python Package Dependency",
+            "name": "humanfriendly",
+            "type": "library",
+            "version": "10.0"
+        },
+        {
+            "bom-ref": "0ac19fd0-1948-4c96-ab67-2275237d2b78",
+            "description": "Python Package Dependency",
+            "name": "idna",
+            "type": "library",
+            "version": "3.10"
+        },
+        {
+            "bom-ref": "9a7664aa-1440-40a7-a7fa-6cd3c41967b4",
+            "description": "Python Package Dependency",
+            "name": "inquirerpy",
+            "type": "library",
+            "version": "0.3.4"
+        },
+        {
+            "bom-ref": "1bf17a1e-8f27-4af4-9b75-cce5b246c6d5",
+            "description": "Python Package Dependency",
+            "name": "ipykernel",
+            "type": "library",
+            "version": "6.29.5"
+        },
+        {
+            "bom-ref": "3d634f08-b667-49fe-8c3c-76b9dbfd5d16",
+            "description": "Python Package Dependency",
+            "name": "ipython",
+            "type": "library",
+            "version": "8.32.0"
+        },
+        {
+            "bom-ref": "d9134d62-a9e0-440d-8659-cf87b982314d",
+            "description": "Python Package Dependency",
+            "name": "isoduration",
+            "type": "library",
+            "version": "20.11.0"
+        },
+        {
+            "bom-ref": "3b07e44b-d4fb-4f3f-81ec-47ffde7d9cfa",
+            "description": "Python Package Dependency",
+            "name": "jedi",
+            "type": "library",
+            "version": "0.19.2"
+        },
+        {
+            "bom-ref": "4190db81-0f4c-4629-9755-31e8639531a4",
+            "description": "Python Package Dependency",
+            "name": "joblib",
+            "type": "library",
+            "version": "1.4.2"
+        },
+        {
+            "bom-ref": "10a2416a-3e2d-4826-9e56-5aad7275913a",
+            "description": "Python Package Dependency",
+            "name": "jsonpointer",
+            "type": "library",
+            "version": "3.0.0"
+        },
+        {
+            "bom-ref": "677fc8b0-8ec1-46de-a007-d81bfddb155b",
+            "description": "Python Package Dependency",
+            "name": "jsonschema",
+            "type": "library",
+            "version": "4.23.0"
+        },
+        {
+            "bom-ref": "f7cb5393-02cb-4494-bcf5-4730b7a546fe",
+            "description": "Python Package Dependency",
+            "name": "jsonschema-specifications",
+            "type": "library",
+            "version": "2024.10.1"
+        },
+        {
+            "bom-ref": "5a236cdf-532f-4de6-a99b-4944d1e8aba6",
+            "description": "Python Package Dependency",
+            "name": "jupyter_client",
+            "type": "library",
+            "version": "8.6.3"
+        },
+        {
+            "bom-ref": "1a84bd2e-3f3e-428d-9162-1a1fee0cf166",
+            "description": "Python Package Dependency",
+            "name": "jupyter_core",
+            "type": "library",
+            "version": "5.7.2"
+        },
+        {
+            "bom-ref": "3d230d87-5d2b-4cfc-ba21-16dae2937180",
+            "description": "Python Package Dependency",
+            "name": "license-expression",
+            "type": "library",
+            "version": "30.4.1"
+        },
+        {
+            "bom-ref": "45d9ce3a-3238-4579-ba88-6add4de903e7",
+            "description": "Python Package Dependency",
+            "name": "lxml",
+            "type": "library",
+            "version": "5.3.1"
+        },
+        {
+            "bom-ref": "e3b2ef8d-ef8d-4742-b6e5-1cae14a8cba8",
+            "description": "Python Package Dependency",
+            "name": "matplotlib-inline",
+            "type": "library",
+            "version": "0.1.7"
+        },
+        {
+            "bom-ref": "0b0a39f6-8284-42f4-ae7f-3680bff7b41c",
+            "description": "Python Package Dependency",
+            "name": "mpmath",
+            "type": "library",
+            "version": "1.3.0"
+        },
+        {
+            "bom-ref": "b2ebe5fc-de0a-4db8-b7bf-ad4bea84bfd2",
+            "description": "Python Package Dependency",
+            "name": "multidict",
+            "type": "library",
+            "version": "6.1.0"
+        },
+        {
+            "bom-ref": "968e0f93-271f-4cbd-8e91-6ea2a35c307d",
+            "description": "Python Package Dependency",
+            "name": "multiprocess",
+            "type": "library",
+            "version": "0.70.16"
+        },
+        {
+            "bom-ref": "1f50ba52-5aaa-4a46-86ed-0d29d2464087",
+            "description": "Python Package Dependency",
+            "name": "nest-asyncio",
+            "type": "library",
+            "version": "1.6.0"
+        },
+        {
+            "bom-ref": "84833b0e-d73b-4ccb-8b64-6d3429be4fdb",
+            "description": "Python Package Dependency",
+            "name": "networkx",
+            "type": "library",
+            "version": "3.4.2"
+        },
+        {
+            "bom-ref": "156e5628-233b-4842-8a46-4096ffb55811",
+            "description": "Python Package Dependency",
+            "name": "numpy",
+            "type": "library",
+            "version": "2.2.2"
+        },
+        {
+            "bom-ref": "212ae6b0-6ad1-455c-84e7-58976b562042",
+            "description": "Python Package Dependency",
+            "name": "onnxruntime",
+            "type": "library",
+            "version": "1.20.1"
+        },
+        {
+            "bom-ref": "3b7e20e0-5a53-4d6f-813d-18023e46fdc2",
+            "description": "Python Package Dependency",
+            "name": "outcome",
+            "type": "library",
+            "version": "1.3.0.post0"
+        },
+        {
+            "bom-ref": "8216c3fe-cbaa-4121-96d7-847bd6aa7ae2",
+            "description": "Python Package Dependency",
+            "name": "packageurl-python",
+            "type": "library",
+            "version": "0.16.0"
+        },
+        {
+            "bom-ref": "6b7c81d7-d362-4fe3-8a2e-26fff08a83c6",
+            "description": "Python Package Dependency",
+            "name": "packaging",
+            "type": "library",
+            "version": "24.2"
+        },
+        {
+            "bom-ref": "9f112487-0fd0-4a20-908c-8be7fb91112f",
+            "description": "Python Package Dependency",
+            "name": "pandas",
+            "type": "library",
+            "version": "2.2.3"
+        },
+        {
+            "bom-ref": "6c30b2d1-c65d-4bcc-89e0-da8e1132224f",
+            "description": "Python Package Dependency",
+            "name": "parso",
+            "type": "library",
+            "version": "0.8.4"
+        },
+        {
+            "bom-ref": "a4394f6a-b97a-425a-b8f0-86dbdc2dd10e",
+            "description": "Python Package Dependency",
+            "name": "pfzy",
+            "type": "library",
+            "version": "0.3.4"
+        },
+        {
+            "bom-ref": "42931daf-8b94-4a72-9223-50fbee914f4e",
+            "description": "Python Package Dependency",
+            "name": "pip",
+            "type": "library",
+            "version": "25.0.1"
+        },
+        {
+            "bom-ref": "b2aa533d-6371-4795-a12f-078a52ae9c08",
+            "description": "Python Package Dependency",
+            "name": "pip-requirements-parser",
+            "type": "library",
+            "version": "32.0.1"
+        },
+        {
+            "bom-ref": "db6da030-4923-4fd7-a319-29d12bcf9d32",
+            "description": "Python Package Dependency",
+            "name": "platformdirs",
+            "type": "library",
+            "version": "4.3.6"
+        },
+        {
+            "bom-ref": "af433d37-2c45-4e6f-8ba0-3cb0d3b00fd9",
+            "description": "Python Package Dependency",
+            "name": "prompt_toolkit",
+            "type": "library",
+            "version": "3.0.50"
+        },
+        {
+            "bom-ref": "5df310e4-939e-4cfd-84e7-230aaaa676cd",
+            "description": "Python Package Dependency",
+            "name": "propcache",
+            "type": "library",
+            "version": "0.3.0"
+        },
+        {
+            "bom-ref": "556cb915-ebae-42a0-85db-28d0c5346789",
+            "description": "Python Package Dependency",
+            "name": "protobuf",
+            "type": "library",
+            "version": "5.29.3"
+        },
+        {
+            "bom-ref": "37d57bad-042d-4794-bf46-acfc99147b9b",
+            "description": "Python Package Dependency",
+            "name": "psutil",
+            "type": "library",
+            "version": "7.0.0"
+        },
+        {
+            "bom-ref": "89847dc3-d31e-412f-81b9-b466760bf2d3",
+            "description": "Python Package Dependency",
+            "name": "pure_eval",
+            "type": "library",
+            "version": "0.2.3"
+        },
+        {
+            "bom-ref": "fce66cf8-f268-4996-a872-9fff81dd4483",
+            "description": "Python Package Dependency",
+            "name": "py-serializable",
+            "type": "library",
+            "version": "0.15.0"
+        },
+        {
+            "bom-ref": "e3e9abe6-7cb8-4019-ade6-a6be7f0460ae",
+            "description": "Python Package Dependency",
+            "name": "pyarrow",
+            "type": "library",
+            "version": "19.0.1"
+        },
+        {
+            "bom-ref": "eec5ae39-23a2-44c4-a35e-c67697ced4fb",
+            "description": "Python Package Dependency",
+            "name": "pycparser",
+            "type": "library",
+            "version": "2.22"
+        },
+        {
+            "bom-ref": "7c807529-98fe-46ae-bc91-ba5d12472c7a",
+            "description": "Python Package Dependency",
+            "name": "pyparsing",
+            "type": "library",
+            "version": "3.2.1"
+        },
+        {
+            "bom-ref": "ae54ee43-a685-4437-bc18-cce1bd97fb52",
+            "description": "Python Package Dependency",
+            "name": "pyreadline3",
+            "type": "library",
+            "version": "3.5.4"
+        },
+        {
+            "bom-ref": "f6605d50-4423-42a6-9b12-0697a546c623",
+            "description": "Python Package Dependency",
+            "name": "python-dateutil",
+            "type": "library",
+            "version": "2.9.0.post0"
+        },
+        {
+            "bom-ref": "8a46781f-dd0d-490d-a71b-5f386e52a74a",
+            "description": "Python Package Dependency",
+            "name": "python-dotenv",
+            "type": "library",
+            "version": "1.0.1"
+        },
+        {
+            "bom-ref": "163ccc68-e778-48fc-8e52-eafe15fcb66d",
+            "description": "Python Package Dependency",
+            "name": "pytz",
+            "type": "library",
+            "version": "2025.1"
+        },
+        {
+            "bom-ref": "2bb7d93f-df3e-44ba-b15f-d404a6e40eb9",
+            "description": "Python Package Dependency",
+            "name": "pywin32",
+            "type": "library",
+            "version": "308"
+        },
+        {
+            "bom-ref": "97a9ebe9-c3e6-4b4c-83dc-73d46f008b81",
+            "description": "Python Package Dependency",
+            "name": "pyzmq",
+            "type": "library",
+            "version": "26.2.1"
+        },
+        {
+            "bom-ref": "b17e0755-003e-4105-9ff8-72a36730446a",
+            "description": "Python Package Dependency",
+            "name": "referencing",
+            "type": "library",
+            "version": "0.36.2"
+        },
+        {
+            "bom-ref": "300637a6-bf99-4f36-928d-b33f33bf6398",
+            "description": "Python Package Dependency",
+            "name": "regex",
+            "type": "library",
+            "version": "2024.11.6"
+        },
+        {
+            "bom-ref": "2d1a557d-8145-42fd-b965-5d17591bb489",
+            "description": "Python Package Dependency",
+            "name": "requests",
+            "type": "library",
+            "version": "2.32.3"
+        },
+        {
+            "bom-ref": "7f9c6024-a4ad-417c-8eb7-747e2b608506",
+            "description": "Python Package Dependency",
+            "name": "rfc3339-validator",
+            "type": "library",
+            "version": "0.1.4"
+        },
+        {
+            "bom-ref": "cac3a2b3-d337-4990-b4dd-15899ec41dba",
+            "description": "Python Package Dependency",
+            "name": "rfc3987",
+            "type": "library",
+            "version": "1.3.8"
+        },
+        {
+            "bom-ref": "d3140c8d-bbf8-45a6-947d-1c70363a9864",
+            "description": "Python Package Dependency",
+            "name": "rpds-py",
+            "type": "library",
+            "version": "0.22.3"
+        },
+        {
+            "bom-ref": "99354b37-7a74-4302-8624-8faf8e9b320c",
+            "description": "Python Package Dependency",
+            "name": "safetensors",
+            "type": "library",
+            "version": "0.5.2"
+        },
+        {
+            "bom-ref": "8e957cd1-36d1-4d9c-9cc8-7607349821c9",
+            "description": "Python Package Dependency",
+            "name": "scikit-learn",
+            "type": "library",
+            "version": "1.6.1"
+        },
+        {
+            "bom-ref": "3b042e5c-62b9-4c09-9ddc-2e6d91afa7a0",
+            "description": "Python Package Dependency",
+            "name": "scipy",
+            "type": "library",
+            "version": "1.15.1"
+        },
+        {
+            "bom-ref": "4404b042-d876-4fb4-bd44-c6166de39ee1",
+            "description": "Python Package Dependency",
+            "name": "selenium",
+            "type": "library",
+            "version": "4.29.0"
+        },
+        {
+            "bom-ref": "d15ff065-84bf-4d8b-9377-fb9b5b1126f5",
+            "description": "Python Package Dependency",
+            "name": "setuptools",
+            "type": "library",
+            "version": "78.1.0"
+        },
+        {
+            "bom-ref": "178944bf-5bec-4d11-845c-88f260fecb18",
+            "description": "Python Package Dependency",
+            "name": "six",
+            "type": "library",
+            "version": "1.17.0"
+        },
+        {
+            "bom-ref": "8198b291-beda-4b74-9b10-8297b69aceaf",
+            "description": "Python Package Dependency",
+            "name": "sniffio",
+            "type": "library",
+            "version": "1.3.1"
+        },
+        {
+            "bom-ref": "6f599d96-f016-45dc-87ae-70d271c7b9c7",
+            "description": "Python Package Dependency",
+            "name": "sortedcontainers",
+            "type": "library",
+            "version": "2.4.0"
+        },
+        {
+            "bom-ref": "dc9d3e04-b3ed-46f9-b98c-5a31cb190c9d",
+            "description": "Python Package Dependency",
+            "name": "soupsieve",
+            "type": "library",
+            "version": "2.6"
+        },
+        {
+            "bom-ref": "1d8503f3-78a4-424d-9136-a8a5dd9b2336",
+            "description": "Python Package Dependency",
+            "name": "stack-data",
+            "type": "library",
+            "version": "0.6.3"
+        },
+        {
+            "bom-ref": "9917297d-14fc-4aa1-a2e2-ed8f44da88ab",
+            "description": "Python Package Dependency",
+            "name": "sympy",
+            "type": "library",
+            "version": "1.13.1"
+        },
+        {
+            "bom-ref": "b060e4c8-60cb-42e2-b42d-79ed2ad5795f",
+            "description": "Python Package Dependency",
+            "name": "tensorflow-hub",
+            "type": "library",
+            "version": "0.16.1"
+        },
+        {
+            "bom-ref": "e77cf365-a747-4a3a-8e28-298d6679367b",
+            "description": "Python Package Dependency",
+            "name": "tf-keras",
+            "type": "library",
+            "version": "2.15.0"
+        },
+        {
+            "bom-ref": "6e11eb24-4549-4106-8d66-c1fde9495489",
+            "description": "Python Package Dependency",
+            "name": "threadpoolctl",
+            "type": "library",
+            "version": "3.6.0"
+        },
+        {
+            "bom-ref": "ebc735f2-c37f-4041-84f2-6216cc36cb0a",
+            "description": "Python Package Dependency",
+            "name": "tokenizers",
+            "type": "library",
+            "version": "0.21.0"
+        },
+        {
+            "bom-ref": "2f5a3b55-49a9-4149-9aac-bcbe4d9f072e",
+            "description": "Python Package Dependency",
+            "name": "torch",
+            "type": "library",
+            "version": "2.6.0"
+        },
+        {
+            "bom-ref": "38e86f0a-ebb7-480c-8974-521fe2dbb4fc",
+            "description": "Python Package Dependency",
+            "name": "tornado",
+            "type": "library",
+            "version": "6.4.2"
+        },
+        {
+            "bom-ref": "859df6c8-d6a5-489a-9fc2-7ee6fb93b1b2",
+            "description": "Python Package Dependency",
+            "name": "tqdm",
+            "type": "library",
+            "version": "4.67.1"
+        },
+        {
+            "bom-ref": "29049ceb-a56c-46ac-abd7-b251348df3aa",
+            "description": "Python Package Dependency",
+            "name": "traitlets",
+            "type": "library",
+            "version": "5.14.3"
+        },
+        {
+            "bom-ref": "944ba66c-bf55-4744-b024-f42ec6dfe354",
+            "description": "Python Package Dependency",
+            "name": "transformers",
+            "type": "library",
+            "version": "4.48.3"
+        },
+        {
+            "bom-ref": "d4c4b9b9-16de-445c-90db-d15a0f93a714",
+            "description": "Python Package Dependency",
+            "name": "trio",
+            "type": "library",
+            "version": "0.29.0"
+        },
+        {
+            "bom-ref": "1e0781df-7994-4043-81b0-bf1830b08eb5",
+            "description": "Python Package Dependency",
+            "name": "trio-websocket",
+            "type": "library",
+            "version": "0.12.2"
+        },
+        {
+            "bom-ref": "844dc0b0-8986-45e1-9e80-dabb960dcade",
+            "description": "Python Package Dependency",
+            "name": "types-python-dateutil",
+            "type": "library",
+            "version": "2.9.0.20241206"
+        },
+        {
+            "bom-ref": "d93db717-9c4f-4540-994e-208bad484733",
+            "description": "Python Package Dependency",
+            "name": "typing_extensions",
+            "type": "library",
+            "version": "4.12.2"
+        },
+        {
+            "bom-ref": "14b879f2-288d-457e-958f-878fd9934594",
+            "description": "Python Package Dependency",
+            "name": "tzdata",
+            "type": "library",
+            "version": "2025.1"
+        },
+        {
+            "bom-ref": "59e9bf89-4f0f-4e0b-be60-a8c279901ca1",
+            "description": "Python Package Dependency",
+            "name": "uri-template",
+            "type": "library",
+            "version": "1.3.0"
+        },
+        {
+            "bom-ref": "66896aaa-2d3b-48f0-a419-3986fc9b3272",
+            "description": "Python Package Dependency",
+            "name": "urllib3",
+            "type": "library",
+            "version": "2.3.0"
+        },
+        {
+            "bom-ref": "9378f650-77e0-4da0-9ca4-6bce47cae746",
+            "description": "Python Package Dependency",
+            "name": "wcwidth",
+            "type": "library",
+            "version": "0.2.13"
+        },
+        {
+            "bom-ref": "d2f078b5-381e-4976-bec1-5587751bfb12",
+            "description": "Python Package Dependency",
+            "name": "webcolors",
+            "type": "library",
+            "version": "24.11.1"
+        },
+        {
+            "bom-ref": "8465fcdc-357f-43bd-8c69-281f1f0aa495",
+            "description": "Python Package Dependency",
+            "name": "webdriver-manager",
+            "type": "library",
+            "version": "4.0.2"
+        },
+        {
+            "bom-ref": "b7450459-90ec-4ceb-b4c7-2b81b0901aef",
+            "description": "Python Package Dependency",
+            "name": "websocket-client",
+            "type": "library",
+            "version": "1.8.0"
+        },
+        {
+            "bom-ref": "dac9a807-6a64-4803-9787-b3d6334c883b",
+            "description": "Python Package Dependency",
+            "name": "wheel",
+            "type": "library",
+            "version": "0.45.1"
+        },
+        {
+            "bom-ref": "6a277001-7ea0-44dc-8c2d-c1d72f01f9f8",
+            "description": "Python Package Dependency",
+            "name": "wsproto",
+            "type": "library",
+            "version": "1.2.0"
+        },
+        {
+            "bom-ref": "734db683-3621-4653-a83c-70d6b911b227",
+            "description": "Python Package Dependency",
+            "name": "xxhash",
+            "type": "library",
+            "version": "3.5.0"
+        },
+        {
+            "bom-ref": "efdddf0f-3cad-4169-a7ef-c6440306b0fd",
+            "description": "Python Package Dependency",
+            "name": "yarl",
+            "type": "library",
+            "version": "1.18.3"
+        }
+    ],
+    "dependencies": [
+        {
+            "ref": "01e15091-a927-4096-9bf9-a26a47a0fda5"
+        },
+        {
+            "ref": "04dd41bc-2b2d-45fa-8ecc-4a0cd2ec85ed"
+        },
+        {
+            "ref": "0ac19fd0-1948-4c96-ab67-2275237d2b78"
+        },
+        {
+            "ref": "0b0a39f6-8284-42f4-ae7f-3680bff7b41c"
+        },
+        {
+            "ref": "0e55dff6-a332-4693-a159-179721d4ce2c"
+        },
+        {
+            "ref": "10a2416a-3e2d-4826-9e56-5aad7275913a"
+        },
+        {
+            "ref": "11de0e39-9b1d-468e-bd83-a51a4278b6d6"
+        },
+        {
+            "ref": "14b879f2-288d-457e-958f-878fd9934594"
+        },
+        {
+            "ref": "156e5628-233b-4842-8a46-4096ffb55811"
+        },
+        {
+            "ref": "163ccc68-e778-48fc-8e52-eafe15fcb66d"
+        },
+        {
+            "ref": "178944bf-5bec-4d11-845c-88f260fecb18"
+        },
+        {
+            "ref": "1a84bd2e-3f3e-428d-9162-1a1fee0cf166"
+        },
+        {
+            "ref": "1bf17a1e-8f27-4af4-9b75-cce5b246c6d5"
+        },
+        {
+            "ref": "1d8503f3-78a4-424d-9136-a8a5dd9b2336"
+        },
+        {
+            "ref": "1e0781df-7994-4043-81b0-bf1830b08eb5"
+        },
+        {
+            "ref": "1f50ba52-5aaa-4a46-86ed-0d29d2464087"
+        },
+        {
+            "ref": "212ae6b0-6ad1-455c-84e7-58976b562042"
+        },
+        {
+            "ref": "27614def-8643-4949-9fdd-86b03f958d02"
+        },
+        {
+            "ref": "29049ceb-a56c-46ac-abd7-b251348df3aa"
+        },
+        {
+            "ref": "2b53c221-58c3-454f-aaba-1b157aa98f89"
+        },
+        {
+            "ref": "2bb7d93f-df3e-44ba-b15f-d404a6e40eb9"
+        },
+        {
+            "ref": "2d1a557d-8145-42fd-b965-5d17591bb489"
+        },
+        {
+            "ref": "2f5a3b55-49a9-4149-9aac-bcbe4d9f072e"
+        },
+        {
+            "ref": "300637a6-bf99-4f36-928d-b33f33bf6398"
+        },
+        {
+            "ref": "353a4566-040c-4c4c-94b1-758a8e45ebe6"
+        },
+        {
+            "ref": "37d57bad-042d-4794-bf46-acfc99147b9b"
+        },
+        {
+            "ref": "38e86f0a-ebb7-480c-8974-521fe2dbb4fc"
+        },
+        {
+            "ref": "3b042e5c-62b9-4c09-9ddc-2e6d91afa7a0"
+        },
+        {
+            "ref": "3b07e44b-d4fb-4f3f-81ec-47ffde7d9cfa"
+        },
+        {
+            "ref": "3b7e20e0-5a53-4d6f-813d-18023e46fdc2"
+        },
+        {
+            "ref": "3d230d87-5d2b-4cfc-ba21-16dae2937180"
+        },
+        {
+            "ref": "3d634f08-b667-49fe-8c3c-76b9dbfd5d16"
+        },
+        {
+            "ref": "4002135c-9db4-459e-9a79-4d664cd05c28"
+        },
+        {
+            "ref": "40e72e4d-192f-4917-a461-8a49bd695221"
+        },
+        {
+            "ref": "4190db81-0f4c-4629-9755-31e8639531a4"
+        },
+        {
+            "ref": "42931daf-8b94-4a72-9223-50fbee914f4e"
+        },
+        {
+            "ref": "4404b042-d876-4fb4-bd44-c6166de39ee1"
+        },
+        {
+            "ref": "45d9ce3a-3238-4579-ba88-6add4de903e7"
+        },
+        {
+            "ref": "4e78552a-eb07-44d3-87a6-e9ca5cf1611f"
+        },
+        {
+            "ref": "53389142-1a1a-4ed0-8287-034b34222391"
+        },
+        {
+            "ref": "54844ae2-0af6-42b7-9085-a54d44f5b751"
+        },
+        {
+            "ref": "54bed3cc-e01b-4dd4-a961-25e3ac49253b"
+        },
+        {
+            "ref": "556cb915-ebae-42a0-85db-28d0c5346789"
+        },
+        {
+            "ref": "59e9bf89-4f0f-4e0b-be60-a8c279901ca1"
+        },
+        {
+            "ref": "5a236cdf-532f-4de6-a99b-4944d1e8aba6"
+        },
+        {
+            "ref": "5df310e4-939e-4cfd-84e7-230aaaa676cd"
+        },
+        {
+            "ref": "61a90178-d211-479b-aad6-b64e599910c8"
+        },
+        {
+            "ref": "657cd2d3-f185-4137-bce3-9fa9bc666ccc"
+        },
+        {
+            "ref": "66896aaa-2d3b-48f0-a419-3986fc9b3272"
+        },
+        {
+            "ref": "677fc8b0-8ec1-46de-a007-d81bfddb155b"
+        },
+        {
+            "ref": "6811639a-ce41-40d6-903b-2b96d023392b"
+        },
+        {
+            "ref": "6a277001-7ea0-44dc-8c2d-c1d72f01f9f8"
+        },
+        {
+            "ref": "6abc97a4-79a1-41fc-8fbc-e832bf82e3fb"
+        },
+        {
+            "ref": "6ae40a74-39b9-4848-afbf-2947003814e5"
+        },
+        {
+            "ref": "6b7c81d7-d362-4fe3-8a2e-26fff08a83c6"
+        },
+        {
+            "ref": "6c30b2d1-c65d-4bcc-89e0-da8e1132224f"
+        },
+        {
+            "ref": "6e11eb24-4549-4106-8d66-c1fde9495489"
+        },
+        {
+            "ref": "6f599d96-f016-45dc-87ae-70d271c7b9c7"
+        },
+        {
+            "ref": "734db683-3621-4653-a83c-70d6b911b227"
+        },
+        {
+            "ref": "73ebfe06-9ad0-48bf-abaa-718ecf2e0389"
+        },
+        {
+            "ref": "7c807529-98fe-46ae-bc91-ba5d12472c7a"
+        },
+        {
+            "ref": "7f9c6024-a4ad-417c-8eb7-747e2b608506"
+        },
+        {
+            "ref": "8198b291-beda-4b74-9b10-8297b69aceaf"
+        },
+        {
+            "ref": "8216c3fe-cbaa-4121-96d7-847bd6aa7ae2"
+        },
+        {
+            "ref": "844dc0b0-8986-45e1-9e80-dabb960dcade"
+        },
+        {
+            "ref": "8465fcdc-357f-43bd-8c69-281f1f0aa495"
+        },
+        {
+            "ref": "84833b0e-d73b-4ccb-8b64-6d3429be4fdb"
+        },
+        {
+            "ref": "859df6c8-d6a5-489a-9fc2-7ee6fb93b1b2"
+        },
+        {
+            "ref": "88e9f404-1a20-4865-afbc-3a04f6db902d"
+        },
+        {
+            "ref": "89847dc3-d31e-412f-81b9-b466760bf2d3"
+        },
+        {
+            "ref": "8a46781f-dd0d-490d-a71b-5f386e52a74a"
+        },
+        {
+            "ref": "8e4a6e97-dd4d-4942-8ee0-6c2c0d65c0e2"
+        },
+        {
+            "ref": "8e957cd1-36d1-4d9c-9cc8-7607349821c9"
+        },
+        {
+            "ref": "919e293f-dc13-480a-a3b6-aa39325a10c7"
+        },
+        {
+            "ref": "9378f650-77e0-4da0-9ca4-6bce47cae746"
+        },
+        {
+            "ref": "944ba66c-bf55-4744-b024-f42ec6dfe354"
+        },
+        {
+            "ref": "968e0f93-271f-4cbd-8e91-6ea2a35c307d"
+        },
+        {
+            "ref": "97a9ebe9-c3e6-4b4c-83dc-73d46f008b81"
+        },
+        {
+            "ref": "9917297d-14fc-4aa1-a2e2-ed8f44da88ab"
+        },
+        {
+            "ref": "99354b37-7a74-4302-8624-8faf8e9b320c"
+        },
+        {
+            "ref": "9a7664aa-1440-40a7-a7fa-6cd3c41967b4"
+        },
+        {
+            "ref": "9f112487-0fd0-4a20-908c-8be7fb91112f"
+        },
+        {
+            "ref": "a214e555-4330-46db-a61d-adbb6d1ef7cb"
+        },
+        {
+            "ref": "a4394f6a-b97a-425a-b8f0-86dbdc2dd10e"
+        },
+        {
+            "ref": "a9e0ee3a-cb05-459e-9e7d-208b1df79ebb"
+        },
+        {
+            "ref": "ac933dff-868c-4334-a355-3f84856c744b"
+        },
+        {
+            "ref": "ae54ee43-a685-4437-bc18-cce1bd97fb52"
+        },
+        {
+            "ref": "ae9a2b90-24b9-49b4-89a1-a2b1b49dc96d"
+        },
+        {
+            "ref": "af433d37-2c45-4e6f-8ba0-3cb0d3b00fd9"
+        },
+        {
+            "ref": "b060e4c8-60cb-42e2-b42d-79ed2ad5795f"
+        },
+        {
+            "ref": "b17e0755-003e-4105-9ff8-72a36730446a"
+        },
+        {
+            "ref": "b2aa533d-6371-4795-a12f-078a52ae9c08"
+        },
+        {
+            "ref": "b2ebe5fc-de0a-4db8-b7bf-ad4bea84bfd2"
+        },
+        {
+            "ref": "b4498379-1c9d-4042-900b-d29d7a1d06e2"
+        },
+        {
+            "ref": "b7450459-90ec-4ceb-b4c7-2b81b0901aef"
+        },
+        {
+            "ref": "c822ceb6-50ba-437a-bf97-37e56b13808f"
+        },
+        {
+            "ref": "cac3a2b3-d337-4990-b4dd-15899ec41dba"
+        },
+        {
+            "ref": "d15ff065-84bf-4d8b-9377-fb9b5b1126f5"
+        },
+        {
+            "ref": "d2f078b5-381e-4976-bec1-5587751bfb12"
+        },
+        {
+            "ref": "d3140c8d-bbf8-45a6-947d-1c70363a9864"
+        },
+        {
+            "ref": "d3386711-29eb-441c-894d-dc9cc6ffbee2"
+        },
+        {
+            "ref": "d4c4b9b9-16de-445c-90db-d15a0f93a714"
+        },
+        {
+            "ref": "d618e6dc-637b-4b39-8a3b-3b528dee1edb"
+        },
+        {
+            "ref": "d628980d-709f-4eab-85b7-5889b5968ae6"
+        },
+        {
+            "ref": "d9134d62-a9e0-440d-8659-cf87b982314d"
+        },
+        {
+            "ref": "d93db717-9c4f-4540-994e-208bad484733"
+        },
+        {
+            "ref": "da5443c2-70da-4ec5-add7-68761dfc682b"
+        },
+        {
+            "ref": "dac9a807-6a64-4803-9787-b3d6334c883b"
+        },
+        {
+            "ref": "db6da030-4923-4fd7-a319-29d12bcf9d32"
+        },
+        {
+            "ref": "dc9d3e04-b3ed-46f9-b98c-5a31cb190c9d"
+        },
+        {
+            "ref": "e1ece01a-e1f2-424f-87b3-f516c4e329f7"
+        },
+        {
+            "ref": "e3b2ef8d-ef8d-4742-b6e5-1cae14a8cba8"
+        },
+        {
+            "ref": "e3e9abe6-7cb8-4019-ade6-a6be7f0460ae"
+        },
+        {
+            "ref": "e77cf365-a747-4a3a-8e28-298d6679367b"
+        },
+        {
+            "ref": "e9fa99cc-4f41-4e45-accf-dc8f1656f4b2"
+        },
+        {
+            "ref": "ebc735f2-c37f-4041-84f2-6216cc36cb0a"
+        },
+        {
+            "ref": "eec5ae39-23a2-44c4-a35e-c67697ced4fb"
+        },
+        {
+            "ref": "efdddf0f-3cad-4169-a7ef-c6440306b0fd"
+        },
+        {
+            "ref": "f2690697-b023-4e94-9700-adcbba2c8551"
+        },
+        {
+            "ref": "f4295b4e-05e4-4f83-8cdc-ca39796f2e4f"
+        },
+        {
+            "ref": "f5ca9b50-fa14-4d88-bf59-736059ff1e7c"
+        },
+        {
+            "ref": "f6605d50-4423-42a6-9b12-0697a546c623"
+        },
+        {
+            "ref": "f7cb5393-02cb-4494-bcf5-4730b7a546fe"
+        },
+        {
+            "ref": "fce66cf8-f268-4996-a872-9fff81dd4483"
+        },
+        {
+            "ref": "fd7cec6a-40ae-444b-9f21-bfd550501c50"
+        }
+    ],
+    "metadata": {
+        "timestamp": "2025-04-10T08:15:30.764931+00:00",
+        "tools": [
+            {
+                "externalReferences": [
+                    {
+                        "type": "build-system",
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions"
+                    },
+                    {
+                        "type": "distribution",
+                        "url": "https://pypi.org/project/cyclonedx-python-lib/"
+                    },
+                    {
+                        "type": "documentation",
+                        "url": "https://cyclonedx-python-library.readthedocs.io/"
+                    },
+                    {
+                        "type": "issue-tracker",
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues"
+                    },
+                    {
+                        "type": "license",
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE"
+                    },
+                    {
+                        "type": "release-notes",
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md"
+                    },
+                    {
+                        "type": "vcs",
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib"
+                    },
+                    {
+                        "type": "website",
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/#readme"
+                    }
+                ],
+                "name": "cyclonedx-python-lib",
+                "vendor": "CycloneDX",
+                "version": "5.2.0"
+            }
+        ]
+    },
+    "serialNumber": "urn:uuid:4cd36942-5374-49d5-bdfa-c1410e2f4d7b",
+    "version": 1,
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4"
+}

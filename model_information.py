@@ -114,7 +114,7 @@ def get_weight_info(model):
 
 # 測試不同的模型
 # model_names = ["tiiuae/falcon-7b", "gpt2", "bert-base-uncased", "google/mobilebert-uncased", "albert-base-v2", "google/electra-small-discriminator", "microsoft/Phi-3-mini-4k-instruct"]
-model_names = ["textattack/roberta-base-SST-2"]
+model_names = ["EleutherAI/gpt-neo-1.3B"]
 
 for model_name in model_names:
     model_info = get_model_info(model_name)

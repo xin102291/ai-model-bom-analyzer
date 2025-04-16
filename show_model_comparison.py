@@ -100,7 +100,7 @@ def match_top_n(unknown_path, known_dir, top_n=3):
 
 # --- 執行範例 ---
 if __name__ == '__main__':
-    unknown_model_path = 'textattack_roberta-base-SST-2_info.json'         # 你的未知模型檔
+    unknown_model_path = 'prajjwal1_bert-tiny_info.json'         # 你的未知模型檔
     known_models_dir = './bom/'                       # 存放已知模型 JSON 的資料夾
 
     matches = match_top_n(unknown_model_path, known_models_dir)

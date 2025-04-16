@@ -20,7 +20,7 @@ def load_analysis_json(analysis_dir):
                 print(f"❌ Failed to load {fname}: {e}")
     return analysis_data
 
-def show_model_analysis_if_needed(matches, analysis_dict, threshold=0.8):
+def show_model_analysis_if_needed(matches, analysis_dict, threshold=0.75):
     print("\n📘 模型分析建議 (相似度 >= {:.0%}):".format(threshold))
     for match in matches:
         if match['final_score'] >= threshold:
@@ -46,12 +46,11 @@ def show_model_analysis_if_needed(matches, analysis_dict, threshold=0.8):
 if __name__ == '__main__':
     from show_model_comparison import match_top_n
 
-    unknown_model_path = 'textattack_roberta-base-SST-2_info.json'
+    unknown_model_path = 'EleutherAI_gpt-neo-1.3B_info.json'
     known_models_dir = './bom/'
     analysis_dir = './bom/'
     
     matches = match_top_n(unknown_model_path, known_models_dir)
-
     print("\n🔍 Top 3 Similar Models:")
     for i, m in enumerate(matches):
         print(f"#{i+1}: {m['name']} ({m['file']})")
@@ -62,4 +61,5 @@ if __name__ == '__main__':
         print("---")
 
     analysis_dict = load_analysis_json(analysis_dir)
-    show_model_analysis_if_needed(matches, analysis_dict, threshold=0.8)
+
+    show_model_analysis_if_needed(matches, analysis_dict, threshold=0.75)

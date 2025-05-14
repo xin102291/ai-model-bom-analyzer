@@ -1,0 +1,12 @@
+{
+    "model_names": [
+      "tiiuae/falcon-7b",
+      "gpt2",
+      "bert-base-uncased",
+      "google/mobilebert-uncased",
+      "albert-base-v2",
+      "google/electra-small-discriminator",
+      "microsoft/Phi-3-mini-4k-instruct"
+    ]
+  }
+

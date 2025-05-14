@@ -5,6 +5,9 @@ import json
 import time
 import numpy as np
 from huggingface_hub import HfApi
+import shutil
+import os
+from transformers.utils import default_cache_path
 # 取得模型資訊
 def get_model_info(model_name):
     """
@@ -110,17 +113,34 @@ def get_weight_info(model):
         "layers": weight_details
     }
 
-
+# 載入模型清單設定
+# def load_model_names_from_config(config_path="model_config.json"):
+#     with open(config_path, "r", encoding="utf-8") as f:
+#         config = json.load(f)
+#         return config.get("model_names", [])
+    
+def delete_model_cache(model_name):
+    """
+    刪除 Hugging Face cache 中指定模型的快取資料。
+    """
+    model_dir = os.path.join(default_cache_path, "models--" + model_name.replace("/", "--"))
+    if os.path.exists(model_dir):
+        shutil.rmtree(model_dir)
+        print(f"已刪除模型快取：{model_dir}")
+    else:
+        print(f"找不到模型快取資料夾：{model_dir}")
 
 # 測試不同的模型
 # model_names = ["tiiuae/falcon-7b", "gpt2", "bert-base-uncased", "google/mobilebert-uncased", "albert-base-v2", "google/electra-small-discriminator", "microsoft/Phi-3-mini-4k-instruct"]
-model_names = ["EleutherAI/gpt-neo-1.3B"]
+
+model_names = ["EleutherAI/gpt-j-6b"]
+# model_names = load_model_names_from_config()
 
 for model_name in model_names:
     model_info = get_model_info(model_name)
-
+    delete_model_cache(model_name)
     # 產生 JSON 檔案
-    json_filename = f"{model_name.replace('/', '_')}_info.json"
+    json_filename = f"data/{model_name.replace('/', '_')}_info.json"
     with open(json_filename, "w", encoding="utf-8") as f:
         json.dump(model_info, f, ensure_ascii=False, indent=4, default=str)
 

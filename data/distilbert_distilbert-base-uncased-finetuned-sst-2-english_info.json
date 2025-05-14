@@ -1,0 +1,1521 @@
+{
+    "type": "ai_AIPackage",
+    "spdxId": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    "creationInfo": "_:creationinfo",
+    "name": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    "releaseTime": "2025-05-14T10:21:50Z",
+    "suppliedBy": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    "software_downloadLocation": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/distilbert/distilbert-base-uncased-finetuned-sst-2-english.bin",
+    "software_packageVersion": "2.0",
+    "training_datasets": [
+        "sst2",
+        "glue"
+    ],
+    "software_primaryPurpose": "Define yourself",
+    "comment": "Define yourself",
+    "ai_autonomyType": "no",
+    "ai_domain": [
+        "Define yourself"
+    ],
+    "model_version": "distilbert",
+    "model_architecture": [
+        "DistilBertForSequenceClassification"
+    ],
+    "layer_count": "6",
+    "embedding_size": "768",
+    "attention_heads": "12",
+    "activation_function": "Unknown",
+    "hyperparameters": [
+        {
+            "key": "_attn_implementation",
+            "value": "eager"
+        },
+        {
+            "key": "_attn_implementation_autoset",
+            "value": false
+        },
+        {
+            "key": "_attn_implementation_internal",
+            "value": null
+        },
+        {
+            "key": "_auto_class",
+            "value": null
+        },
+        {
+            "key": "_commit_hash",
+            "value": "714eb0fa89d2f80546fda750413ed43d93601a13"
+        },
+        {
+            "key": "_name_or_path",
+            "value": "distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+        },
+        {
+            "key": "activation",
+            "value": "gelu"
+        },
+        {
+            "key": "add_cross_attention",
+            "value": false
+        },
+        {
+            "key": "architectures",
+            "value": [
+                "DistilBertForSequenceClassification"
+            ]
+        },
+        {
+            "key": "attention_dropout",
+            "value": 0.1
+        },
+        {
+            "key": "attribute_map",
+            "value": {
+                "hidden_size": "dim",
+                "num_attention_heads": "n_heads",
+                "num_hidden_layers": "n_layers"
+            }
+        },
+        {
+            "key": "bad_words_ids",
+            "value": null
+        },
+        {
+            "key": "base_config_key",
+            "value": ""
+        },
+        {
+            "key": "base_model_tp_plan",
+            "value": null
+        },
+        {
+            "key": "begin_suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "bos_token_id",
+            "value": null
+        },
+        {
+            "key": "chunk_size_feed_forward",
+            "value": 0
+        },
+        {
+            "key": "cross_attention_hidden_size",
+            "value": null
+        },
+        {
+            "key": "decoder_start_token_id",
+            "value": null
+        },
+        {
+            "key": "dim",
+            "value": 768
+        },
+        {
+            "key": "diversity_penalty",
+            "value": 0.0
+        },
+        {
+            "key": "do_sample",
+            "value": false
+        },
+        {
+            "key": "dropout",
+            "value": 0.1
+        },
+        {
+            "key": "early_stopping",
+            "value": false
+        },
+        {
+            "key": "encoder_no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "eos_token_id",
+            "value": null
+        },
+        {
+            "key": "exponential_decay_length_penalty",
+            "value": null
+        },
+        {
+            "key": "finetuning_task",
+            "value": "sst-2"
+        },
+        {
+            "key": "forced_bos_token_id",
+            "value": null
+        },
+        {
+            "key": "forced_eos_token_id",
+            "value": null
+        },
+        {
+            "key": "hidden_dim",
+            "value": 3072
+        },
+        {
+            "key": "id2label",
+            "value": {
+                "0": "NEGATIVE",
+                "1": "POSITIVE"
+            }
+        },
+        {
+            "key": "initializer_range",
+            "value": 0.02
+        },
+        {
+            "key": "is_composition",
+            "value": false
+        },
+        {
+            "key": "is_decoder",
+            "value": false
+        },
+        {
+            "key": "is_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "label2id",
+            "value": {
+                "NEGATIVE": 0,
+                "POSITIVE": 1
+            }
+        },
+        {
+            "key": "length_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "max_length",
+            "value": 20
+        },
+        {
+            "key": "max_position_embeddings",
+            "value": 512
+        },
+        {
+            "key": "min_length",
+            "value": 0
+        },
+        {
+            "key": "model_type",
+            "value": "distilbert"
+        },
+        {
+            "key": "n_heads",
+            "value": 12
+        },
+        {
+            "key": "n_layers",
+            "value": 6
+        },
+        {
+            "key": "name_or_path",
+            "value": "distilbert/distilbert-base-uncased-finetuned-sst-2-english"
+        },
+        {
+            "key": "no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "num_beam_groups",
+            "value": 1
+        },
+        {
+            "key": "num_beams",
+            "value": 1
+        },
+        {
+            "key": "num_labels",
+            "value": 2
+        },
+        {
+            "key": "num_return_sequences",
+            "value": 1
+        },
+        {
+            "key": "output_attentions",
+            "value": false
+        },
+        {
+            "key": "output_hidden_states",
+            "value": false
+        },
+        {
+            "key": "output_past",
+            "value": true
+        },
+        {
+            "key": "output_scores",
+            "value": false
+        },
+        {
+            "key": "pad_token_id",
+            "value": 0
+        },
+        {
+            "key": "prefix",
+            "value": null
+        },
+        {
+            "key": "problem_type",
+            "value": null
+        },
+        {
+            "key": "pruned_heads",
+            "value": {}
+        },
+        {
+            "key": "qa_dropout",
+            "value": 0.1
+        },
+        {
+            "key": "remove_invalid_values",
+            "value": false
+        },
+        {
+            "key": "repetition_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "return_dict",
+            "value": true
+        },
+        {
+            "key": "return_dict_in_generate",
+            "value": false
+        },
+        {
+            "key": "sep_token_id",
+            "value": null
+        },
+        {
+            "key": "seq_classif_dropout",
+            "value": 0.2
+        },
+        {
+            "key": "sinusoidal_pos_embds",
+            "value": false
+        },
+        {
+            "key": "sub_configs",
+            "value": {}
+        },
+        {
+            "key": "suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "task_specific_params",
+            "value": null
+        },
+        {
+            "key": "temperature",
+            "value": 1.0
+        },
+        {
+            "key": "tf_legacy_loss",
+            "value": false
+        },
+        {
+            "key": "tie_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "tie_weights_",
+            "value": true
+        },
+        {
+            "key": "tie_word_embeddings",
+            "value": true
+        },
+        {
+            "key": "tokenizer_class",
+            "value": null
+        },
+        {
+            "key": "top_k",
+            "value": 50
+        },
+        {
+            "key": "top_p",
+            "value": 1.0
+        },
+        {
+            "key": "torch_dtype",
+            "value": null
+        },
+        {
+            "key": "torchscript",
+            "value": false
+        },
+        {
+            "key": "transformers_version",
+            "value": null
+        },
+        {
+            "key": "typical_p",
+            "value": 1.0
+        },
+        {
+            "key": "use_bfloat16",
+            "value": false
+        },
+        {
+            "key": "use_return_dict",
+            "value": true
+        },
+        {
+            "key": "vocab_size",
+            "value": 30522
+        }
+    ],
+    "weights_info": {
+        "total_parameters": 66362880,
+        "layers": [
+            {
+                "layer_name": "embeddings.word_embeddings.weight",
+                "shape": [
+                    30522,
+                    768
+                ],
+                "num_parameters": 23440896,
+                "weight_mean": "-0.03833248",
+                "weight_std": "0.046996452",
+                "min_value": "-1.1000273",
+                "max_value": "0.59427536"
+            },
+            {
+                "layer_name": "embeddings.position_embeddings.weight",
+                "shape": [
+                    512,
+                    768
+                ],
+                "num_parameters": 393216,
+                "weight_mean": "-3.9971706e-05",
+                "weight_std": "0.016069569",
+                "min_value": "-0.95307344",
+                "max_value": "0.72620845"
+            },
+            {
+                "layer_name": "embeddings.LayerNorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.7443592",
+                "weight_std": "0.13573807",
+                "min_value": "0.088429846",
+                "max_value": "0.929745"
+            },
+            {
+                "layer_name": "embeddings.LayerNorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.009963031",
+                "weight_std": "0.091020316",
+                "min_value": "-0.4798554",
+                "max_value": "0.56950617"
+            },
+            {
+                "layer_name": "transformer.layer.0.attention.q_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "5.9389095e-05",
+                "weight_std": "0.04341339",
+                "min_value": "-0.70472866",
+                "max_value": "0.49590483"
+            },
+            {
+                "layer_name": "transformer.layer.0.attention.q_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.008925808",
+                "weight_std": "0.32457042",
+                "min_value": "-1.0789009",
+                "max_value": "1.1018947"
+            },
+            {
+                "layer_name": "transformer.layer.0.attention.k_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "9.5022115e-06",
+                "weight_std": "0.043229014",
+                "min_value": "-0.931823",
+                "max_value": "0.7780797"
+            },
+            {
+                "layer_name": "transformer.layer.0.attention.k_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0003076744",
+                "weight_std": "0.0031859956",
+                "min_value": "-0.012452912",
+                "max_value": "0.010557912"
+            },
+            {
+                "layer_name": "transformer.layer.0.attention.v_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-7.607218e-05",
+                "weight_std": "0.03418876",
+                "min_value": "-0.19158405",
+                "max_value": "0.19779475"
+            },
+            {
+                "layer_name": "transformer.layer.0.attention.v_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0053767897",
+                "weight_std": "0.080775276",
+                "min_value": "-0.3718416",
+                "max_value": "0.42051518"
+            },
+            {
+                "layer_name": "transformer.layer.0.attention.out_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.9819e-05",
+                "weight_std": "0.03483998",
+                "min_value": "-0.6113712",
+                "max_value": "0.7430248"
+            },
+            {
+                "layer_name": "transformer.layer.0.attention.out_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0011250168",
+                "weight_std": "0.04727944",
+                "min_value": "-0.55440223",
+                "max_value": "0.13380367"
+            },
+            {
+                "layer_name": "transformer.layer.0.sa_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.84132785",
+                "weight_std": "0.09448709",
+                "min_value": "0.502755",
+                "max_value": "2.9693613"
+            },
+            {
+                "layer_name": "transformer.layer.0.sa_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.020581812",
+                "weight_std": "0.33582228",
+                "min_value": "-4.3071146",
+                "max_value": "0.8546968"
+            },
+            {
+                "layer_name": "transformer.layer.0.ffn.lin1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-5.3232343e-06",
+                "weight_std": "0.04164306",
+                "min_value": "-0.34751046",
+                "max_value": "0.32564008"
+            },
+            {
+                "layer_name": "transformer.layer.0.ffn.lin1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.11199831",
+                "weight_std": "0.055580895",
+                "min_value": "-0.33016554",
+                "max_value": "0.42520455"
+            },
+            {
+                "layer_name": "transformer.layer.0.ffn.lin2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-9.3695904e-05",
+                "weight_std": "0.042798195",
+                "min_value": "-2.042922",
+                "max_value": "0.91124004"
+            },
+            {
+                "layer_name": "transformer.layer.0.ffn.lin2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0022125978",
+                "weight_std": "0.08405831",
+                "min_value": "-0.53097737",
+                "max_value": "0.3332854"
+            },
+            {
+                "layer_name": "transformer.layer.0.output_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.74741775",
+                "weight_std": "0.07101964",
+                "min_value": "0.10387465",
+                "max_value": "0.84519374"
+            },
+            {
+                "layer_name": "transformer.layer.0.output_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.04171284",
+                "weight_std": "0.09747062",
+                "min_value": "-1.3927922",
+                "max_value": "0.42075127"
+            },
+            {
+                "layer_name": "transformer.layer.1.attention.q_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-3.3298502e-06",
+                "weight_std": "0.0564723",
+                "min_value": "-0.5390238",
+                "max_value": "0.56807065"
+            },
+            {
+                "layer_name": "transformer.layer.1.attention.q_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0010315244",
+                "weight_std": "0.14569798",
+                "min_value": "-0.8892985",
+                "max_value": "0.56058776"
+            },
+            {
+                "layer_name": "transformer.layer.1.attention.k_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "4.3105494e-05",
+                "weight_std": "0.055116314",
+                "min_value": "-0.58214396",
+                "max_value": "0.5146713"
+            },
+            {
+                "layer_name": "transformer.layer.1.attention.k_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-3.0131245e-05",
+                "weight_std": "0.004199183",
+                "min_value": "-0.016033076",
+                "max_value": "0.027060356"
+            },
+            {
+                "layer_name": "transformer.layer.1.attention.v_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-0.00013516643",
+                "weight_std": "0.03580506",
+                "min_value": "-0.22792336",
+                "max_value": "0.26347393"
+            },
+            {
+                "layer_name": "transformer.layer.1.attention.v_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.004429588",
+                "weight_std": "0.06341767",
+                "min_value": "-0.30465528",
+                "max_value": "0.699708"
+            },
+            {
+                "layer_name": "transformer.layer.1.attention.out_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.6660911e-06",
+                "weight_std": "0.035451364",
+                "min_value": "-0.4543962",
+                "max_value": "0.45179957"
+            },
+            {
+                "layer_name": "transformer.layer.1.attention.out_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0009600797",
+                "weight_std": "0.09595611",
+                "min_value": "-0.4315404",
+                "max_value": "0.38973424"
+            },
+            {
+                "layer_name": "transformer.layer.1.sa_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.7826197",
+                "weight_std": "0.09102923",
+                "min_value": "0.43636814",
+                "max_value": "2.0613468"
+            },
+            {
+                "layer_name": "transformer.layer.1.sa_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.01835035",
+                "weight_std": "0.18430044",
+                "min_value": "-2.0902092",
+                "max_value": "0.71323866"
+            },
+            {
+                "layer_name": "transformer.layer.1.ffn.lin1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.0001629283",
+                "weight_std": "0.044753876",
+                "min_value": "-0.68780565",
+                "max_value": "0.603472"
+            },
+            {
+                "layer_name": "transformer.layer.1.ffn.lin1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.10195138",
+                "weight_std": "0.07028219",
+                "min_value": "-0.35662466",
+                "max_value": "0.6435079"
+            },
+            {
+                "layer_name": "transformer.layer.1.ffn.lin2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-3.7525715e-05",
+                "weight_std": "0.043136466",
+                "min_value": "-4.0360813",
+                "max_value": "1.1710904"
+            },
+            {
+                "layer_name": "transformer.layer.1.ffn.lin2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0013929997",
+                "weight_std": "0.08004565",
+                "min_value": "-0.3060874",
+                "max_value": "0.30192542"
+            },
+            {
+                "layer_name": "transformer.layer.1.output_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.8260754",
+                "weight_std": "0.071596004",
+                "min_value": "0.35062823",
+                "max_value": "0.93214184"
+            },
+            {
+                "layer_name": "transformer.layer.1.output_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.038189072",
+                "weight_std": "0.0712305",
+                "min_value": "-0.31982884",
+                "max_value": "0.23673664"
+            },
+            {
+                "layer_name": "transformer.layer.2.attention.q_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-0.000194112",
+                "weight_std": "0.04754058",
+                "min_value": "-0.3915715",
+                "max_value": "0.3909147"
+            },
+            {
+                "layer_name": "transformer.layer.2.attention.q_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.003429544",
+                "weight_std": "0.15969361",
+                "min_value": "-0.7576722",
+                "max_value": "0.65664065"
+            },
+            {
+                "layer_name": "transformer.layer.2.attention.k_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "3.771542e-05",
+                "weight_std": "0.047479887",
+                "min_value": "-0.342383",
+                "max_value": "0.36828032"
+            },
+            {
+                "layer_name": "transformer.layer.2.attention.k_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00010882981",
+                "weight_std": "0.004821866",
+                "min_value": "-0.017597279",
+                "max_value": "0.02215435"
+            },
+            {
+                "layer_name": "transformer.layer.2.attention.v_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "8.5715e-05",
+                "weight_std": "0.04230772",
+                "min_value": "-0.2322893",
+                "max_value": "0.23639049"
+            },
+            {
+                "layer_name": "transformer.layer.2.attention.v_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00041877304",
+                "weight_std": "0.03239351",
+                "min_value": "-0.19868411",
+                "max_value": "0.20025443"
+            },
+            {
+                "layer_name": "transformer.layer.2.attention.out_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.3119436e-05",
+                "weight_std": "0.039912354",
+                "min_value": "-0.35113016",
+                "max_value": "0.30547345"
+            },
+            {
+                "layer_name": "transformer.layer.2.attention.out_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0004282128",
+                "weight_std": "0.051733524",
+                "min_value": "-0.20354871",
+                "max_value": "0.4675953"
+            },
+            {
+                "layer_name": "transformer.layer.2.sa_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.7494087",
+                "weight_std": "0.14835046",
+                "min_value": "0.40790647",
+                "max_value": "3.8950708"
+            },
+            {
+                "layer_name": "transformer.layer.2.sa_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.023424828",
+                "weight_std": "0.15750232",
+                "min_value": "-1.3272462",
+                "max_value": "0.77641034"
+            },
+            {
+                "layer_name": "transformer.layer.2.ffn.lin1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.00025943952",
+                "weight_std": "0.04615081",
+                "min_value": "-0.79564095",
+                "max_value": "1.1992719"
+            },
+            {
+                "layer_name": "transformer.layer.2.ffn.lin1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.10366595",
+                "weight_std": "0.07967821",
+                "min_value": "-0.4005388",
+                "max_value": "0.5322333"
+            },
+            {
+                "layer_name": "transformer.layer.2.ffn.lin2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-1.4290241e-05",
+                "weight_std": "0.044867545",
+                "min_value": "-9.969506",
+                "max_value": "2.1836798"
+            },
+            {
+                "layer_name": "transformer.layer.2.ffn.lin2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0010437616",
+                "weight_std": "0.057300873",
+                "min_value": "-0.31969467",
+                "max_value": "0.21566421"
+            },
+            {
+                "layer_name": "transformer.layer.2.output_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.81119776",
+                "weight_std": "0.07644088",
+                "min_value": "0.4807603",
+                "max_value": "0.9403433"
+            },
+            {
+                "layer_name": "transformer.layer.2.output_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.03586098",
+                "weight_std": "0.049747687",
+                "min_value": "-0.26036453",
+                "max_value": "0.2554447"
+            },
+            {
+                "layer_name": "transformer.layer.3.attention.q_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.215781e-06",
+                "weight_std": "0.049022153",
+                "min_value": "-0.26993814",
+                "max_value": "0.3036279"
+            },
+            {
+                "layer_name": "transformer.layer.3.attention.q_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0033901243",
+                "weight_std": "0.1589212",
+                "min_value": "-0.9553848",
+                "max_value": "0.641451"
+            },
+            {
+                "layer_name": "transformer.layer.3.attention.k_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-7.601969e-06",
+                "weight_std": "0.049392343",
+                "min_value": "-0.42662215",
+                "max_value": "0.4781361"
+            },
+            {
+                "layer_name": "transformer.layer.3.attention.k_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0001241527",
+                "weight_std": "0.005398814",
+                "min_value": "-0.021374775",
+                "max_value": "0.020240443"
+            },
+            {
+                "layer_name": "transformer.layer.3.attention.v_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "0.00018126605",
+                "weight_std": "0.046143234",
+                "min_value": "-0.33244252",
+                "max_value": "0.27355108"
+            },
+            {
+                "layer_name": "transformer.layer.3.attention.v_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0027526973",
+                "weight_std": "0.046644498",
+                "min_value": "-0.30144808",
+                "max_value": "0.21197554"
+            },
+            {
+                "layer_name": "transformer.layer.3.attention.out_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.7069103e-05",
+                "weight_std": "0.04382069",
+                "min_value": "-0.27916345",
+                "max_value": "0.2910197"
+            },
+            {
+                "layer_name": "transformer.layer.3.attention.out_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0012429175",
+                "weight_std": "0.070655525",
+                "min_value": "-0.22065148",
+                "max_value": "1.3945193"
+            },
+            {
+                "layer_name": "transformer.layer.3.sa_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.73903084",
+                "weight_std": "0.12922572",
+                "min_value": "0.48260725",
+                "max_value": "3.4669747"
+            },
+            {
+                "layer_name": "transformer.layer.3.sa_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.031652566",
+                "weight_std": "0.15484993",
+                "min_value": "-2.1678715",
+                "max_value": "0.47650594"
+            },
+            {
+                "layer_name": "transformer.layer.3.ffn.lin1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.0006579424",
+                "weight_std": "0.043359034",
+                "min_value": "-0.3793312",
+                "max_value": "0.48393863"
+            },
+            {
+                "layer_name": "transformer.layer.3.ffn.lin1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.11000052",
+                "weight_std": "0.07056536",
+                "min_value": "-0.46114528",
+                "max_value": "0.6145705"
+            },
+            {
+                "layer_name": "transformer.layer.3.ffn.lin2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "1.1478796e-05",
+                "weight_std": "0.040791724",
+                "min_value": "-3.1442926",
+                "max_value": "0.9933975"
+            },
+            {
+                "layer_name": "transformer.layer.3.ffn.lin2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0002392948",
+                "weight_std": "0.084671594",
+                "min_value": "-0.74648726",
+                "max_value": "0.2262532"
+            },
+            {
+                "layer_name": "transformer.layer.3.output_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.7747938",
+                "weight_std": "0.050109528",
+                "min_value": "0.3162225",
+                "max_value": "1.1526686"
+            },
+            {
+                "layer_name": "transformer.layer.3.output_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.036326464",
+                "weight_std": "0.06491165",
+                "min_value": "-0.2252864",
+                "max_value": "0.9591646"
+            },
+            {
+                "layer_name": "transformer.layer.4.attention.q_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-0.0002140316",
+                "weight_std": "0.048841562",
+                "min_value": "-0.25837842",
+                "max_value": "0.24990904"
+            },
+            {
+                "layer_name": "transformer.layer.4.attention.q_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0069047194",
+                "weight_std": "0.2077461",
+                "min_value": "-0.7881834",
+                "max_value": "0.81791383"
+            },
+            {
+                "layer_name": "transformer.layer.4.attention.k_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.4168887e-06",
+                "weight_std": "0.0489707",
+                "min_value": "-0.58403677",
+                "max_value": "0.6645079"
+            },
+            {
+                "layer_name": "transformer.layer.4.attention.k_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "9.8303026e-05",
+                "weight_std": "0.0066277804",
+                "min_value": "-0.024762712",
+                "max_value": "0.0323421"
+            },
+            {
+                "layer_name": "transformer.layer.4.attention.v_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "3.3431086e-05",
+                "weight_std": "0.04694938",
+                "min_value": "-0.25744113",
+                "max_value": "0.23531564"
+            },
+            {
+                "layer_name": "transformer.layer.4.attention.v_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00079183915",
+                "weight_std": "0.04016176",
+                "min_value": "-0.23667261",
+                "max_value": "0.28342304"
+            },
+            {
+                "layer_name": "transformer.layer.4.attention.out_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "8.973193e-06",
+                "weight_std": "0.044548694",
+                "min_value": "-0.38407153",
+                "max_value": "0.43721518"
+            },
+            {
+                "layer_name": "transformer.layer.4.attention.out_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0005990146",
+                "weight_std": "0.07006296",
+                "min_value": "-0.18880554",
+                "max_value": "0.6353644"
+            },
+            {
+                "layer_name": "transformer.layer.4.sa_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.73225594",
+                "weight_std": "0.09409826",
+                "min_value": "0.55320364",
+                "max_value": "2.48047"
+            },
+            {
+                "layer_name": "transformer.layer.4.sa_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.036593143",
+                "weight_std": "0.1373915",
+                "min_value": "-1.4666823",
+                "max_value": "1.0575137"
+            },
+            {
+                "layer_name": "transformer.layer.4.ffn.lin1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.0008117815",
+                "weight_std": "0.042641908",
+                "min_value": "-0.88376427",
+                "max_value": "0.86482555"
+            },
+            {
+                "layer_name": "transformer.layer.4.ffn.lin1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.10997176",
+                "weight_std": "0.05334837",
+                "min_value": "-0.3614284",
+                "max_value": "0.6000349"
+            },
+            {
+                "layer_name": "transformer.layer.4.ffn.lin2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-2.2829641e-05",
+                "weight_std": "0.04209453",
+                "min_value": "-4.256107",
+                "max_value": "2.3804832"
+            },
+            {
+                "layer_name": "transformer.layer.4.ffn.lin2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00049420894",
+                "weight_std": "0.084045835",
+                "min_value": "-0.6685522",
+                "max_value": "0.34340942"
+            },
+            {
+                "layer_name": "transformer.layer.4.output_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.7767148",
+                "weight_std": "0.06674298",
+                "min_value": "0.09157213",
+                "max_value": "1.4289103"
+            },
+            {
+                "layer_name": "transformer.layer.4.output_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.038460884",
+                "weight_std": "0.053622004",
+                "min_value": "-0.40280253",
+                "max_value": "0.3828545"
+            },
+            {
+                "layer_name": "transformer.layer.5.attention.q_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-0.00020778626",
+                "weight_std": "0.04928544",
+                "min_value": "-0.6418696",
+                "max_value": "0.6257619"
+            },
+            {
+                "layer_name": "transformer.layer.5.attention.q_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.012599413",
+                "weight_std": "0.23806117",
+                "min_value": "-0.85997164",
+                "max_value": "0.85454834"
+            },
+            {
+                "layer_name": "transformer.layer.5.attention.k_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "0.00020861224",
+                "weight_std": "0.048586693",
+                "min_value": "-0.44775444",
+                "max_value": "0.2823086"
+            },
+            {
+                "layer_name": "transformer.layer.5.attention.k_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00015534682",
+                "weight_std": "0.005281263",
+                "min_value": "-0.022565018",
+                "max_value": "0.033157706"
+            },
+            {
+                "layer_name": "transformer.layer.5.attention.v_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.1017264e-05",
+                "weight_std": "0.048197187",
+                "min_value": "-0.31389967",
+                "max_value": "0.25834626"
+            },
+            {
+                "layer_name": "transformer.layer.5.attention.v_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00035784658",
+                "weight_std": "0.02203781",
+                "min_value": "-0.13502528",
+                "max_value": "0.08404786"
+            },
+            {
+                "layer_name": "transformer.layer.5.attention.out_lin.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "6.689669e-07",
+                "weight_std": "0.045174137",
+                "min_value": "-0.50312644",
+                "max_value": "0.4187306"
+            },
+            {
+                "layer_name": "transformer.layer.5.attention.out_lin.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00029684612",
+                "weight_std": "0.05106073",
+                "min_value": "-0.15527263",
+                "max_value": "0.19013305"
+            },
+            {
+                "layer_name": "transformer.layer.5.sa_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.7721974",
+                "weight_std": "0.058484852",
+                "min_value": "0.59839076",
+                "max_value": "1.536654"
+            },
+            {
+                "layer_name": "transformer.layer.5.sa_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.04635158",
+                "weight_std": "0.10936158",
+                "min_value": "-2.1483042",
+                "max_value": "0.38902834"
+            },
+            {
+                "layer_name": "transformer.layer.5.ffn.lin1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.00055627234",
+                "weight_std": "0.03938675",
+                "min_value": "-0.42431703",
+                "max_value": "0.5037565"
+            },
+            {
+                "layer_name": "transformer.layer.5.ffn.lin1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.07744522",
+                "weight_std": "0.058805108",
+                "min_value": "-0.45181292",
+                "max_value": "0.58639723"
+            },
+            {
+                "layer_name": "transformer.layer.5.ffn.lin2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "1.44115165e-05",
+                "weight_std": "0.037111238",
+                "min_value": "-3.1857219",
+                "max_value": "1.0858445"
+            },
+            {
+                "layer_name": "transformer.layer.5.ffn.lin2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0011455504",
+                "weight_std": "0.057809584",
+                "min_value": "-0.582672",
+                "max_value": "0.14428112"
+            },
+            {
+                "layer_name": "transformer.layer.5.output_layer_norm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.60640347",
+                "weight_std": "0.02871423",
+                "min_value": "0.2127419",
+                "max_value": "0.7495409"
+            },
+            {
+                "layer_name": "transformer.layer.5.output_layer_norm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.020821681",
+                "weight_std": "0.04757516",
+                "min_value": "-0.16947477",
+                "max_value": "0.3670959"
+            }
+        ]
+    }
+}

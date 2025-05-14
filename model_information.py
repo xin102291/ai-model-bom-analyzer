@@ -133,7 +133,7 @@ def delete_model_cache(model_name):
 # 測試不同的模型
 # model_names = ["tiiuae/falcon-7b", "gpt2", "bert-base-uncased", "google/mobilebert-uncased", "albert-base-v2", "google/electra-small-discriminator", "microsoft/Phi-3-mini-4k-instruct"]
 
-model_names = ["EleutherAI/gpt-j-6b"]
+model_names = ["cerebras/Cerebras-GPT-6.7B"]
 # model_names = load_model_names_from_config()
 
 for model_name in model_names:

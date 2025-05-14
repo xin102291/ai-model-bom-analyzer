@@ -1,0 +1,4807 @@
+{
+    "type": "ai_AIPackage",
+    "spdxId": "https://huggingface.co/cerebras/Cerebras-GPT-6.7B",
+    "creationInfo": "_:creationinfo",
+    "name": "cerebras/Cerebras-GPT-6.7B",
+    "releaseTime": "2025-05-14T17:26:47Z",
+    "suppliedBy": "https://huggingface.co/cerebras/Cerebras-GPT-6.7B",
+    "software_downloadLocation": "https://huggingface.co/cerebras/Cerebras-GPT-6.7B/resolve/main/cerebras/Cerebras-GPT-6.7B.bin",
+    "software_packageVersion": "2.0",
+    "training_datasets": [
+        "the_pile"
+    ],
+    "software_primaryPurpose": "Define yourself",
+    "comment": "Define yourself",
+    "ai_autonomyType": "no",
+    "ai_domain": [
+        "Define yourself"
+    ],
+    "model_version": "gpt2",
+    "model_architecture": null,
+    "layer_count": "32",
+    "embedding_size": "4096",
+    "attention_heads": "32",
+    "activation_function": "gelu",
+    "hyperparameters": [
+        {
+            "key": "_attn_implementation",
+            "value": "eager"
+        },
+        {
+            "key": "_attn_implementation_autoset",
+            "value": false
+        },
+        {
+            "key": "_attn_implementation_internal",
+            "value": null
+        },
+        {
+            "key": "_auto_class",
+            "value": null
+        },
+        {
+            "key": "_commit_hash",
+            "value": "2e5feaf901e7c0d69bf5e0971a61fec9a0f325dd"
+        },
+        {
+            "key": "_name_or_path",
+            "value": "cerebras/Cerebras-GPT-6.7B"
+        },
+        {
+            "key": "activation_function",
+            "value": "gelu"
+        },
+        {
+            "key": "add_cross_attention",
+            "value": false
+        },
+        {
+            "key": "architectures",
+            "value": null
+        },
+        {
+            "key": "attn_pdrop",
+            "value": 0.0
+        },
+        {
+            "key": "attribute_map",
+            "value": {
+                "hidden_size": "n_embd",
+                "max_position_embeddings": "n_positions",
+                "num_attention_heads": "n_head",
+                "num_hidden_layers": "n_layer"
+            }
+        },
+        {
+            "key": "bad_words_ids",
+            "value": null
+        },
+        {
+            "key": "base_config_key",
+            "value": ""
+        },
+        {
+            "key": "base_model_tp_plan",
+            "value": null
+        },
+        {
+            "key": "begin_suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "bos_token_id",
+            "value": 50256
+        },
+        {
+            "key": "chunk_size_feed_forward",
+            "value": 0
+        },
+        {
+            "key": "cross_attention_hidden_size",
+            "value": null
+        },
+        {
+            "key": "decoder_start_token_id",
+            "value": null
+        },
+        {
+            "key": "diversity_penalty",
+            "value": 0.0
+        },
+        {
+            "key": "do_sample",
+            "value": false
+        },
+        {
+            "key": "early_stopping",
+            "value": false
+        },
+        {
+            "key": "embd_pdrop",
+            "value": 0.0
+        },
+        {
+            "key": "encoder_no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "eos_token_id",
+            "value": 50256
+        },
+        {
+            "key": "exponential_decay_length_penalty",
+            "value": null
+        },
+        {
+            "key": "finetuning_task",
+            "value": null
+        },
+        {
+            "key": "forced_bos_token_id",
+            "value": null
+        },
+        {
+            "key": "forced_eos_token_id",
+            "value": null
+        },
+        {
+            "key": "id2label",
+            "value": {
+                "0": "LABEL_0",
+                "1": "LABEL_1"
+            }
+        },
+        {
+            "key": "initializer_range",
+            "value": 0.02
+        },
+        {
+            "key": "is_composition",
+            "value": false
+        },
+        {
+            "key": "is_decoder",
+            "value": false
+        },
+        {
+            "key": "is_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "keys_to_ignore_at_inference",
+            "value": [
+                "past_key_values"
+            ]
+        },
+        {
+            "key": "label2id",
+            "value": {
+                "LABEL_0": 0,
+                "LABEL_1": 1
+            }
+        },
+        {
+            "key": "layer_norm_epsilon",
+            "value": 1e-05
+        },
+        {
+            "key": "length_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "max_length",
+            "value": 20
+        },
+        {
+            "key": "min_length",
+            "value": 0
+        },
+        {
+            "key": "model_type",
+            "value": "gpt2"
+        },
+        {
+            "key": "n_embd",
+            "value": 4096
+        },
+        {
+            "key": "n_head",
+            "value": 32
+        },
+        {
+            "key": "n_inner",
+            "value": 16384
+        },
+        {
+            "key": "n_layer",
+            "value": 32
+        },
+        {
+            "key": "n_positions",
+            "value": 2048
+        },
+        {
+            "key": "name_or_path",
+            "value": "cerebras/Cerebras-GPT-6.7B"
+        },
+        {
+            "key": "no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "num_beam_groups",
+            "value": 1
+        },
+        {
+            "key": "num_beams",
+            "value": 1
+        },
+        {
+            "key": "num_labels",
+            "value": 2
+        },
+        {
+            "key": "num_return_sequences",
+            "value": 1
+        },
+        {
+            "key": "output_attentions",
+            "value": false
+        },
+        {
+            "key": "output_hidden_states",
+            "value": false
+        },
+        {
+            "key": "output_scores",
+            "value": false
+        },
+        {
+            "key": "pad_token_id",
+            "value": null
+        },
+        {
+            "key": "prefix",
+            "value": null
+        },
+        {
+            "key": "problem_type",
+            "value": null
+        },
+        {
+            "key": "pruned_heads",
+            "value": {}
+        },
+        {
+            "key": "remove_invalid_values",
+            "value": false
+        },
+        {
+            "key": "reorder_and_upcast_attn",
+            "value": false
+        },
+        {
+            "key": "repetition_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "resid_pdrop",
+            "value": 0.0
+        },
+        {
+            "key": "return_dict",
+            "value": true
+        },
+        {
+            "key": "return_dict_in_generate",
+            "value": false
+        },
+        {
+            "key": "scale_attn_by_inverse_layer_idx",
+            "value": false
+        },
+        {
+            "key": "scale_attn_weights",
+            "value": true
+        },
+        {
+            "key": "sep_token_id",
+            "value": null
+        },
+        {
+            "key": "sub_configs",
+            "value": {}
+        },
+        {
+            "key": "summary_activation",
+            "value": null
+        },
+        {
+            "key": "summary_first_dropout",
+            "value": 0.1
+        },
+        {
+            "key": "summary_proj_to_labels",
+            "value": true
+        },
+        {
+            "key": "summary_type",
+            "value": "cls_index"
+        },
+        {
+            "key": "summary_use_proj",
+            "value": true
+        },
+        {
+            "key": "suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "task_specific_params",
+            "value": null
+        },
+        {
+            "key": "temperature",
+            "value": 1.0
+        },
+        {
+            "key": "tf_legacy_loss",
+            "value": false
+        },
+        {
+            "key": "tie_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "tie_word_embeddings",
+            "value": true
+        },
+        {
+            "key": "tokenizer_class",
+            "value": null
+        },
+        {
+            "key": "top_k",
+            "value": 50
+        },
+        {
+            "key": "top_p",
+            "value": 1.0
+        },
+        {
+            "key": "torch_dtype",
+            "value": null
+        },
+        {
+            "key": "torchscript",
+            "value": false
+        },
+        {
+            "key": "transformers_version",
+            "value": null
+        },
+        {
+            "key": "typical_p",
+            "value": 1.0
+        },
+        {
+            "key": "use_bfloat16",
+            "value": false
+        },
+        {
+            "key": "use_cache",
+            "value": true
+        },
+        {
+            "key": "use_return_dict",
+            "value": true
+        },
+        {
+            "key": "vocab_size",
+            "value": 50257
+        }
+    ],
+    "weights_info": {
+        "total_parameters": 6658404352,
+        "layers": [
+            {
+                "layer_name": "wte.weight",
+                "shape": [
+                    50257,
+                    4096
+                ],
+                "num_parameters": 205852672,
+                "weight_mean": "-0.00039268727",
+                "weight_std": "0.019666087",
+                "min_value": "-0.21248484",
+                "max_value": "0.28148475"
+            },
+            {
+                "layer_name": "wpe.weight",
+                "shape": [
+                    2048,
+                    4096
+                ],
+                "num_parameters": 8388608,
+                "weight_mean": "-2.2208113e-07",
+                "weight_std": "0.011717586",
+                "min_value": "-0.34007657",
+                "max_value": "0.3882007"
+            },
+            {
+                "layer_name": "h.0.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.69304556",
+                "weight_std": "0.05076713",
+                "min_value": "0.4716725",
+                "max_value": "1.0421786"
+            },
+            {
+                "layer_name": "h.0.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.00027790654",
+                "weight_std": "0.008879366",
+                "min_value": "-0.035599496",
+                "max_value": "0.036199763"
+            },
+            {
+                "layer_name": "h.0.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-6.0328915e-07",
+                "weight_std": "0.011921289",
+                "min_value": "-0.11100732",
+                "max_value": "0.121695556"
+            },
+            {
+                "layer_name": "h.0.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-5.5250235e-05",
+                "weight_std": "0.021395097",
+                "min_value": "-0.20381442",
+                "max_value": "0.15748921"
+            },
+            {
+                "layer_name": "h.0.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "5.9358194e-07",
+                "weight_std": "0.007547321",
+                "min_value": "-0.18196447",
+                "max_value": "0.18766938"
+            },
+            {
+                "layer_name": "h.0.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "7.4911484e-05",
+                "weight_std": "0.011502023",
+                "min_value": "-0.2402254",
+                "max_value": "0.22089607"
+            },
+            {
+                "layer_name": "h.0.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9223751",
+                "weight_std": "0.04137589",
+                "min_value": "0.69057935",
+                "max_value": "1.0720798"
+            },
+            {
+                "layer_name": "h.0.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.00078280456",
+                "weight_std": "0.014512119",
+                "min_value": "-0.14449367",
+                "max_value": "0.208344"
+            },
+            {
+                "layer_name": "h.0.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-3.9696133e-05",
+                "weight_std": "0.018276699",
+                "min_value": "-0.13872609",
+                "max_value": "0.15452203"
+            },
+            {
+                "layer_name": "h.0.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.006259339",
+                "weight_std": "0.0033856875",
+                "min_value": "-0.019430483",
+                "max_value": "0.0075750323"
+            },
+            {
+                "layer_name": "h.0.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-4.766175e-06",
+                "weight_std": "0.010455691",
+                "min_value": "-0.17690898",
+                "max_value": "0.18794496"
+            },
+            {
+                "layer_name": "h.0.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.2035437e-05",
+                "weight_std": "0.01057784",
+                "min_value": "-0.16729926",
+                "max_value": "0.11023578"
+            },
+            {
+                "layer_name": "h.1.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.8533852",
+                "weight_std": "0.024083238",
+                "min_value": "0.7046596",
+                "max_value": "1.1215864"
+            },
+            {
+                "layer_name": "h.1.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0024969433",
+                "weight_std": "0.023798738",
+                "min_value": "-0.29398066",
+                "max_value": "0.21023118"
+            },
+            {
+                "layer_name": "h.1.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-4.2437145e-07",
+                "weight_std": "0.0155915525",
+                "min_value": "-0.2767772",
+                "max_value": "0.28689215"
+            },
+            {
+                "layer_name": "h.1.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "9.588696e-05",
+                "weight_std": "0.0071607893",
+                "min_value": "-0.053128283",
+                "max_value": "0.05031506"
+            },
+            {
+                "layer_name": "h.1.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "7.641341e-07",
+                "weight_std": "0.0070453268",
+                "min_value": "-0.26075366",
+                "max_value": "0.26057947"
+            },
+            {
+                "layer_name": "h.1.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.5942543e-05",
+                "weight_std": "0.013082091",
+                "min_value": "-0.06326622",
+                "max_value": "0.050066657"
+            },
+            {
+                "layer_name": "h.1.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0874093",
+                "weight_std": "0.06216471",
+                "min_value": "0.65455985",
+                "max_value": "1.2517467"
+            },
+            {
+                "layer_name": "h.1.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0015832912",
+                "weight_std": "0.040448576",
+                "min_value": "-0.1895526",
+                "max_value": "0.20003763"
+            },
+            {
+                "layer_name": "h.1.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "8.116991e-06",
+                "weight_std": "0.019169753",
+                "min_value": "-0.114301495",
+                "max_value": "0.13253947"
+            },
+            {
+                "layer_name": "h.1.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0037877485",
+                "weight_std": "0.003234106",
+                "min_value": "-0.03599374",
+                "max_value": "0.021677999"
+            },
+            {
+                "layer_name": "h.1.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-3.8519506e-06",
+                "weight_std": "0.011801157",
+                "min_value": "-0.18697888",
+                "max_value": "0.18427093"
+            },
+            {
+                "layer_name": "h.1.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.5142275e-05",
+                "weight_std": "0.0070768725",
+                "min_value": "-0.09846904",
+                "max_value": "0.076270655"
+            },
+            {
+                "layer_name": "h.2.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.8909532",
+                "weight_std": "0.025171978",
+                "min_value": "0.8197932",
+                "max_value": "1.1103207"
+            },
+            {
+                "layer_name": "h.2.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0022461435",
+                "weight_std": "0.025212409",
+                "min_value": "-0.16297592",
+                "max_value": "0.18382064"
+            },
+            {
+                "layer_name": "h.2.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "9.365677e-08",
+                "weight_std": "0.015913429",
+                "min_value": "-0.26478887",
+                "max_value": "0.29670784"
+            },
+            {
+                "layer_name": "h.2.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "9.076033e-05",
+                "weight_std": "0.009997932",
+                "min_value": "-0.082254775",
+                "max_value": "0.074229516"
+            },
+            {
+                "layer_name": "h.2.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "1.0974712e-07",
+                "weight_std": "0.008192689",
+                "min_value": "-0.28097597",
+                "max_value": "0.28073046"
+            },
+            {
+                "layer_name": "h.2.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.6076442e-05",
+                "weight_std": "0.012375496",
+                "min_value": "-0.059224453",
+                "max_value": "0.047953214"
+            },
+            {
+                "layer_name": "h.2.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1562326",
+                "weight_std": "0.07999821",
+                "min_value": "0.47550738",
+                "max_value": "1.3428217"
+            },
+            {
+                "layer_name": "h.2.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0015360673",
+                "weight_std": "0.059291136",
+                "min_value": "-0.219377",
+                "max_value": "0.23163484"
+            },
+            {
+                "layer_name": "h.2.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "2.6482083e-05",
+                "weight_std": "0.019453451",
+                "min_value": "-0.13471156",
+                "max_value": "0.13108602"
+            },
+            {
+                "layer_name": "h.2.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0058010756",
+                "weight_std": "0.004082277",
+                "min_value": "-0.032856796",
+                "max_value": "0.02213426"
+            },
+            {
+                "layer_name": "h.2.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.7841003e-06",
+                "weight_std": "0.013298423",
+                "min_value": "-0.21660066",
+                "max_value": "0.19223948"
+            },
+            {
+                "layer_name": "h.2.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.345887e-05",
+                "weight_std": "0.0069633466",
+                "min_value": "-0.12518598",
+                "max_value": "0.10065379"
+            },
+            {
+                "layer_name": "h.3.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.83246183",
+                "weight_std": "0.04126047",
+                "min_value": "0.7270644",
+                "max_value": "1.2774335"
+            },
+            {
+                "layer_name": "h.3.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0006781573",
+                "weight_std": "0.039822616",
+                "min_value": "-0.16494927",
+                "max_value": "0.16193971"
+            },
+            {
+                "layer_name": "h.3.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-1.0726429e-06",
+                "weight_std": "0.016006263",
+                "min_value": "-0.29505354",
+                "max_value": "0.28668615"
+            },
+            {
+                "layer_name": "h.3.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "0.00010821142",
+                "weight_std": "0.01350762",
+                "min_value": "-0.11327937",
+                "max_value": "0.11320305"
+            },
+            {
+                "layer_name": "h.3.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "1.3704006e-07",
+                "weight_std": "0.0085082175",
+                "min_value": "-0.16074857",
+                "max_value": "0.17241989"
+            },
+            {
+                "layer_name": "h.3.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.5921723e-05",
+                "weight_std": "0.014229067",
+                "min_value": "-0.07783249",
+                "max_value": "0.0804097"
+            },
+            {
+                "layer_name": "h.3.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1963638",
+                "weight_std": "0.09366675",
+                "min_value": "0.18597616",
+                "max_value": "1.4001887"
+            },
+            {
+                "layer_name": "h.3.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0017649306",
+                "weight_std": "0.08002692",
+                "min_value": "-0.239813",
+                "max_value": "0.24443556"
+            },
+            {
+                "layer_name": "h.3.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "2.632393e-05",
+                "weight_std": "0.019788487",
+                "min_value": "-0.131589",
+                "max_value": "0.14506547"
+            },
+            {
+                "layer_name": "h.3.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0062136836",
+                "weight_std": "0.0037096317",
+                "min_value": "-0.02230133",
+                "max_value": "0.015281564"
+            },
+            {
+                "layer_name": "h.3.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.576639e-06",
+                "weight_std": "0.013435235",
+                "min_value": "-0.19552901",
+                "max_value": "0.17823578"
+            },
+            {
+                "layer_name": "h.3.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.0773633e-05",
+                "weight_std": "0.005017818",
+                "min_value": "-0.07219093",
+                "max_value": "0.046973974"
+            },
+            {
+                "layer_name": "h.4.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.8662264",
+                "weight_std": "0.026625512",
+                "min_value": "0.7633668",
+                "max_value": "1.2191106"
+            },
+            {
+                "layer_name": "h.4.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0014293753",
+                "weight_std": "0.03786107",
+                "min_value": "-0.2372358",
+                "max_value": "0.23844336"
+            },
+            {
+                "layer_name": "h.4.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-5.209626e-07",
+                "weight_std": "0.017067239",
+                "min_value": "-0.30453807",
+                "max_value": "0.28650612"
+            },
+            {
+                "layer_name": "h.4.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-0.00021318946",
+                "weight_std": "0.011821804",
+                "min_value": "-0.10684884",
+                "max_value": "0.0944218"
+            },
+            {
+                "layer_name": "h.4.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-4.3142842e-07",
+                "weight_std": "0.009028752",
+                "min_value": "-0.2277107",
+                "max_value": "0.17072822"
+            },
+            {
+                "layer_name": "h.4.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.6184276e-05",
+                "weight_std": "0.012606232",
+                "min_value": "-0.13034305",
+                "max_value": "0.1212131"
+            },
+            {
+                "layer_name": "h.4.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1855109",
+                "weight_std": "0.096801296",
+                "min_value": "0.12512676",
+                "max_value": "1.3629476"
+            },
+            {
+                "layer_name": "h.4.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0022213277",
+                "weight_std": "0.074104",
+                "min_value": "-0.24395405",
+                "max_value": "0.25288165"
+            },
+            {
+                "layer_name": "h.4.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "1.6124888e-05",
+                "weight_std": "0.019602735",
+                "min_value": "-0.13004781",
+                "max_value": "0.14541776"
+            },
+            {
+                "layer_name": "h.4.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.006041648",
+                "weight_std": "0.0038609777",
+                "min_value": "-0.037250012",
+                "max_value": "0.020930594"
+            },
+            {
+                "layer_name": "h.4.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.4297275e-06",
+                "weight_std": "0.013013962",
+                "min_value": "-0.38817602",
+                "max_value": "0.24804677"
+            },
+            {
+                "layer_name": "h.4.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "2.196171e-05",
+                "weight_std": "0.0053874427",
+                "min_value": "-0.0500288",
+                "max_value": "0.039655667"
+            },
+            {
+                "layer_name": "h.5.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9091813",
+                "weight_std": "0.02472532",
+                "min_value": "0.6722296",
+                "max_value": "1.127462"
+            },
+            {
+                "layer_name": "h.5.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.002020209",
+                "weight_std": "0.03992228",
+                "min_value": "-0.29025242",
+                "max_value": "0.34134606"
+            },
+            {
+                "layer_name": "h.5.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-5.656379e-07",
+                "weight_std": "0.018067563",
+                "min_value": "-0.33333609",
+                "max_value": "0.3065496"
+            },
+            {
+                "layer_name": "h.5.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "2.1179207e-05",
+                "weight_std": "0.010257559",
+                "min_value": "-0.052807",
+                "max_value": "0.05411362"
+            },
+            {
+                "layer_name": "h.5.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-9.358182e-08",
+                "weight_std": "0.009590374",
+                "min_value": "-0.1655586",
+                "max_value": "0.23474318"
+            },
+            {
+                "layer_name": "h.5.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-2.170118e-06",
+                "weight_std": "0.012680925",
+                "min_value": "-0.1488224",
+                "max_value": "0.1271663"
+            },
+            {
+                "layer_name": "h.5.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1643907",
+                "weight_std": "0.092425294",
+                "min_value": "0.08504391",
+                "max_value": "1.3043662"
+            },
+            {
+                "layer_name": "h.5.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0024156221",
+                "weight_std": "0.063816145",
+                "min_value": "-0.22649789",
+                "max_value": "0.25150052"
+            },
+            {
+                "layer_name": "h.5.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "3.9174347e-06",
+                "weight_std": "0.019347144",
+                "min_value": "-0.1209679",
+                "max_value": "0.13860078"
+            },
+            {
+                "layer_name": "h.5.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.006387322",
+                "weight_std": "0.004692202",
+                "min_value": "-0.055524364",
+                "max_value": "0.03800318"
+            },
+            {
+                "layer_name": "h.5.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-2.437986e-06",
+                "weight_std": "0.01238327",
+                "min_value": "-0.4313944",
+                "max_value": "0.32245976"
+            },
+            {
+                "layer_name": "h.5.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "2.9653716e-05",
+                "weight_std": "0.005159044",
+                "min_value": "-0.045616057",
+                "max_value": "0.035848256"
+            },
+            {
+                "layer_name": "h.6.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9292117",
+                "weight_std": "0.024914553",
+                "min_value": "0.66887873",
+                "max_value": "1.0555875"
+            },
+            {
+                "layer_name": "h.6.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0021630183",
+                "weight_std": "0.03564168",
+                "min_value": "-0.28991133",
+                "max_value": "0.34083202"
+            },
+            {
+                "layer_name": "h.6.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-7.263436e-07",
+                "weight_std": "0.018819522",
+                "min_value": "-0.37243286",
+                "max_value": "0.3411486"
+            },
+            {
+                "layer_name": "h.6.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "1.2855812e-05",
+                "weight_std": "0.009787982",
+                "min_value": "-0.05071099",
+                "max_value": "0.055797536"
+            },
+            {
+                "layer_name": "h.6.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "4.1774592e-07",
+                "weight_std": "0.010173686",
+                "min_value": "-0.23063509",
+                "max_value": "0.28102994"
+            },
+            {
+                "layer_name": "h.6.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-1.1142492e-05",
+                "weight_std": "0.013416509",
+                "min_value": "-0.14372858",
+                "max_value": "0.10478756"
+            },
+            {
+                "layer_name": "h.6.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1418245",
+                "weight_std": "0.08064239",
+                "min_value": "0.11603106",
+                "max_value": "1.2535222"
+            },
+            {
+                "layer_name": "h.6.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0030098124",
+                "weight_std": "0.054581508",
+                "min_value": "-0.23510168",
+                "max_value": "0.2933669"
+            },
+            {
+                "layer_name": "h.6.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-8.154947e-07",
+                "weight_std": "0.019142812",
+                "min_value": "-0.1488902",
+                "max_value": "0.14815505"
+            },
+            {
+                "layer_name": "h.6.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0068141883",
+                "weight_std": "0.0047731656",
+                "min_value": "-0.05891077",
+                "max_value": "0.07464271"
+            },
+            {
+                "layer_name": "h.6.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.8429089e-06",
+                "weight_std": "0.012224786",
+                "min_value": "-0.38146958",
+                "max_value": "0.2522233"
+            },
+            {
+                "layer_name": "h.6.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "2.1896623e-05",
+                "weight_std": "0.006340918",
+                "min_value": "-0.048571914",
+                "max_value": "0.029222365"
+            },
+            {
+                "layer_name": "h.7.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9549686",
+                "weight_std": "0.025587263",
+                "min_value": "0.65818614",
+                "max_value": "1.0347803"
+            },
+            {
+                "layer_name": "h.7.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0023682073",
+                "weight_std": "0.030627523",
+                "min_value": "-0.27836677",
+                "max_value": "0.3432448"
+            },
+            {
+                "layer_name": "h.7.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-8.645079e-07",
+                "weight_std": "0.019257298",
+                "min_value": "-0.3839314",
+                "max_value": "0.453474"
+            },
+            {
+                "layer_name": "h.7.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "5.4926786e-06",
+                "weight_std": "0.009946914",
+                "min_value": "-0.056858234",
+                "max_value": "0.052687664"
+            },
+            {
+                "layer_name": "h.7.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "4.8681443e-07",
+                "weight_std": "0.0104750125",
+                "min_value": "-0.16934931",
+                "max_value": "0.13962512"
+            },
+            {
+                "layer_name": "h.7.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-8.847382e-06",
+                "weight_std": "0.013787138",
+                "min_value": "-0.100857936",
+                "max_value": "0.059723508"
+            },
+            {
+                "layer_name": "h.7.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1227893",
+                "weight_std": "0.07154222",
+                "min_value": "0.07836351",
+                "max_value": "1.2220466"
+            },
+            {
+                "layer_name": "h.7.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0032947697",
+                "weight_std": "0.057219166",
+                "min_value": "-0.25495133",
+                "max_value": "0.30806085"
+            },
+            {
+                "layer_name": "h.7.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-4.9172463e-06",
+                "weight_std": "0.018914247",
+                "min_value": "-0.12740009",
+                "max_value": "0.13927807"
+            },
+            {
+                "layer_name": "h.7.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.007139491",
+                "weight_std": "0.003942129",
+                "min_value": "-0.02398241",
+                "max_value": "0.04994644"
+            },
+            {
+                "layer_name": "h.7.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.1415237e-06",
+                "weight_std": "0.012439655",
+                "min_value": "-0.36822784",
+                "max_value": "0.25401875"
+            },
+            {
+                "layer_name": "h.7.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.215612e-05",
+                "weight_std": "0.0071983538",
+                "min_value": "-0.08498043",
+                "max_value": "0.064231366"
+            },
+            {
+                "layer_name": "h.8.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9256281",
+                "weight_std": "0.0202811",
+                "min_value": "0.676301",
+                "max_value": "0.9902666"
+            },
+            {
+                "layer_name": "h.8.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0022509727",
+                "weight_std": "0.02926785",
+                "min_value": "-0.23026346",
+                "max_value": "0.30448353"
+            },
+            {
+                "layer_name": "h.8.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-4.335419e-07",
+                "weight_std": "0.01923849",
+                "min_value": "-0.45349216",
+                "max_value": "0.43565163"
+            },
+            {
+                "layer_name": "h.8.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-1.2170368e-05",
+                "weight_std": "0.009906598",
+                "min_value": "-0.08274609",
+                "max_value": "0.07753013"
+            },
+            {
+                "layer_name": "h.8.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "1.1729505e-06",
+                "weight_std": "0.0106153805",
+                "min_value": "-0.21260972",
+                "max_value": "0.2561883"
+            },
+            {
+                "layer_name": "h.8.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-3.6811252e-07",
+                "weight_std": "0.01412381",
+                "min_value": "-0.07089481",
+                "max_value": "0.043030128"
+            },
+            {
+                "layer_name": "h.8.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1064565",
+                "weight_std": "0.063437104",
+                "min_value": "0.07382785",
+                "max_value": "1.215289"
+            },
+            {
+                "layer_name": "h.8.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0034141582",
+                "weight_std": "0.06787722",
+                "min_value": "-0.23915887",
+                "max_value": "0.28472418"
+            },
+            {
+                "layer_name": "h.8.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-4.303884e-07",
+                "weight_std": "0.018820846",
+                "min_value": "-0.16748399",
+                "max_value": "0.17047009"
+            },
+            {
+                "layer_name": "h.8.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.006380553",
+                "weight_std": "0.0037724406",
+                "min_value": "-0.02947396",
+                "max_value": "0.04761291"
+            },
+            {
+                "layer_name": "h.8.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.7736485e-06",
+                "weight_std": "0.012857452",
+                "min_value": "-0.36054832",
+                "max_value": "0.25745958"
+            },
+            {
+                "layer_name": "h.8.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.7862428e-05",
+                "weight_std": "0.0072790124",
+                "min_value": "-0.10767969",
+                "max_value": "0.0488432"
+            },
+            {
+                "layer_name": "h.9.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.95124865",
+                "weight_std": "0.023184126",
+                "min_value": "0.6885857",
+                "max_value": "1.047462"
+            },
+            {
+                "layer_name": "h.9.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0023470402",
+                "weight_std": "0.031353828",
+                "min_value": "-0.24029201",
+                "max_value": "0.29799286"
+            },
+            {
+                "layer_name": "h.9.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-3.647419e-07",
+                "weight_std": "0.017930023",
+                "min_value": "-0.35299218",
+                "max_value": "0.32590824"
+            },
+            {
+                "layer_name": "h.9.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-5.3123742e-05",
+                "weight_std": "0.009631299",
+                "min_value": "-0.06886994",
+                "max_value": "0.057339214"
+            },
+            {
+                "layer_name": "h.9.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "2.473664e-07",
+                "weight_std": "0.010885827",
+                "min_value": "-0.13534702",
+                "max_value": "0.17259029"
+            },
+            {
+                "layer_name": "h.9.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "7.5153257e-06",
+                "weight_std": "0.014236495",
+                "min_value": "-0.079453126",
+                "max_value": "0.03579153"
+            },
+            {
+                "layer_name": "h.9.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0810511",
+                "weight_std": "0.050503686",
+                "min_value": "0.18663278",
+                "max_value": "1.1507515"
+            },
+            {
+                "layer_name": "h.9.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.003057274",
+                "weight_std": "0.048081458",
+                "min_value": "-0.21908315",
+                "max_value": "0.2663632"
+            },
+            {
+                "layer_name": "h.9.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-8.110543e-06",
+                "weight_std": "0.018669961",
+                "min_value": "-0.13888742",
+                "max_value": "0.154135"
+            },
+            {
+                "layer_name": "h.9.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0058114533",
+                "weight_std": "0.0044962284",
+                "min_value": "-0.04057919",
+                "max_value": "0.061169013"
+            },
+            {
+                "layer_name": "h.9.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.6017436e-06",
+                "weight_std": "0.012558475",
+                "min_value": "-0.3613208",
+                "max_value": "0.34112772"
+            },
+            {
+                "layer_name": "h.9.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.438341e-05",
+                "weight_std": "0.007375812",
+                "min_value": "-0.13191657",
+                "max_value": "0.07132714"
+            },
+            {
+                "layer_name": "h.10.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9783698",
+                "weight_std": "0.024071895",
+                "min_value": "0.7406918",
+                "max_value": "1.1761528"
+            },
+            {
+                "layer_name": "h.10.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.002177433",
+                "weight_std": "0.020418772",
+                "min_value": "-0.16513701",
+                "max_value": "0.24081908"
+            },
+            {
+                "layer_name": "h.10.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-3.8867122e-07",
+                "weight_std": "0.017781988",
+                "min_value": "-0.3566204",
+                "max_value": "0.34756336"
+            },
+            {
+                "layer_name": "h.10.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-9.534502e-05",
+                "weight_std": "0.009382912",
+                "min_value": "-0.07235223",
+                "max_value": "0.07237878"
+            },
+            {
+                "layer_name": "h.10.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-5.7581076e-08",
+                "weight_std": "0.011375423",
+                "min_value": "-0.30385453",
+                "max_value": "0.30224028"
+            },
+            {
+                "layer_name": "h.10.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.8788374e-05",
+                "weight_std": "0.011973339",
+                "min_value": "-0.114955604",
+                "max_value": "0.06956571"
+            },
+            {
+                "layer_name": "h.10.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0586593",
+                "weight_std": "0.050333817",
+                "min_value": "0.14950071",
+                "max_value": "1.1429698"
+            },
+            {
+                "layer_name": "h.10.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0029695134",
+                "weight_std": "0.044192966",
+                "min_value": "-0.19185899",
+                "max_value": "0.25948155"
+            },
+            {
+                "layer_name": "h.10.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-8.3993145e-06",
+                "weight_std": "0.018392462",
+                "min_value": "-0.12836197",
+                "max_value": "0.14456981"
+            },
+            {
+                "layer_name": "h.10.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0058243955",
+                "weight_std": "0.004451837",
+                "min_value": "-0.022944469",
+                "max_value": "0.040509265"
+            },
+            {
+                "layer_name": "h.10.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-8.7775544e-07",
+                "weight_std": "0.012667728",
+                "min_value": "-0.34970436",
+                "max_value": "0.28293005"
+            },
+            {
+                "layer_name": "h.10.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.803822e-05",
+                "weight_std": "0.0077590505",
+                "min_value": "-0.15111127",
+                "max_value": "0.08649411"
+            },
+            {
+                "layer_name": "h.11.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9930255",
+                "weight_std": "0.02725605",
+                "min_value": "0.73261046",
+                "max_value": "1.1971607"
+            },
+            {
+                "layer_name": "h.11.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0022133328",
+                "weight_std": "0.02085405",
+                "min_value": "-0.22337058",
+                "max_value": "0.25613332"
+            },
+            {
+                "layer_name": "h.11.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-4.992059e-07",
+                "weight_std": "0.017937338",
+                "min_value": "-0.34106952",
+                "max_value": "0.32387805"
+            },
+            {
+                "layer_name": "h.11.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "7.951182e-05",
+                "weight_std": "0.009690289",
+                "min_value": "-0.08725583",
+                "max_value": "0.05239581"
+            },
+            {
+                "layer_name": "h.11.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-2.628226e-07",
+                "weight_std": "0.011769485",
+                "min_value": "-0.10602717",
+                "max_value": "0.13029645"
+            },
+            {
+                "layer_name": "h.11.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.765619e-05",
+                "weight_std": "0.012385204",
+                "min_value": "-0.15181386",
+                "max_value": "0.09128619"
+            },
+            {
+                "layer_name": "h.11.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0087852",
+                "weight_std": "0.04545142",
+                "min_value": "0.1300422",
+                "max_value": "1.1068387"
+            },
+            {
+                "layer_name": "h.11.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0027278664",
+                "weight_std": "0.040635996",
+                "min_value": "-0.1931361",
+                "max_value": "0.21085256"
+            },
+            {
+                "layer_name": "h.11.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.1770001e-05",
+                "weight_std": "0.01802788",
+                "min_value": "-0.21022674",
+                "max_value": "0.19119008"
+            },
+            {
+                "layer_name": "h.11.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0058545135",
+                "weight_std": "0.0043628006",
+                "min_value": "-0.044025317",
+                "max_value": "0.032850165"
+            },
+            {
+                "layer_name": "h.11.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-6.080556e-07",
+                "weight_std": "0.012721517",
+                "min_value": "-0.3528055",
+                "max_value": "0.29509285"
+            },
+            {
+                "layer_name": "h.11.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "2.1800937e-05",
+                "weight_std": "0.0063932263",
+                "min_value": "-0.1544193",
+                "max_value": "0.056379627"
+            },
+            {
+                "layer_name": "h.12.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9942008",
+                "weight_std": "0.027661156",
+                "min_value": "0.7140801",
+                "max_value": "1.1940131"
+            },
+            {
+                "layer_name": "h.12.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0021859487",
+                "weight_std": "0.01910605",
+                "min_value": "-0.21252128",
+                "max_value": "0.25410888"
+            },
+            {
+                "layer_name": "h.12.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-9.697144e-07",
+                "weight_std": "0.017788554",
+                "min_value": "-0.31485677",
+                "max_value": "0.28438434"
+            },
+            {
+                "layer_name": "h.12.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-2.3451563e-05",
+                "weight_std": "0.009476814",
+                "min_value": "-0.06803435",
+                "max_value": "0.06929619"
+            },
+            {
+                "layer_name": "h.12.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "5.6955594e-07",
+                "weight_std": "0.012418962",
+                "min_value": "-0.15605325",
+                "max_value": "0.28620303"
+            },
+            {
+                "layer_name": "h.12.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.2243952e-05",
+                "weight_std": "0.010845173",
+                "min_value": "-0.15814959",
+                "max_value": "0.07452001"
+            },
+            {
+                "layer_name": "h.12.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.98776865",
+                "weight_std": "0.038093895",
+                "min_value": "0.19791675",
+                "max_value": "1.0706819"
+            },
+            {
+                "layer_name": "h.12.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0026771065",
+                "weight_std": "0.035471097",
+                "min_value": "-0.21165563",
+                "max_value": "0.19992954"
+            },
+            {
+                "layer_name": "h.12.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.2433341e-05",
+                "weight_std": "0.01790657",
+                "min_value": "-0.18263866",
+                "max_value": "0.1904757"
+            },
+            {
+                "layer_name": "h.12.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.005604786",
+                "weight_std": "0.0045160702",
+                "min_value": "-0.024329396",
+                "max_value": "0.037496153"
+            },
+            {
+                "layer_name": "h.12.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "2.3669423e-07",
+                "weight_std": "0.013053499",
+                "min_value": "-0.35867992",
+                "max_value": "0.43014622"
+            },
+            {
+                "layer_name": "h.12.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.7816405e-05",
+                "weight_std": "0.0061702114",
+                "min_value": "-0.1516007",
+                "max_value": "0.051402327"
+            },
+            {
+                "layer_name": "h.13.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9994458",
+                "weight_std": "0.028267873",
+                "min_value": "0.7347956",
+                "max_value": "1.1095835"
+            },
+            {
+                "layer_name": "h.13.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0016867056",
+                "weight_std": "0.019832816",
+                "min_value": "-0.1561353",
+                "max_value": "0.24832891"
+            },
+            {
+                "layer_name": "h.13.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-6.480099e-07",
+                "weight_std": "0.017626654",
+                "min_value": "-0.29688618",
+                "max_value": "0.31640363"
+            },
+            {
+                "layer_name": "h.13.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-8.174744e-05",
+                "weight_std": "0.009314326",
+                "min_value": "-0.05872656",
+                "max_value": "0.053332966"
+            },
+            {
+                "layer_name": "h.13.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-9.008602e-08",
+                "weight_std": "0.012528078",
+                "min_value": "-0.1318877",
+                "max_value": "0.1195722"
+            },
+            {
+                "layer_name": "h.13.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "2.7701059e-05",
+                "weight_std": "0.01150798",
+                "min_value": "-0.16599078",
+                "max_value": "0.063433334"
+            },
+            {
+                "layer_name": "h.13.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9951645",
+                "weight_std": "0.039061982",
+                "min_value": "0.15693448",
+                "max_value": "1.0723357"
+            },
+            {
+                "layer_name": "h.13.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0028789905",
+                "weight_std": "0.04468863",
+                "min_value": "-0.19002566",
+                "max_value": "0.24298769"
+            },
+            {
+                "layer_name": "h.13.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.2408261e-05",
+                "weight_std": "0.01792955",
+                "min_value": "-0.149022",
+                "max_value": "0.14325152"
+            },
+            {
+                "layer_name": "h.13.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.005714378",
+                "weight_std": "0.004635759",
+                "min_value": "-0.04305959",
+                "max_value": "0.05004938"
+            },
+            {
+                "layer_name": "h.13.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.0905944e-07",
+                "weight_std": "0.013504832",
+                "min_value": "-0.3330998",
+                "max_value": "0.33416483"
+            },
+            {
+                "layer_name": "h.13.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.5807691e-05",
+                "weight_std": "0.0063986387",
+                "min_value": "-0.1544447",
+                "max_value": "0.078822576"
+            },
+            {
+                "layer_name": "h.14.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0001584",
+                "weight_std": "0.029446222",
+                "min_value": "0.7211109",
+                "max_value": "1.0809174"
+            },
+            {
+                "layer_name": "h.14.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0015913458",
+                "weight_std": "0.019179258",
+                "min_value": "-0.14541565",
+                "max_value": "0.26891494"
+            },
+            {
+                "layer_name": "h.14.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-1.432113e-06",
+                "weight_std": "0.017394066",
+                "min_value": "-0.27988517",
+                "max_value": "0.28824577"
+            },
+            {
+                "layer_name": "h.14.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-0.00012464309",
+                "weight_std": "0.009451106",
+                "min_value": "-0.06309689",
+                "max_value": "0.055203278"
+            },
+            {
+                "layer_name": "h.14.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "2.9739007e-07",
+                "weight_std": "0.013217375",
+                "min_value": "-0.14014958",
+                "max_value": "0.14328359"
+            },
+            {
+                "layer_name": "h.14.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.4796692e-05",
+                "weight_std": "0.011660844",
+                "min_value": "-0.1940334",
+                "max_value": "0.082474716"
+            },
+            {
+                "layer_name": "h.14.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0006683",
+                "weight_std": "0.037537772",
+                "min_value": "0.19340199",
+                "max_value": "1.0879189"
+            },
+            {
+                "layer_name": "h.14.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0029986356",
+                "weight_std": "0.046887822",
+                "min_value": "-0.20004688",
+                "max_value": "0.2839115"
+            },
+            {
+                "layer_name": "h.14.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.1979124e-05",
+                "weight_std": "0.017953029",
+                "min_value": "-0.18708159",
+                "max_value": "0.19984171"
+            },
+            {
+                "layer_name": "h.14.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.006057578",
+                "weight_std": "0.004533041",
+                "min_value": "-0.062870935",
+                "max_value": "0.047525264"
+            },
+            {
+                "layer_name": "h.14.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-3.2983916e-08",
+                "weight_std": "0.014013672",
+                "min_value": "-0.32685876",
+                "max_value": "0.30724373"
+            },
+            {
+                "layer_name": "h.14.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "2.5777661e-05",
+                "weight_std": "0.0061467513",
+                "min_value": "-0.16917798",
+                "max_value": "0.052601866"
+            },
+            {
+                "layer_name": "h.15.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.988658",
+                "weight_std": "0.026881361",
+                "min_value": "0.6946819",
+                "max_value": "1.1740658"
+            },
+            {
+                "layer_name": "h.15.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0017109071",
+                "weight_std": "0.023092873",
+                "min_value": "-0.15136836",
+                "max_value": "0.2967539"
+            },
+            {
+                "layer_name": "h.15.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-5.6158575e-07",
+                "weight_std": "0.017549561",
+                "min_value": "-0.32111755",
+                "max_value": "0.30259684"
+            },
+            {
+                "layer_name": "h.15.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "4.457512e-05",
+                "weight_std": "0.009812927",
+                "min_value": "-0.06742511",
+                "max_value": "0.07350156"
+            },
+            {
+                "layer_name": "h.15.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-6.302558e-07",
+                "weight_std": "0.013247578",
+                "min_value": "-0.1245173",
+                "max_value": "0.123951085"
+            },
+            {
+                "layer_name": "h.15.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.1650724e-05",
+                "weight_std": "0.012112297",
+                "min_value": "-0.19492617",
+                "max_value": "0.061611686"
+            },
+            {
+                "layer_name": "h.15.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9843371",
+                "weight_std": "0.033061463",
+                "min_value": "0.23098142",
+                "max_value": "1.0618712"
+            },
+            {
+                "layer_name": "h.15.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0026914552",
+                "weight_std": "0.047718506",
+                "min_value": "-0.16251668",
+                "max_value": "0.28666672"
+            },
+            {
+                "layer_name": "h.15.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.8786171e-05",
+                "weight_std": "0.017850583",
+                "min_value": "-0.14807369",
+                "max_value": "0.12539944"
+            },
+            {
+                "layer_name": "h.15.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0062804124",
+                "weight_std": "0.0044500497",
+                "min_value": "-0.039989986",
+                "max_value": "0.03537113"
+            },
+            {
+                "layer_name": "h.15.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "2.1460278e-07",
+                "weight_std": "0.0140225645",
+                "min_value": "-0.27625886",
+                "max_value": "0.27821103"
+            },
+            {
+                "layer_name": "h.15.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "2.6532296e-05",
+                "weight_std": "0.005417634",
+                "min_value": "-0.14478809",
+                "max_value": "0.06198988"
+            },
+            {
+                "layer_name": "h.16.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9752405",
+                "weight_std": "0.02263268",
+                "min_value": "0.7106592",
+                "max_value": "1.1914127"
+            },
+            {
+                "layer_name": "h.16.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0013386721",
+                "weight_std": "0.020871472",
+                "min_value": "-0.16801268",
+                "max_value": "0.263141"
+            },
+            {
+                "layer_name": "h.16.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "2.6076668e-08",
+                "weight_std": "0.017439425",
+                "min_value": "-0.33481663",
+                "max_value": "0.3234207"
+            },
+            {
+                "layer_name": "h.16.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-0.00013439455",
+                "weight_std": "0.010235938",
+                "min_value": "-0.1477461",
+                "max_value": "0.13400854"
+            },
+            {
+                "layer_name": "h.16.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "6.3753606e-07",
+                "weight_std": "0.013530502",
+                "min_value": "-0.35135186",
+                "max_value": "0.25711983"
+            },
+            {
+                "layer_name": "h.16.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.874806e-05",
+                "weight_std": "0.011002697",
+                "min_value": "-0.16045009",
+                "max_value": "0.048536018"
+            },
+            {
+                "layer_name": "h.16.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0288366",
+                "weight_std": "0.038910735",
+                "min_value": "0.120934784",
+                "max_value": "1.1275067"
+            },
+            {
+                "layer_name": "h.16.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.00309135",
+                "weight_std": "0.059439152",
+                "min_value": "-0.23268737",
+                "max_value": "0.34870717"
+            },
+            {
+                "layer_name": "h.16.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.4175893e-05",
+                "weight_std": "0.01816013",
+                "min_value": "-0.18503298",
+                "max_value": "0.17007856"
+            },
+            {
+                "layer_name": "h.16.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0064294506",
+                "weight_std": "0.004025893",
+                "min_value": "-0.036612064",
+                "max_value": "0.051702604"
+            },
+            {
+                "layer_name": "h.16.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "1.9365531e-07",
+                "weight_std": "0.014691582",
+                "min_value": "-0.39498237",
+                "max_value": "0.24894685"
+            },
+            {
+                "layer_name": "h.16.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "2.894599e-05",
+                "weight_std": "0.00552753",
+                "min_value": "-0.15269835",
+                "max_value": "0.08469619"
+            },
+            {
+                "layer_name": "h.17.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9686226",
+                "weight_std": "0.022516208",
+                "min_value": "0.654972",
+                "max_value": "1.0818925"
+            },
+            {
+                "layer_name": "h.17.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0012525144",
+                "weight_std": "0.025094043",
+                "min_value": "-0.1787354",
+                "max_value": "0.30915892"
+            },
+            {
+                "layer_name": "h.17.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-7.0105017e-07",
+                "weight_std": "0.017355334",
+                "min_value": "-0.29361978",
+                "max_value": "0.27524975"
+            },
+            {
+                "layer_name": "h.17.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-4.8783527e-06",
+                "weight_std": "0.009939366",
+                "min_value": "-0.065040216",
+                "max_value": "0.06599653"
+            },
+            {
+                "layer_name": "h.17.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "4.2762676e-07",
+                "weight_std": "0.013439505",
+                "min_value": "-0.17560658",
+                "max_value": "0.17133604"
+            },
+            {
+                "layer_name": "h.17.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.3760137e-05",
+                "weight_std": "0.011533268",
+                "min_value": "-0.16852869",
+                "max_value": "0.056447808"
+            },
+            {
+                "layer_name": "h.17.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0369432",
+                "weight_std": "0.036298443",
+                "min_value": "0.14503783",
+                "max_value": "1.1135569"
+            },
+            {
+                "layer_name": "h.17.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0032179672",
+                "weight_std": "0.05763677",
+                "min_value": "-0.20472485",
+                "max_value": "0.32493272"
+            },
+            {
+                "layer_name": "h.17.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.4623979e-05",
+                "weight_std": "0.018210318",
+                "min_value": "-0.22124566",
+                "max_value": "0.18893968"
+            },
+            {
+                "layer_name": "h.17.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0066205794",
+                "weight_std": "0.003865122",
+                "min_value": "-0.033195835",
+                "max_value": "0.030740002"
+            },
+            {
+                "layer_name": "h.17.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-4.814735e-07",
+                "weight_std": "0.014916019",
+                "min_value": "-0.48564643",
+                "max_value": "0.368371"
+            },
+            {
+                "layer_name": "h.17.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.486435e-05",
+                "weight_std": "0.0059043397",
+                "min_value": "-0.1693834",
+                "max_value": "0.070620894"
+            },
+            {
+                "layer_name": "h.18.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9561702",
+                "weight_std": "0.021724498",
+                "min_value": "0.61744034",
+                "max_value": "1.1131516"
+            },
+            {
+                "layer_name": "h.18.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0011828432",
+                "weight_std": "0.025627619",
+                "min_value": "-0.19213392",
+                "max_value": "0.3564725"
+            },
+            {
+                "layer_name": "h.18.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-5.149781e-07",
+                "weight_std": "0.017365849",
+                "min_value": "-0.28397146",
+                "max_value": "0.2854355"
+            },
+            {
+                "layer_name": "h.18.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-5.035392e-05",
+                "weight_std": "0.009860595",
+                "min_value": "-0.072943576",
+                "max_value": "0.06883585"
+            },
+            {
+                "layer_name": "h.18.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "2.81904e-07",
+                "weight_std": "0.013532509",
+                "min_value": "-0.12440286",
+                "max_value": "0.12125509"
+            },
+            {
+                "layer_name": "h.18.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.14527e-05",
+                "weight_std": "0.011534089",
+                "min_value": "-0.17080082",
+                "max_value": "0.07967936"
+            },
+            {
+                "layer_name": "h.18.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.043201",
+                "weight_std": "0.03528319",
+                "min_value": "0.12583609",
+                "max_value": "1.1116446"
+            },
+            {
+                "layer_name": "h.18.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.003010493",
+                "weight_std": "0.057541415",
+                "min_value": "-0.21762279",
+                "max_value": "0.3420612"
+            },
+            {
+                "layer_name": "h.18.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.6726237e-05",
+                "weight_std": "0.018241918",
+                "min_value": "-0.18639329",
+                "max_value": "0.18196216"
+            },
+            {
+                "layer_name": "h.18.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.006755226",
+                "weight_std": "0.0038168181",
+                "min_value": "-0.036441945",
+                "max_value": "0.020434292"
+            },
+            {
+                "layer_name": "h.18.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-4.6158223e-07",
+                "weight_std": "0.015102571",
+                "min_value": "-0.2719861",
+                "max_value": "0.25794116"
+            },
+            {
+                "layer_name": "h.18.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.8438167e-05",
+                "weight_std": "0.0059613124",
+                "min_value": "-0.18093832",
+                "max_value": "0.08976618"
+            },
+            {
+                "layer_name": "h.19.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9491074",
+                "weight_std": "0.023183852",
+                "min_value": "0.63867867",
+                "max_value": "1.2179673"
+            },
+            {
+                "layer_name": "h.19.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.00091734447",
+                "weight_std": "0.02447717",
+                "min_value": "-0.20207657",
+                "max_value": "0.3022952"
+            },
+            {
+                "layer_name": "h.19.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-7.557169e-07",
+                "weight_std": "0.017395122",
+                "min_value": "-0.2771238",
+                "max_value": "0.2879197"
+            },
+            {
+                "layer_name": "h.19.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-6.4627326e-05",
+                "weight_std": "0.013161576",
+                "min_value": "-0.20930992",
+                "max_value": "0.1790638"
+            },
+            {
+                "layer_name": "h.19.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "4.9838286e-07",
+                "weight_std": "0.014112125",
+                "min_value": "-0.30202568",
+                "max_value": "0.29739684"
+            },
+            {
+                "layer_name": "h.19.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.288799e-05",
+                "weight_std": "0.011734189",
+                "min_value": "-0.1777217",
+                "max_value": "0.12603787"
+            },
+            {
+                "layer_name": "h.19.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.037973",
+                "weight_std": "0.0336767",
+                "min_value": "0.10455017",
+                "max_value": "1.1118919"
+            },
+            {
+                "layer_name": "h.19.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0028189395",
+                "weight_std": "0.05835576",
+                "min_value": "-0.20639096",
+                "max_value": "0.31418234"
+            },
+            {
+                "layer_name": "h.19.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.9620835e-05",
+                "weight_std": "0.018213456",
+                "min_value": "-0.17256923",
+                "max_value": "0.1528015"
+            },
+            {
+                "layer_name": "h.19.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0073628197",
+                "weight_std": "0.003821634",
+                "min_value": "-0.03499084",
+                "max_value": "0.04457179"
+            },
+            {
+                "layer_name": "h.19.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-4.137535e-07",
+                "weight_std": "0.015219206",
+                "min_value": "-0.35834494",
+                "max_value": "0.2615577"
+            },
+            {
+                "layer_name": "h.19.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.220872e-05",
+                "weight_std": "0.0065367296",
+                "min_value": "-0.17296438",
+                "max_value": "0.124447465"
+            },
+            {
+                "layer_name": "h.20.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.93857515",
+                "weight_std": "0.023588318",
+                "min_value": "0.64424",
+                "max_value": "1.0596154"
+            },
+            {
+                "layer_name": "h.20.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0007584861",
+                "weight_std": "0.026389861",
+                "min_value": "-0.20349045",
+                "max_value": "0.3090826"
+            },
+            {
+                "layer_name": "h.20.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-1.1806529e-06",
+                "weight_std": "0.0173185",
+                "min_value": "-0.30397397",
+                "max_value": "0.29864717"
+            },
+            {
+                "layer_name": "h.20.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-9.186254e-06",
+                "weight_std": "0.011324837",
+                "min_value": "-0.07849708",
+                "max_value": "0.07551613"
+            },
+            {
+                "layer_name": "h.20.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-4.7620327e-07",
+                "weight_std": "0.014033476",
+                "min_value": "-0.18633877",
+                "max_value": "0.1947097"
+            },
+            {
+                "layer_name": "h.20.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.9298702e-05",
+                "weight_std": "0.011024188",
+                "min_value": "-0.15830968",
+                "max_value": "0.1640204"
+            },
+            {
+                "layer_name": "h.20.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0601982",
+                "weight_std": "0.034481224",
+                "min_value": "0.1062496",
+                "max_value": "1.1305326"
+            },
+            {
+                "layer_name": "h.20.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0029698417",
+                "weight_std": "0.057673693",
+                "min_value": "-0.20346574",
+                "max_value": "0.3392172"
+            },
+            {
+                "layer_name": "h.20.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.8313816e-05",
+                "weight_std": "0.018351752",
+                "min_value": "-0.21039331",
+                "max_value": "0.20012325"
+            },
+            {
+                "layer_name": "h.20.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0072537395",
+                "weight_std": "0.0034529532",
+                "min_value": "-0.027862135",
+                "max_value": "0.03060642"
+            },
+            {
+                "layer_name": "h.20.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "3.2655564e-07",
+                "weight_std": "0.015416351",
+                "min_value": "-0.30703983",
+                "max_value": "0.2608586"
+            },
+            {
+                "layer_name": "h.20.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.3337255e-05",
+                "weight_std": "0.006821859",
+                "min_value": "-0.1667751",
+                "max_value": "0.14428969"
+            },
+            {
+                "layer_name": "h.21.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.94723046",
+                "weight_std": "0.024845414",
+                "min_value": "0.6648832",
+                "max_value": "1.1908653"
+            },
+            {
+                "layer_name": "h.21.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.000640933",
+                "weight_std": "0.02701377",
+                "min_value": "-0.23293738",
+                "max_value": "0.27696395"
+            },
+            {
+                "layer_name": "h.21.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-7.956077e-07",
+                "weight_std": "0.017358465",
+                "min_value": "-0.24598801",
+                "max_value": "0.2522291"
+            },
+            {
+                "layer_name": "h.21.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "8.1647195e-05",
+                "weight_std": "0.011752428",
+                "min_value": "-0.07214671",
+                "max_value": "0.071178146"
+            },
+            {
+                "layer_name": "h.21.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "8.636499e-07",
+                "weight_std": "0.014214137",
+                "min_value": "-0.27200723",
+                "max_value": "0.22259837"
+            },
+            {
+                "layer_name": "h.21.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.2658037e-05",
+                "weight_std": "0.011068047",
+                "min_value": "-0.15427205",
+                "max_value": "0.1840844"
+            },
+            {
+                "layer_name": "h.21.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0611687",
+                "weight_std": "0.033005636",
+                "min_value": "0.1000304",
+                "max_value": "1.1362966"
+            },
+            {
+                "layer_name": "h.21.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.002777638",
+                "weight_std": "0.06087896",
+                "min_value": "-0.17422402",
+                "max_value": "0.2706672"
+            },
+            {
+                "layer_name": "h.21.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.7631353e-05",
+                "weight_std": "0.018398637",
+                "min_value": "-0.101082705",
+                "max_value": "0.10790093"
+            },
+            {
+                "layer_name": "h.21.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.008016041",
+                "weight_std": "0.0035514664",
+                "min_value": "-0.031686485",
+                "max_value": "0.028491165"
+            },
+            {
+                "layer_name": "h.21.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "3.100798e-07",
+                "weight_std": "0.015530516",
+                "min_value": "-0.3517526",
+                "max_value": "0.24428046"
+            },
+            {
+                "layer_name": "h.21.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "4.7450176e-05",
+                "weight_std": "0.0074193384",
+                "min_value": "-0.16335276",
+                "max_value": "0.16226088"
+            },
+            {
+                "layer_name": "h.22.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.91899586",
+                "weight_std": "0.024120273",
+                "min_value": "0.60388505",
+                "max_value": "1.1748174"
+            },
+            {
+                "layer_name": "h.22.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.00071582955",
+                "weight_std": "0.029834576",
+                "min_value": "-0.22793764",
+                "max_value": "0.32565925"
+            },
+            {
+                "layer_name": "h.22.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-5.466281e-07",
+                "weight_std": "0.017328367",
+                "min_value": "-0.2616399",
+                "max_value": "0.24852458"
+            },
+            {
+                "layer_name": "h.22.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-2.0459083e-05",
+                "weight_std": "0.011807745",
+                "min_value": "-0.08597909",
+                "max_value": "0.09002883"
+            },
+            {
+                "layer_name": "h.22.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "2.7230453e-07",
+                "weight_std": "0.013946504",
+                "min_value": "-0.21851468",
+                "max_value": "0.20851034"
+            },
+            {
+                "layer_name": "h.22.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.6324767e-05",
+                "weight_std": "0.011157596",
+                "min_value": "-0.13210459",
+                "max_value": "0.2191076"
+            },
+            {
+                "layer_name": "h.22.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0891397",
+                "weight_std": "0.03304463",
+                "min_value": "0.11191742",
+                "max_value": "1.1583544"
+            },
+            {
+                "layer_name": "h.22.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0027656003",
+                "weight_std": "0.059400536",
+                "min_value": "-0.13651183",
+                "max_value": "0.24265637"
+            },
+            {
+                "layer_name": "h.22.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-2.0381869e-05",
+                "weight_std": "0.018588178",
+                "min_value": "-0.10705861",
+                "max_value": "0.129293"
+            },
+            {
+                "layer_name": "h.22.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.008163648",
+                "weight_std": "0.0034877334",
+                "min_value": "-0.027861103",
+                "max_value": "0.012415845"
+            },
+            {
+                "layer_name": "h.22.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "1.6243207e-07",
+                "weight_std": "0.015810747",
+                "min_value": "-0.41704392",
+                "max_value": "0.24272907"
+            },
+            {
+                "layer_name": "h.22.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.182648e-05",
+                "weight_std": "0.008420695",
+                "min_value": "-0.16252887",
+                "max_value": "0.18431759"
+            },
+            {
+                "layer_name": "h.23.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9217413",
+                "weight_std": "0.024592934",
+                "min_value": "0.59178764",
+                "max_value": "1.1867665"
+            },
+            {
+                "layer_name": "h.23.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0005299897",
+                "weight_std": "0.02879582",
+                "min_value": "-0.2390205",
+                "max_value": "0.3304925"
+            },
+            {
+                "layer_name": "h.23.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-1.5304943e-07",
+                "weight_std": "0.017242553",
+                "min_value": "-0.18900612",
+                "max_value": "0.19306643"
+            },
+            {
+                "layer_name": "h.23.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "2.6382855e-05",
+                "weight_std": "0.013093494",
+                "min_value": "-0.10215247",
+                "max_value": "0.10569017"
+            },
+            {
+                "layer_name": "h.23.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "8.659286e-08",
+                "weight_std": "0.0140414145",
+                "min_value": "-0.2440599",
+                "max_value": "0.23667783"
+            },
+            {
+                "layer_name": "h.23.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.3796568e-05",
+                "weight_std": "0.010101183",
+                "min_value": "-0.13367738",
+                "max_value": "0.24136052"
+            },
+            {
+                "layer_name": "h.23.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0815814",
+                "weight_std": "0.03255303",
+                "min_value": "0.15117261",
+                "max_value": "1.1479146"
+            },
+            {
+                "layer_name": "h.23.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0026085076",
+                "weight_std": "0.05738047",
+                "min_value": "-0.19813399",
+                "max_value": "0.27425057"
+            },
+            {
+                "layer_name": "h.23.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.9755702e-05",
+                "weight_std": "0.018540757",
+                "min_value": "-0.10175575",
+                "max_value": "0.11479555"
+            },
+            {
+                "layer_name": "h.23.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.008418504",
+                "weight_std": "0.003535696",
+                "min_value": "-0.02981199",
+                "max_value": "0.016246453"
+            },
+            {
+                "layer_name": "h.23.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "2.3198359e-07",
+                "weight_std": "0.015822338",
+                "min_value": "-0.42682362",
+                "max_value": "0.23809864"
+            },
+            {
+                "layer_name": "h.23.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.641867e-05",
+                "weight_std": "0.008312164",
+                "min_value": "-0.16363466",
+                "max_value": "0.19319057"
+            },
+            {
+                "layer_name": "h.24.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.90969795",
+                "weight_std": "0.028508134",
+                "min_value": "0.5269639",
+                "max_value": "1.1042631"
+            },
+            {
+                "layer_name": "h.24.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.00022267751",
+                "weight_std": "0.03061171",
+                "min_value": "-0.27661723",
+                "max_value": "0.3941773"
+            },
+            {
+                "layer_name": "h.24.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-2.7825084e-07",
+                "weight_std": "0.017438745",
+                "min_value": "-0.1389886",
+                "max_value": "0.13906062"
+            },
+            {
+                "layer_name": "h.24.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-0.0001603554",
+                "weight_std": "0.01221504",
+                "min_value": "-0.09421582",
+                "max_value": "0.09390482"
+            },
+            {
+                "layer_name": "h.24.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "7.605834e-07",
+                "weight_std": "0.013910474",
+                "min_value": "-0.14369345",
+                "max_value": "0.16496171"
+            },
+            {
+                "layer_name": "h.24.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.8679958e-05",
+                "weight_std": "0.0098806275",
+                "min_value": "-0.13182856",
+                "max_value": "0.24188918"
+            },
+            {
+                "layer_name": "h.24.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0880852",
+                "weight_std": "0.03330558",
+                "min_value": "0.17349494",
+                "max_value": "1.1588616"
+            },
+            {
+                "layer_name": "h.24.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0025821878",
+                "weight_std": "0.051861305",
+                "min_value": "-0.24152945",
+                "max_value": "0.25253415"
+            },
+            {
+                "layer_name": "h.24.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.9485045e-05",
+                "weight_std": "0.01859473",
+                "min_value": "-0.10489583",
+                "max_value": "0.12359413"
+            },
+            {
+                "layer_name": "h.24.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.008302165",
+                "weight_std": "0.0036450964",
+                "min_value": "-0.029417401",
+                "max_value": "0.012383112"
+            },
+            {
+                "layer_name": "h.24.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "2.4676422e-07",
+                "weight_std": "0.015898945",
+                "min_value": "-0.3366001",
+                "max_value": "0.16399258"
+            },
+            {
+                "layer_name": "h.24.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "6.3142215e-05",
+                "weight_std": "0.008648872",
+                "min_value": "-0.1620008",
+                "max_value": "0.18642507"
+            },
+            {
+                "layer_name": "h.25.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.91369075",
+                "weight_std": "0.027704144",
+                "min_value": "0.59797084",
+                "max_value": "1.1546191"
+            },
+            {
+                "layer_name": "h.25.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.00026464634",
+                "weight_std": "0.030636907",
+                "min_value": "-0.25658584",
+                "max_value": "0.32329097"
+            },
+            {
+                "layer_name": "h.25.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-1.8472872e-07",
+                "weight_std": "0.017420016",
+                "min_value": "-0.17821747",
+                "max_value": "0.1776244"
+            },
+            {
+                "layer_name": "h.25.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-0.0001007473",
+                "weight_std": "0.011540863",
+                "min_value": "-0.07934672",
+                "max_value": "0.09552688"
+            },
+            {
+                "layer_name": "h.25.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "1.5033412e-07",
+                "weight_std": "0.013818176",
+                "min_value": "-0.24883194",
+                "max_value": "0.27998212"
+            },
+            {
+                "layer_name": "h.25.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "6.649671e-05",
+                "weight_std": "0.010259698",
+                "min_value": "-0.13771734",
+                "max_value": "0.2239504"
+            },
+            {
+                "layer_name": "h.25.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1131611",
+                "weight_std": "0.03353696",
+                "min_value": "0.165598",
+                "max_value": "1.1743445"
+            },
+            {
+                "layer_name": "h.25.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0023288613",
+                "weight_std": "0.05137633",
+                "min_value": "-0.19304037",
+                "max_value": "0.22734402"
+            },
+            {
+                "layer_name": "h.25.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-2.2996677e-05",
+                "weight_std": "0.018737063",
+                "min_value": "-0.1320456",
+                "max_value": "0.124883026"
+            },
+            {
+                "layer_name": "h.25.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.008573049",
+                "weight_std": "0.0035413033",
+                "min_value": "-0.045912392",
+                "max_value": "0.026717773"
+            },
+            {
+                "layer_name": "h.25.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "3.1816313e-07",
+                "weight_std": "0.016121361",
+                "min_value": "-0.44204825",
+                "max_value": "0.16410689"
+            },
+            {
+                "layer_name": "h.25.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "7.0128066e-05",
+                "weight_std": "0.009087051",
+                "min_value": "-0.16950278",
+                "max_value": "0.17578064"
+            },
+            {
+                "layer_name": "h.26.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.9173327",
+                "weight_std": "0.026907723",
+                "min_value": "0.62350863",
+                "max_value": "1.1733061"
+            },
+            {
+                "layer_name": "h.26.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.00025258068",
+                "weight_std": "0.030379072",
+                "min_value": "-0.24658763",
+                "max_value": "0.28500628"
+            },
+            {
+                "layer_name": "h.26.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "2.6611156e-07",
+                "weight_std": "0.017472431",
+                "min_value": "-0.18525635",
+                "max_value": "0.18252845"
+            },
+            {
+                "layer_name": "h.26.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "1.7199867e-06",
+                "weight_std": "0.011510901",
+                "min_value": "-0.099616215",
+                "max_value": "0.082484536"
+            },
+            {
+                "layer_name": "h.26.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "3.8061535e-07",
+                "weight_std": "0.013726167",
+                "min_value": "-0.418925",
+                "max_value": "0.42590633"
+            },
+            {
+                "layer_name": "h.26.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "7.19651e-05",
+                "weight_std": "0.009722031",
+                "min_value": "-0.143791",
+                "max_value": "0.20948686"
+            },
+            {
+                "layer_name": "h.26.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1104459",
+                "weight_std": "0.033400282",
+                "min_value": "0.21993378",
+                "max_value": "1.1694287"
+            },
+            {
+                "layer_name": "h.26.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0023940303",
+                "weight_std": "0.04641",
+                "min_value": "-0.23284176",
+                "max_value": "0.26331797"
+            },
+            {
+                "layer_name": "h.26.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-2.0509739e-05",
+                "weight_std": "0.018718267",
+                "min_value": "-0.108541444",
+                "max_value": "0.1397335"
+            },
+            {
+                "layer_name": "h.26.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.008408601",
+                "weight_std": "0.0037901108",
+                "min_value": "-0.032987278",
+                "max_value": "0.028451903"
+            },
+            {
+                "layer_name": "h.26.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "7.0957014e-07",
+                "weight_std": "0.016148185",
+                "min_value": "-0.4408663",
+                "max_value": "0.15668184"
+            },
+            {
+                "layer_name": "h.26.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "7.300857e-05",
+                "weight_std": "0.009074139",
+                "min_value": "-0.16778436",
+                "max_value": "0.16256131"
+            },
+            {
+                "layer_name": "h.27.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.93456435",
+                "weight_std": "0.030284185",
+                "min_value": "0.583202",
+                "max_value": "1.2339245"
+            },
+            {
+                "layer_name": "h.27.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-1.946318e-05",
+                "weight_std": "0.029796856",
+                "min_value": "-0.26011086",
+                "max_value": "0.3262928"
+            },
+            {
+                "layer_name": "h.27.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-1.8934632e-07",
+                "weight_std": "0.017657408",
+                "min_value": "-0.14104511",
+                "max_value": "0.13794278"
+            },
+            {
+                "layer_name": "h.27.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-9.9725265e-05",
+                "weight_std": "0.010786486",
+                "min_value": "-0.08943973",
+                "max_value": "0.09567608"
+            },
+            {
+                "layer_name": "h.27.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "1.8336519e-07",
+                "weight_std": "0.013966707",
+                "min_value": "-0.15682615",
+                "max_value": "0.17437631"
+            },
+            {
+                "layer_name": "h.27.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "7.324242e-05",
+                "weight_std": "0.010158687",
+                "min_value": "-0.15350479",
+                "max_value": "0.18546781"
+            },
+            {
+                "layer_name": "h.27.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1125734",
+                "weight_std": "0.03426281",
+                "min_value": "0.2311022",
+                "max_value": "1.1748768"
+            },
+            {
+                "layer_name": "h.27.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0021891783",
+                "weight_std": "0.038932893",
+                "min_value": "-0.2375448",
+                "max_value": "0.24449599"
+            },
+            {
+                "layer_name": "h.27.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-2.1950156e-05",
+                "weight_std": "0.018718505",
+                "min_value": "-0.14979123",
+                "max_value": "0.17017503"
+            },
+            {
+                "layer_name": "h.27.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.008198407",
+                "weight_std": "0.00412798",
+                "min_value": "-0.03137723",
+                "max_value": "0.035883904"
+            },
+            {
+                "layer_name": "h.27.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "4.5109113e-07",
+                "weight_std": "0.016201604",
+                "min_value": "-0.44107223",
+                "max_value": "0.22682847"
+            },
+            {
+                "layer_name": "h.27.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "7.6938115e-05",
+                "weight_std": "0.00907068",
+                "min_value": "-0.16145615",
+                "max_value": "0.14518332"
+            },
+            {
+                "layer_name": "h.28.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.97131115",
+                "weight_std": "0.03586136",
+                "min_value": "0.6354195",
+                "max_value": "1.2594715"
+            },
+            {
+                "layer_name": "h.28.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.0001706556",
+                "weight_std": "0.028641742",
+                "min_value": "-0.25625306",
+                "max_value": "0.277212"
+            },
+            {
+                "layer_name": "h.28.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-8.5805135e-07",
+                "weight_std": "0.017899161",
+                "min_value": "-0.14253393",
+                "max_value": "0.166395"
+            },
+            {
+                "layer_name": "h.28.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-3.1677973e-05",
+                "weight_std": "0.010770167",
+                "min_value": "-0.092337735",
+                "max_value": "0.109327786"
+            },
+            {
+                "layer_name": "h.28.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-7.7047225e-08",
+                "weight_std": "0.014288584",
+                "min_value": "-0.3793019",
+                "max_value": "0.31559289"
+            },
+            {
+                "layer_name": "h.28.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "8.116376e-05",
+                "weight_std": "0.01011463",
+                "min_value": "-0.16184144",
+                "max_value": "0.1577254"
+            },
+            {
+                "layer_name": "h.28.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.1142638",
+                "weight_std": "0.034662776",
+                "min_value": "0.27396163",
+                "max_value": "1.1760257"
+            },
+            {
+                "layer_name": "h.28.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0021863317",
+                "weight_std": "0.03575985",
+                "min_value": "-0.20411165",
+                "max_value": "0.25577053"
+            },
+            {
+                "layer_name": "h.28.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-2.5370446e-05",
+                "weight_std": "0.018726328",
+                "min_value": "-0.15006255",
+                "max_value": "0.18131623"
+            },
+            {
+                "layer_name": "h.28.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.007918046",
+                "weight_std": "0.004230285",
+                "min_value": "-0.037735607",
+                "max_value": "0.015719805"
+            },
+            {
+                "layer_name": "h.28.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "7.316264e-07",
+                "weight_std": "0.016392883",
+                "min_value": "-0.57984537",
+                "max_value": "0.16486531"
+            },
+            {
+                "layer_name": "h.28.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "6.1755476e-05",
+                "weight_std": "0.00897441",
+                "min_value": "-0.15019332",
+                "max_value": "0.13025515"
+            },
+            {
+                "layer_name": "h.29.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0028076",
+                "weight_std": "0.039996646",
+                "min_value": "0.57461196",
+                "max_value": "1.3278192"
+            },
+            {
+                "layer_name": "h.29.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.00035171976",
+                "weight_std": "0.027329925",
+                "min_value": "-0.25769198",
+                "max_value": "0.32229817"
+            },
+            {
+                "layer_name": "h.29.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-1.0538715e-06",
+                "weight_std": "0.017994436",
+                "min_value": "-0.1320019",
+                "max_value": "0.14457756"
+            },
+            {
+                "layer_name": "h.29.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-0.00010636109",
+                "weight_std": "0.01073079",
+                "min_value": "-0.09696405",
+                "max_value": "0.09570571"
+            },
+            {
+                "layer_name": "h.29.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "-7.373345e-08",
+                "weight_std": "0.014448834",
+                "min_value": "-0.26316917",
+                "max_value": "0.25927174"
+            },
+            {
+                "layer_name": "h.29.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "7.2275165e-05",
+                "weight_std": "0.009986272",
+                "min_value": "-0.16194698",
+                "max_value": "0.13798653"
+            },
+            {
+                "layer_name": "h.29.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0997527",
+                "weight_std": "0.032883253",
+                "min_value": "0.33110744",
+                "max_value": "1.1586918"
+            },
+            {
+                "layer_name": "h.29.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0019082525",
+                "weight_std": "0.029528523",
+                "min_value": "-0.19065106",
+                "max_value": "0.24638996"
+            },
+            {
+                "layer_name": "h.29.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-2.7868351e-05",
+                "weight_std": "0.01863682",
+                "min_value": "-0.23845342",
+                "max_value": "0.26111606"
+            },
+            {
+                "layer_name": "h.29.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.007267808",
+                "weight_std": "0.0045139245",
+                "min_value": "-0.03892885",
+                "max_value": "0.0129700685"
+            },
+            {
+                "layer_name": "h.29.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "1.8630725e-07",
+                "weight_std": "0.016342182",
+                "min_value": "-0.60493547",
+                "max_value": "0.39683038"
+            },
+            {
+                "layer_name": "h.29.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "5.7377558e-05",
+                "weight_std": "0.009000519",
+                "min_value": "-0.12233977",
+                "max_value": "0.115736604"
+            },
+            {
+                "layer_name": "h.30.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0325991",
+                "weight_std": "0.04377007",
+                "min_value": "0.63693357",
+                "max_value": "1.3300104"
+            },
+            {
+                "layer_name": "h.30.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.0005024717",
+                "weight_std": "0.024984932",
+                "min_value": "-0.24384655",
+                "max_value": "0.26931363"
+            },
+            {
+                "layer_name": "h.30.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-2.0439486e-06",
+                "weight_std": "0.018124536",
+                "min_value": "-0.13924304",
+                "max_value": "0.14699544"
+            },
+            {
+                "layer_name": "h.30.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-0.00022911798",
+                "weight_std": "0.010331064",
+                "min_value": "-0.09561634",
+                "max_value": "0.10653716"
+            },
+            {
+                "layer_name": "h.30.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "6.08063e-08",
+                "weight_std": "0.014559949",
+                "min_value": "-0.3489556",
+                "max_value": "0.52916545"
+            },
+            {
+                "layer_name": "h.30.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "6.747245e-05",
+                "weight_std": "0.010462399",
+                "min_value": "-0.13553715",
+                "max_value": "0.11770928"
+            },
+            {
+                "layer_name": "h.30.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0735191",
+                "weight_std": "0.027338216",
+                "min_value": "0.45680797",
+                "max_value": "1.1244503"
+            },
+            {
+                "layer_name": "h.30.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0015457044",
+                "weight_std": "0.019412383",
+                "min_value": "-0.20246443",
+                "max_value": "0.19109927"
+            },
+            {
+                "layer_name": "h.30.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-3.6863596e-05",
+                "weight_std": "0.018456722",
+                "min_value": "-0.22728543",
+                "max_value": "0.20972484"
+            },
+            {
+                "layer_name": "h.30.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0066253515",
+                "weight_std": "0.0049550976",
+                "min_value": "-0.042304657",
+                "max_value": "0.016507372"
+            },
+            {
+                "layer_name": "h.30.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-1.0364262e-06",
+                "weight_std": "0.016007444",
+                "min_value": "-0.5079552",
+                "max_value": "0.303629"
+            },
+            {
+                "layer_name": "h.30.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.997038e-05",
+                "weight_std": "0.009275751",
+                "min_value": "-0.09061954",
+                "max_value": "0.09880053"
+            },
+            {
+                "layer_name": "h.31.ln_1.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "0.98215187",
+                "weight_std": "0.025449233",
+                "min_value": "0.77890277",
+                "max_value": "1.2140574"
+            },
+            {
+                "layer_name": "h.31.ln_1.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.00050943677",
+                "weight_std": "0.019515427",
+                "min_value": "-0.11345871",
+                "max_value": "0.12411802"
+            },
+            {
+                "layer_name": "h.31.attn.c_attn.weight",
+                "shape": [
+                    4096,
+                    12288
+                ],
+                "num_parameters": 50331648,
+                "weight_mean": "-9.2194796e-07",
+                "weight_std": "0.01741224",
+                "min_value": "-0.1314535",
+                "max_value": "0.14282094"
+            },
+            {
+                "layer_name": "h.31.attn.c_attn.bias",
+                "shape": [
+                    12288
+                ],
+                "num_parameters": 12288,
+                "weight_mean": "-0.00012716974",
+                "weight_std": "0.009572584",
+                "min_value": "-0.092685156",
+                "max_value": "0.091955096"
+            },
+            {
+                "layer_name": "h.31.attn.c_proj.weight",
+                "shape": [
+                    4096,
+                    4096
+                ],
+                "num_parameters": 16777216,
+                "weight_mean": "7.3485245e-07",
+                "weight_std": "0.012863164",
+                "min_value": "-0.5490037",
+                "max_value": "0.55552423"
+            },
+            {
+                "layer_name": "h.31.attn.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "3.2489683e-05",
+                "weight_std": "0.009892345",
+                "min_value": "-0.09724908",
+                "max_value": "0.08927467"
+            },
+            {
+                "layer_name": "h.31.ln_2.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.0405164",
+                "weight_std": "0.015004795",
+                "min_value": "0.79459697",
+                "max_value": "1.1017014"
+            },
+            {
+                "layer_name": "h.31.ln_2.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.0006819624",
+                "weight_std": "0.00912653",
+                "min_value": "-0.049676478",
+                "max_value": "0.050787795"
+            },
+            {
+                "layer_name": "h.31.mlp.c_fc.weight",
+                "shape": [
+                    4096,
+                    16384
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-5.935068e-05",
+                "weight_std": "0.018241163",
+                "min_value": "-0.48266727",
+                "max_value": "0.64433044"
+            },
+            {
+                "layer_name": "h.31.mlp.c_fc.bias",
+                "shape": [
+                    16384
+                ],
+                "num_parameters": 16384,
+                "weight_mean": "-0.0037523473",
+                "weight_std": "0.0067017153",
+                "min_value": "-0.048631582",
+                "max_value": "0.041306585"
+            },
+            {
+                "layer_name": "h.31.mlp.c_proj.weight",
+                "shape": [
+                    16384,
+                    4096
+                ],
+                "num_parameters": 67108864,
+                "weight_mean": "-4.127278e-06",
+                "weight_std": "0.015367215",
+                "min_value": "-1.522019",
+                "max_value": "0.4994307"
+            },
+            {
+                "layer_name": "h.31.mlp.c_proj.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-2.4733148e-05",
+                "weight_std": "0.0076526133",
+                "min_value": "-0.036891043",
+                "max_value": "0.051047586"
+            },
+            {
+                "layer_name": "ln_f.weight",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "1.5111871",
+                "weight_std": "0.04861777",
+                "min_value": "0.5811082",
+                "max_value": "1.6567713"
+            },
+            {
+                "layer_name": "ln_f.bias",
+                "shape": [
+                    4096
+                ],
+                "num_parameters": 4096,
+                "weight_mean": "-0.004251435",
+                "weight_std": "0.02323814",
+                "min_value": "-0.2549073",
+                "max_value": "0.2409167"
+            }
+        ]
+    }
+}

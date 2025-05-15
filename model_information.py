@@ -114,7 +114,7 @@ def get_weight_info(model):
     }
 
 # 載入模型清單設定
-# def load_model_names_from_config(config_path="model_config.json"):
+# def load_model_names_from_config(config_path="model_name.json"):
 #     with open(config_path, "r", encoding="utf-8") as f:
 #         config = json.load(f)
 #         return config.get("model_names", [])

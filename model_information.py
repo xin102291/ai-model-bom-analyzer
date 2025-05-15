@@ -133,16 +133,14 @@ def delete_model_cache(model_name):
 # 測試不同的模型
 # model_names = ["tiiuae/falcon-7b", "gpt2", "bert-base-uncased", "google/mobilebert-uncased", "albert-base-v2", "google/electra-small-discriminator", "microsoft/Phi-3-mini-4k-instruct"]
 
-model_names = ["cerebras/Cerebras-GPT-6.7B"]
+
+if __name__ == "__main__":
+    model_names = ["cerebras/Cerebras-GPT-6.7B"]
 # model_names = load_model_names_from_config()
-
-for model_name in model_names:
-    model_info = get_model_info(model_name)
-    delete_model_cache(model_name)
-    # 產生 JSON 檔案
-    json_filename = f"data/{model_name.replace('/', '_')}_info.json"
-    with open(json_filename, "w", encoding="utf-8") as f:
-        json.dump(model_info, f, ensure_ascii=False, indent=4, default=str)
-
-
-    print(f"已產生 {json_filename}")
+    for model_name in model_names:
+        model_info = get_model_info(model_name)
+        delete_model_cache(model_name)
+        json_filename = f"data/{model_name.replace('/', '_')}_info.json"
+        with open(json_filename, "w", encoding="utf-8") as f:
+            json.dump(model_info, f, ensure_ascii=False, indent=4, default=str)
+        print(f"已產生 {json_filename}")

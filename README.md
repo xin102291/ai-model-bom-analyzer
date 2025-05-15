@@ -8,7 +8,7 @@
 
 xxx_info.json：模型的基本資訊（結構、超參數、權重統計）
 
-xxx_analysis.json：模型的風險分析結果（如有）
+xxx_analysis.json：模型的風險分析結果(假資料)
 
 📁 data/
 

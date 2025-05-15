@@ -46,7 +46,7 @@ def show_model_analysis_if_needed(matches, analysis_dict, threshold=0.75):
 if __name__ == '__main__':
     from show_model_comparison import match_top_n
 
-    unknown_model_path = 'EleutherAI_gpt-neo-1.3B_info.json'
+    unknown_model_path = 'test\EleutherAI_gpt-neo-1.3B_info.json'
     known_models_dir = './bom/'
     analysis_dir = './bom/'
     

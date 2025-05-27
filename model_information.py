@@ -135,8 +135,8 @@ def delete_model_cache(model_name):
 
 
 if __name__ == "__main__":
-    model_names = ["cerebras/Cerebras-GPT-6.7B"]
-# model_names = load_model_names_from_config()
+    model_names = ["allenai/longformer-base-4096"]
+    # model_names = load_model_names_from_config()
     for model_name in model_names:
         model_info = get_model_info(model_name)
         delete_model_cache(model_name)

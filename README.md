@@ -86,3 +86,16 @@ facebook/opt-6.7b
 mosaicml/mpt-7b-instruct
 
 cerebras/Cerebras-GPT-6.7B
+
+togethercomputer/RedPajama-INCITE-7B-Instruct
+
+EleutherAI/pythia-6.9b
+
+ai4bharat/IndicBARTSS
+
+facebook/bart-large-cnn
+
+google/mt5-base
+
+facebook/mbart-large-50-many-to-many-mmt
+

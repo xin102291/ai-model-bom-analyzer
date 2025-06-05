@@ -135,12 +135,12 @@ def delete_model_cache(model_name):
 
 
 if __name__ == "__main__":
-    model_names = ["allenai/longformer-base-4096"]
+    model_names = ["openai/clip-vit-base-patch16"]
     # model_names = load_model_names_from_config()
     for model_name in model_names:
         model_info = get_model_info(model_name)
         delete_model_cache(model_name)
-        json_filename = f"data/{model_name.replace('/', '_')}_info.json"
+        json_filename = f"test/{model_name.replace('/', '_')}_info.json"
         with open(json_filename, "w", encoding="utf-8") as f:
             json.dump(model_info, f, ensure_ascii=False, indent=4, default=str)
         print(f"已產生 {json_filename}")

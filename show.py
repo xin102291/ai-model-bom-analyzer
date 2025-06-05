@@ -205,5 +205,6 @@ def generate_info_file():
         info_text.insert(tk.END, f"❌ 發生錯誤：{str(e)}\n")
     finally:
         progress.stop()
+        
 
 root.mainloop()

@@ -10,7 +10,7 @@ api = HfApi()
 models = api.list_models(
     sort="downloads",  # 按下載次數排序
     direction=-1,      # 降序
-    limit=113          # 限制為前 100 個
+    limit=118          # 限制為前 100 個
 )
 
 # 準備儲存結果的列表
@@ -85,7 +85,7 @@ for model in models:
         model_info["TotalSizeMB"] = "N/A"
 
     # 僅將 public 模型添加到結果
-    if model_info["Status"] == "public" and model_info["TotalSizeMB"] != "0.00":
+    if model_info["Status"] == "public" and model_info["TotalSizeMB"] != "0.00" and "timm" not in model_info["Name"]:
         data.append(model_info)
 
 # 轉換為 DataFrame

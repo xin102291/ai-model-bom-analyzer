@@ -1,0 +1,4869 @@
+{
+    "type": "ai_AIPackage",
+    "spdxId": "https://huggingface.co/openai/clip-vit-base-patch16",
+    "creationInfo": "_:creationinfo",
+    "name": "openai/clip-vit-base-patch16",
+    "releaseTime": "2025-06-05T11:33:54Z",
+    "suppliedBy": "https://huggingface.co/openai/clip-vit-base-patch16",
+    "software_downloadLocation": "https://huggingface.co/openai/clip-vit-base-patch16/resolve/main/openai/clip-vit-base-patch16.bin",
+    "software_packageVersion": "2.0",
+    "training_datasets": [
+        "Unknown"
+    ],
+    "software_primaryPurpose": "Define yourself",
+    "comment": "Define yourself",
+    "ai_autonomyType": "no",
+    "ai_domain": [
+        "Define yourself"
+    ],
+    "model_version": "clip",
+    "model_architecture": [
+        "CLIPModel"
+    ],
+    "layer_count": "Unknown",
+    "embedding_size": "Unknown",
+    "attention_heads": "Unknown",
+    "activation_function": "Unknown",
+    "hyperparameters": [
+        {
+            "key": "_attn_implementation",
+            "value": "eager"
+        },
+        {
+            "key": "_attn_implementation_autoset",
+            "value": false
+        },
+        {
+            "key": "_attn_implementation_internal",
+            "value": null
+        },
+        {
+            "key": "_auto_class",
+            "value": null
+        },
+        {
+            "key": "_commit_hash",
+            "value": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+        },
+        {
+            "key": "_name_or_path",
+            "value": "openai/clip-vit-base-patch16"
+        },
+        {
+            "key": "add_cross_attention",
+            "value": false
+        },
+        {
+            "key": "architectures",
+            "value": [
+                "CLIPModel"
+            ]
+        },
+        {
+            "key": "attribute_map",
+            "value": {}
+        },
+        {
+            "key": "bad_words_ids",
+            "value": null
+        },
+        {
+            "key": "base_config_key",
+            "value": ""
+        },
+        {
+            "key": "base_model_tp_plan",
+            "value": null
+        },
+        {
+            "key": "begin_suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "bos_token_id",
+            "value": null
+        },
+        {
+            "key": "chunk_size_feed_forward",
+            "value": 0
+        },
+        {
+            "key": "cross_attention_hidden_size",
+            "value": null
+        },
+        {
+            "key": "decoder_start_token_id",
+            "value": null
+        },
+        {
+            "key": "diversity_penalty",
+            "value": 0.0
+        },
+        {
+            "key": "do_sample",
+            "value": false
+        },
+        {
+            "key": "early_stopping",
+            "value": false
+        },
+        {
+            "key": "encoder_no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "eos_token_id",
+            "value": null
+        },
+        {
+            "key": "exponential_decay_length_penalty",
+            "value": null
+        },
+        {
+            "key": "finetuning_task",
+            "value": null
+        },
+        {
+            "key": "forced_bos_token_id",
+            "value": null
+        },
+        {
+            "key": "forced_eos_token_id",
+            "value": null
+        },
+        {
+            "key": "id2label",
+            "value": {
+                "0": "LABEL_0",
+                "1": "LABEL_1"
+            }
+        },
+        {
+            "key": "initializer_factor",
+            "value": 1.0
+        },
+        {
+            "key": "is_composition",
+            "value": false
+        },
+        {
+            "key": "is_decoder",
+            "value": false
+        },
+        {
+            "key": "is_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "label2id",
+            "value": {
+                "LABEL_0": 0,
+                "LABEL_1": 1
+            }
+        },
+        {
+            "key": "length_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "logit_scale_init_value",
+            "value": 2.6592
+        },
+        {
+            "key": "max_length",
+            "value": 20
+        },
+        {
+            "key": "min_length",
+            "value": 0
+        },
+        {
+            "key": "model_type",
+            "value": "clip"
+        },
+        {
+            "key": "name_or_path",
+            "value": "openai/clip-vit-base-patch16"
+        },
+        {
+            "key": "no_repeat_ngram_size",
+            "value": 0
+        },
+        {
+            "key": "num_beam_groups",
+            "value": 1
+        },
+        {
+            "key": "num_beams",
+            "value": 1
+        },
+        {
+            "key": "num_labels",
+            "value": 2
+        },
+        {
+            "key": "num_return_sequences",
+            "value": 1
+        },
+        {
+            "key": "output_attentions",
+            "value": false
+        },
+        {
+            "key": "output_hidden_states",
+            "value": false
+        },
+        {
+            "key": "output_scores",
+            "value": false
+        },
+        {
+            "key": "pad_token_id",
+            "value": null
+        },
+        {
+            "key": "prefix",
+            "value": null
+        },
+        {
+            "key": "problem_type",
+            "value": null
+        },
+        {
+            "key": "projection_dim",
+            "value": 512
+        },
+        {
+            "key": "pruned_heads",
+            "value": {}
+        },
+        {
+            "key": "remove_invalid_values",
+            "value": false
+        },
+        {
+            "key": "repetition_penalty",
+            "value": 1.0
+        },
+        {
+            "key": "return_dict",
+            "value": true
+        },
+        {
+            "key": "return_dict_in_generate",
+            "value": false
+        },
+        {
+            "key": "sep_token_id",
+            "value": null
+        },
+        {
+            "key": "sub_configs",
+            "value": {
+                "text_config": "<class 'transformers.models.clip.configuration_clip.CLIPTextConfig'>",
+                "vision_config": "<class 'transformers.models.clip.configuration_clip.CLIPVisionConfig'>"
+            }
+        },
+        {
+            "key": "suppress_tokens",
+            "value": null
+        },
+        {
+            "key": "task_specific_params",
+            "value": null
+        },
+        {
+            "key": "temperature",
+            "value": 1.0
+        },
+        {
+            "key": "text_config",
+            "value": "CLIPTextConfig {\n  \"attention_dropout\": 0.0,\n  \"bos_token_id\": 0,\n  \"dropout\": 0.0,\n  \"eos_token_id\": 2,\n  \"hidden_act\": \"quick_gelu\",\n  \"hidden_size\": 512,\n  \"initializer_factor\": 1.0,\n  \"initializer_range\": 0.02,\n  \"intermediate_size\": 2048,\n  \"layer_norm_eps\": 1e-05,\n  \"max_position_embeddings\": 77,\n  \"model_type\": \"clip_text_model\",\n  \"num_attention_heads\": 8,\n  \"num_hidden_layers\": 12,\n  \"pad_token_id\": 1,\n  \"projection_dim\": 512,\n  \"transformers_version\": \"4.48.3\",\n  \"vocab_size\": 49408\n}\n"
+        },
+        {
+            "key": "tf_legacy_loss",
+            "value": false
+        },
+        {
+            "key": "tie_encoder_decoder",
+            "value": false
+        },
+        {
+            "key": "tie_word_embeddings",
+            "value": true
+        },
+        {
+            "key": "tokenizer_class",
+            "value": null
+        },
+        {
+            "key": "top_k",
+            "value": 50
+        },
+        {
+            "key": "top_p",
+            "value": 1.0
+        },
+        {
+            "key": "torch_dtype",
+            "value": "torch.float32"
+        },
+        {
+            "key": "torchscript",
+            "value": false
+        },
+        {
+            "key": "transformers_version",
+            "value": null
+        },
+        {
+            "key": "typical_p",
+            "value": 1.0
+        },
+        {
+            "key": "use_bfloat16",
+            "value": false
+        },
+        {
+            "key": "use_return_dict",
+            "value": true
+        },
+        {
+            "key": "vision_config",
+            "value": "CLIPVisionConfig {\n  \"attention_dropout\": 0.0,\n  \"dropout\": 0.0,\n  \"hidden_act\": \"quick_gelu\",\n  \"hidden_size\": 768,\n  \"image_size\": 224,\n  \"initializer_factor\": 1.0,\n  \"initializer_range\": 0.02,\n  \"intermediate_size\": 3072,\n  \"layer_norm_eps\": 1e-05,\n  \"model_type\": \"clip_vision_model\",\n  \"num_attention_heads\": 12,\n  \"num_channels\": 3,\n  \"num_hidden_layers\": 12,\n  \"patch_size\": 16,\n  \"projection_dim\": 512,\n  \"transformers_version\": \"4.48.3\"\n}\n"
+        }
+    ],
+    "weights_info": {
+        "total_parameters": 149620737,
+        "layers": [
+            {
+                "layer_name": "logit_scale",
+                "shape": [],
+                "num_parameters": 1,
+                "weight_mean": "4.6051702",
+                "weight_std": "0.0",
+                "min_value": "4.6051702",
+                "max_value": "4.6051702"
+            },
+            {
+                "layer_name": "text_model.embeddings.token_embedding.weight",
+                "shape": [
+                    49408,
+                    512
+                ],
+                "num_parameters": 25296896,
+                "weight_mean": "3.086353e-06",
+                "weight_std": "0.0125597855",
+                "min_value": "-0.4422556",
+                "max_value": "0.4633623"
+            },
+            {
+                "layer_name": "text_model.embeddings.position_embedding.weight",
+                "shape": [
+                    77,
+                    512
+                ],
+                "num_parameters": 39424,
+                "weight_mean": "0.00025012053",
+                "weight_std": "0.0073657962",
+                "min_value": "-0.11064599",
+                "max_value": "0.38946447"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-6.3833475e-05",
+                "weight_std": "0.022149816",
+                "min_value": "-0.2376709",
+                "max_value": "0.26904297"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00096114934",
+                "weight_std": "0.021104025",
+                "min_value": "-0.091430664",
+                "max_value": "0.13354492"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "2.898972e-05",
+                "weight_std": "0.011414244",
+                "min_value": "-0.10028076",
+                "max_value": "0.07446289"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.004414519",
+                "weight_std": "0.06803309",
+                "min_value": "-0.3552246",
+                "max_value": "0.79296875"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "1.867836e-05",
+                "weight_std": "0.022856828",
+                "min_value": "-0.13586426",
+                "max_value": "0.15759277"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.029531239",
+                "weight_std": "0.42052147",
+                "min_value": "-2.4140625",
+                "max_value": "2.96875"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "3.9904353e-07",
+                "weight_std": "0.011172041",
+                "min_value": "-0.09197998",
+                "max_value": "0.15112305"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00020746677",
+                "weight_std": "0.06350077",
+                "min_value": "-0.5292969",
+                "max_value": "0.5629883"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.1041245",
+                "weight_std": "0.16704",
+                "min_value": "1.0988054",
+                "max_value": "3.3371"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.02359722",
+                "weight_std": "0.30618483",
+                "min_value": "-1.7768718",
+                "max_value": "1.7524695"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-0.00029515472",
+                "weight_std": "0.016882846",
+                "min_value": "-0.20910645",
+                "max_value": "1.1367188"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.45053172",
+                "weight_std": "0.36352307",
+                "min_value": "-6.9492188",
+                "max_value": "1.2861328"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-4.418534e-06",
+                "weight_std": "0.009891736",
+                "min_value": "-0.22888184",
+                "max_value": "0.34887695"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00020505022",
+                "weight_std": "0.0707573",
+                "min_value": "-1.0966797",
+                "max_value": "0.6230469"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.0455275",
+                "weight_std": "0.38253742",
+                "min_value": "0.9601509",
+                "max_value": "9.898585"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.0.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.038399495",
+                "weight_std": "0.54543626",
+                "min_value": "-2.5612965",
+                "max_value": "1.8579007"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "8.430613e-06",
+                "weight_std": "0.022370538",
+                "min_value": "-0.13171387",
+                "max_value": "0.15112305"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-1.3067154e-05",
+                "weight_std": "0.0066069416",
+                "min_value": "-0.028167725",
+                "max_value": "0.038513184"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.8970994e-05",
+                "weight_std": "0.011497502",
+                "min_value": "-0.07183838",
+                "max_value": "0.056793213"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00087650283",
+                "weight_std": "0.035803035",
+                "min_value": "-0.3173828",
+                "max_value": "0.21264648"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "9.5923215e-06",
+                "weight_std": "0.021891007",
+                "min_value": "-0.13903809",
+                "max_value": "0.14648438"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0045311293",
+                "weight_std": "0.5496483",
+                "min_value": "-2.4824219",
+                "max_value": "2.1347656"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-2.7401993e-06",
+                "weight_std": "0.011165539",
+                "min_value": "-0.11956787",
+                "max_value": "0.10638428"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00016234932",
+                "weight_std": "0.045740753",
+                "min_value": "-0.22741699",
+                "max_value": "0.67578125"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.3854918",
+                "weight_std": "0.18468466",
+                "min_value": "0.22953878",
+                "max_value": "4.3698053"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00501482",
+                "weight_std": "0.1765366",
+                "min_value": "-3.2518773",
+                "max_value": "1.4764941"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-0.00017300065",
+                "weight_std": "0.01608027",
+                "min_value": "-0.19482422",
+                "max_value": "0.11578369"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.43241808",
+                "weight_std": "0.15824582",
+                "min_value": "-1.2519531",
+                "max_value": "1.0253906"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-3.7231755e-06",
+                "weight_std": "0.010586031",
+                "min_value": "-0.11517334",
+                "max_value": "0.0947876"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0008094917",
+                "weight_std": "0.062146794",
+                "min_value": "-1.0087891",
+                "max_value": "0.48461914"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.269035",
+                "weight_std": "0.1946575",
+                "min_value": "0.8523539",
+                "max_value": "5.3667216"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.1.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.045627125",
+                "weight_std": "0.62134993",
+                "min_value": "-3.4875183",
+                "max_value": "4.006127"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "3.8645612e-07",
+                "weight_std": "0.020909805",
+                "min_value": "-0.1661377",
+                "max_value": "0.12420654"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "7.674249e-05",
+                "weight_std": "0.0050825085",
+                "min_value": "-0.03048706",
+                "max_value": "0.033050537"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-7.5368043e-06",
+                "weight_std": "0.012224062",
+                "min_value": "-0.07324219",
+                "max_value": "0.06439209"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0018646411",
+                "weight_std": "0.029192438",
+                "min_value": "-0.18127441",
+                "max_value": "0.097595215"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-5.8695678e-06",
+                "weight_std": "0.021021493",
+                "min_value": "-0.11541748",
+                "max_value": "0.11273193"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.003497973",
+                "weight_std": "0.45826203",
+                "min_value": "-1.9130859",
+                "max_value": "2.28125"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.8832993e-06",
+                "weight_std": "0.011832088",
+                "min_value": "-0.0713501",
+                "max_value": "0.060760498"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00032006996",
+                "weight_std": "0.03243159",
+                "min_value": "-0.10650635",
+                "max_value": "0.37060547"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.5105896",
+                "weight_std": "0.20730478",
+                "min_value": "0.3163672",
+                "max_value": "5.1935506"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.004893205",
+                "weight_std": "0.2821668",
+                "min_value": "-5.4159236",
+                "max_value": "2.6210494"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-5.7914003e-05",
+                "weight_std": "0.015987778",
+                "min_value": "-0.1850586",
+                "max_value": "0.110839844"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.4150108",
+                "weight_std": "0.18621345",
+                "min_value": "-0.8676758",
+                "max_value": "0.5908203"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-8.222527e-06",
+                "weight_std": "0.010704377",
+                "min_value": "-0.12670898",
+                "max_value": "0.0949707"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00028696004",
+                "weight_std": "0.055211633",
+                "min_value": "-0.8520508",
+                "max_value": "0.20153809"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.3090253",
+                "weight_std": "0.16819584",
+                "min_value": "0.9847957",
+                "max_value": "4.6839905"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.2.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.020785145",
+                "weight_std": "0.5377312",
+                "min_value": "-3.1106675",
+                "max_value": "3.8926196"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "3.0367482e-05",
+                "weight_std": "0.020536715",
+                "min_value": "-0.1829834",
+                "max_value": "0.14672852"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00020148559",
+                "weight_std": "0.0037970634",
+                "min_value": "-0.027740479",
+                "max_value": "0.022277832"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-2.2131193e-05",
+                "weight_std": "0.012607781",
+                "min_value": "-0.058013916",
+                "max_value": "0.05999756"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00027088646",
+                "weight_std": "0.027308742",
+                "min_value": "-0.12347412",
+                "max_value": "0.11804199"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "3.4966433e-06",
+                "weight_std": "0.02121333",
+                "min_value": "-0.11419678",
+                "max_value": "0.12719727"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0073943734",
+                "weight_std": "0.463955",
+                "min_value": "-2.1933594",
+                "max_value": "2.03125"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "1.1313371e-06",
+                "weight_std": "0.012333926",
+                "min_value": "-0.09692383",
+                "max_value": "0.061767578"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00035143818",
+                "weight_std": "0.03459955",
+                "min_value": "-0.26123047",
+                "max_value": "0.24963379"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.6234735",
+                "weight_std": "0.19056146",
+                "min_value": "0.32778108",
+                "max_value": "4.7446375"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.008251123",
+                "weight_std": "0.29564455",
+                "min_value": "-5.542876",
+                "max_value": "2.7414613"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-0.0002747991",
+                "weight_std": "0.01578709",
+                "min_value": "-0.22399902",
+                "max_value": "0.09613037"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.42011607",
+                "weight_std": "0.188174",
+                "min_value": "-0.7963867",
+                "max_value": "0.8046875"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-1.3566314e-06",
+                "weight_std": "0.011063751",
+                "min_value": "-0.098083496",
+                "max_value": "0.09259033"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0002242832",
+                "weight_std": "0.058432113",
+                "min_value": "-0.4741211",
+                "max_value": "0.21508789"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.4097445",
+                "weight_std": "0.16359495",
+                "min_value": "0.7283622",
+                "max_value": "4.018159"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.3.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.06195294",
+                "weight_std": "0.6109141",
+                "min_value": "-2.6896505",
+                "max_value": "3.3030624"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.9043762e-05",
+                "weight_std": "0.019453805",
+                "min_value": "-0.1784668",
+                "max_value": "0.13391113"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.7024187e-05",
+                "weight_std": "0.0033978699",
+                "min_value": "-0.019210815",
+                "max_value": "0.013084412"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.0368083e-05",
+                "weight_std": "0.013080251",
+                "min_value": "-0.06774902",
+                "max_value": "0.068603516"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0002563264",
+                "weight_std": "0.03220911",
+                "min_value": "-0.2043457",
+                "max_value": "0.17150879"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.0190092e-06",
+                "weight_std": "0.020164711",
+                "min_value": "-0.11779785",
+                "max_value": "0.12243652"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0052040927",
+                "weight_std": "0.4463697",
+                "min_value": "-2.0605469",
+                "max_value": "2.7871094"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-2.6197176e-07",
+                "weight_std": "0.012825762",
+                "min_value": "-0.096191406",
+                "max_value": "0.14709473"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-7.2249095e-05",
+                "weight_std": "0.028446844",
+                "min_value": "-0.22521973",
+                "max_value": "0.17077637"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.6502433",
+                "weight_std": "0.15948236",
+                "min_value": "0.34801385",
+                "max_value": "3.908409"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.008843452",
+                "weight_std": "0.2613858",
+                "min_value": "-4.7444053",
+                "max_value": "2.6464684"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-0.00011727567",
+                "weight_std": "0.015568859",
+                "min_value": "-0.13232422",
+                "max_value": "0.1352539"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.41801083",
+                "weight_std": "0.18823962",
+                "min_value": "-0.84375",
+                "max_value": "1.0166016"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-2.5776224e-06",
+                "weight_std": "0.01125436",
+                "min_value": "-0.17407227",
+                "max_value": "0.1149292"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-7.931376e-06",
+                "weight_std": "0.060122717",
+                "min_value": "-0.26342773",
+                "max_value": "0.21166992"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.4169567",
+                "weight_std": "0.16756074",
+                "min_value": "0.22475447",
+                "max_value": "3.406096"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.4.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.026080938",
+                "weight_std": "0.57680553",
+                "min_value": "-2.336087",
+                "max_value": "2.3830478"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-8.607173e-06",
+                "weight_std": "0.0192676",
+                "min_value": "-0.10595703",
+                "max_value": "0.12042236"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "9.1484515e-05",
+                "weight_std": "0.0046589724",
+                "min_value": "-0.027313232",
+                "max_value": "0.03186035"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "7.3256406e-06",
+                "weight_std": "0.012860495",
+                "min_value": "-0.059814453",
+                "max_value": "0.060943604"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0018403246",
+                "weight_std": "0.03150906",
+                "min_value": "-0.12988281",
+                "max_value": "0.19274902"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "5.9372005e-06",
+                "weight_std": "0.019769704",
+                "min_value": "-0.12017822",
+                "max_value": "0.10522461"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0028555458",
+                "weight_std": "0.42685682",
+                "min_value": "-2.3125",
+                "max_value": "2.2910156"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-8.203799e-06",
+                "weight_std": "0.012641801",
+                "min_value": "-0.08502197",
+                "max_value": "0.086364746"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-8.209981e-05",
+                "weight_std": "0.03136431",
+                "min_value": "-0.12988281",
+                "max_value": "0.14135742"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.7385799",
+                "weight_std": "0.1492614",
+                "min_value": "0.42105487",
+                "max_value": "3.5512946"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00891404",
+                "weight_std": "0.30962017",
+                "min_value": "-5.6410704",
+                "max_value": "3.2133555"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "3.501303e-05",
+                "weight_std": "0.01548369",
+                "min_value": "-0.19567871",
+                "max_value": "0.10308838"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.42315382",
+                "weight_std": "0.1899714",
+                "min_value": "-1.2568359",
+                "max_value": "1.0195312"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-4.21842e-06",
+                "weight_std": "0.011876353",
+                "min_value": "-0.095336914",
+                "max_value": "0.11804199"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00013912993",
+                "weight_std": "0.06327601",
+                "min_value": "-0.3256836",
+                "max_value": "0.15026855"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.4672225",
+                "weight_std": "0.17193577",
+                "min_value": "0.23240946",
+                "max_value": "3.1626654"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.5.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0083736",
+                "weight_std": "0.6128001",
+                "min_value": "-2.0962481",
+                "max_value": "2.4224656"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "2.8193494e-07",
+                "weight_std": "0.019007009",
+                "min_value": "-0.12792969",
+                "max_value": "0.10461426"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00040390622",
+                "weight_std": "0.0076652053",
+                "min_value": "-0.04083252",
+                "max_value": "0.04336548"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.140309e-05",
+                "weight_std": "0.013075063",
+                "min_value": "-0.06781006",
+                "max_value": "0.07562256"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00031361636",
+                "weight_std": "0.027419558",
+                "min_value": "-0.07727051",
+                "max_value": "0.18591309"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.8380238e-06",
+                "weight_std": "0.019618934",
+                "min_value": "-0.13476562",
+                "max_value": "0.09338379"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0040510707",
+                "weight_std": "0.44505826",
+                "min_value": "-1.7792969",
+                "max_value": "2.1074219"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.2861537e-06",
+                "weight_std": "0.012858123",
+                "min_value": "-0.08178711",
+                "max_value": "0.11706543"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00040807528",
+                "weight_std": "0.039585866",
+                "min_value": "-0.51708984",
+                "max_value": "0.119628906"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.8388646",
+                "weight_std": "0.14991628",
+                "min_value": "0.36987215",
+                "max_value": "3.6840997"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.012278667",
+                "weight_std": "0.27993748",
+                "min_value": "-4.714299",
+                "max_value": "2.9608576"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-0.000113561655",
+                "weight_std": "0.015315566",
+                "min_value": "-0.09448242",
+                "max_value": "0.17285156"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.4345129",
+                "weight_std": "0.18462947",
+                "min_value": "-0.8857422",
+                "max_value": "1.2578125"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-2.0503674e-06",
+                "weight_std": "0.012638759",
+                "min_value": "-0.17126465",
+                "max_value": "0.13757324"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00060088653",
+                "weight_std": "0.07234155",
+                "min_value": "-0.9301758",
+                "max_value": "0.18908691"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.5232983",
+                "weight_std": "0.1798732",
+                "min_value": "0.31009573",
+                "max_value": "3.1717196"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.6.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.015565254",
+                "weight_std": "0.64783436",
+                "min_value": "-2.9103618",
+                "max_value": "2.7961202"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.0369552e-05",
+                "weight_std": "0.018812412",
+                "min_value": "-0.13647461",
+                "max_value": "0.14208984"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00050840573",
+                "weight_std": "0.010844797",
+                "min_value": "-0.051757812",
+                "max_value": "0.059051514"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-2.8406482e-06",
+                "weight_std": "0.013280067",
+                "min_value": "-0.072265625",
+                "max_value": "0.06500244"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0017621549",
+                "weight_std": "0.03625594",
+                "min_value": "-0.20446777",
+                "max_value": "0.17333984"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-5.988817e-06",
+                "weight_std": "0.019214746",
+                "min_value": "-0.12585449",
+                "max_value": "0.13720703"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0003751684",
+                "weight_std": "0.48515728",
+                "min_value": "-2.5664062",
+                "max_value": "2.03125"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-5.1180587e-06",
+                "weight_std": "0.013021246",
+                "min_value": "-0.10095215",
+                "max_value": "0.09527588"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00061543076",
+                "weight_std": "0.040448245",
+                "min_value": "-0.19299316",
+                "max_value": "0.25195312"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.8388674",
+                "weight_std": "0.13919407",
+                "min_value": "0.342894",
+                "max_value": "3.3068697"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0073959306",
+                "weight_std": "0.26110324",
+                "min_value": "-4.570996",
+                "max_value": "2.7588158"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-0.00015438403",
+                "weight_std": "0.015130004",
+                "min_value": "-0.09301758",
+                "max_value": "0.088012695"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.44001812",
+                "weight_std": "0.16185316",
+                "min_value": "-0.90185547",
+                "max_value": "1.3261719"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-4.0955e-06",
+                "weight_std": "0.013567235",
+                "min_value": "-0.21142578",
+                "max_value": "0.17236328"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.2170058e-05",
+                "weight_std": "0.07131238",
+                "min_value": "-0.49658203",
+                "max_value": "0.24682617"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.5855439",
+                "weight_std": "0.19269107",
+                "min_value": "0.30793536",
+                "max_value": "3.066138"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.7.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.019885628",
+                "weight_std": "0.6059249",
+                "min_value": "-2.6292205",
+                "max_value": "2.073746"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.4298568e-05",
+                "weight_std": "0.018534789",
+                "min_value": "-0.10546875",
+                "max_value": "0.117126465"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "9.407173e-06",
+                "weight_std": "0.008146392",
+                "min_value": "-0.046966553",
+                "max_value": "0.05130005"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-7.089631e-06",
+                "weight_std": "0.01375035",
+                "min_value": "-0.07080078",
+                "max_value": "0.10974121"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0007319533",
+                "weight_std": "0.03440222",
+                "min_value": "-0.15148926",
+                "max_value": "0.1821289"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "1.1933164e-05",
+                "weight_std": "0.01880844",
+                "min_value": "-0.11907959",
+                "max_value": "0.12561035"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.012497174",
+                "weight_std": "0.43043485",
+                "min_value": "-2.2675781",
+                "max_value": "2.1621094"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "5.8691967e-06",
+                "weight_std": "0.013438337",
+                "min_value": "-0.13659668",
+                "max_value": "0.1739502"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00020101061",
+                "weight_std": "0.047462948",
+                "min_value": "-0.62890625",
+                "max_value": "0.12756348"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.8673565",
+                "weight_std": "0.13553496",
+                "min_value": "0.41921097",
+                "max_value": "2.9886806"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0096383",
+                "weight_std": "0.28397983",
+                "min_value": "-4.913448",
+                "max_value": "2.9315195"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "2.8123266e-06",
+                "weight_std": "0.01501063",
+                "min_value": "-0.21240234",
+                "max_value": "0.09436035"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.4236764",
+                "weight_std": "0.15194792",
+                "min_value": "-0.96728516",
+                "max_value": "0.47460938"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-7.7444565e-06",
+                "weight_std": "0.014030579",
+                "min_value": "-0.25024414",
+                "max_value": "0.20080566"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-3.668014e-06",
+                "weight_std": "0.073653646",
+                "min_value": "-1.1123047",
+                "max_value": "0.3623047"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.6636362",
+                "weight_std": "0.18603781",
+                "min_value": "0.20487224",
+                "max_value": "3.230934"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.8.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.013127335",
+                "weight_std": "0.48234168",
+                "min_value": "-2.0103424",
+                "max_value": "2.0644987"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.9016643e-05",
+                "weight_std": "0.018108306",
+                "min_value": "-0.12768555",
+                "max_value": "0.11206055"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.00028691627",
+                "weight_std": "0.016577862",
+                "min_value": "-0.1104126",
+                "max_value": "0.11303711"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "8.610284e-06",
+                "weight_std": "0.014344155",
+                "min_value": "-0.0703125",
+                "max_value": "0.08483887"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0021516662",
+                "weight_std": "0.03904616",
+                "min_value": "-0.24230957",
+                "max_value": "0.13586426"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "6.496439e-07",
+                "weight_std": "0.018499132",
+                "min_value": "-0.13793945",
+                "max_value": "0.15905762"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.023255631",
+                "weight_std": "0.41548783",
+                "min_value": "-2.6484375",
+                "max_value": "2.4277344"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-6.829585e-06",
+                "weight_std": "0.014128013",
+                "min_value": "-0.11444092",
+                "max_value": "0.107666016"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0003612215",
+                "weight_std": "0.070268266",
+                "min_value": "-1.1113281",
+                "max_value": "0.23352051"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.152637",
+                "weight_std": "0.1542465",
+                "min_value": "0.39742163",
+                "max_value": "3.2315893"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.016279701",
+                "weight_std": "0.3025719",
+                "min_value": "-4.8509307",
+                "max_value": "3.601452"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "5.6118064e-05",
+                "weight_std": "0.014901414",
+                "min_value": "-0.13696289",
+                "max_value": "0.11431885"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.4209373",
+                "weight_std": "0.12510061",
+                "min_value": "-0.8286133",
+                "max_value": "0.27197266"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-7.544794e-07",
+                "weight_std": "0.014712804",
+                "min_value": "-0.22375488",
+                "max_value": "0.34521484"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.000264792",
+                "weight_std": "0.10351721",
+                "min_value": "-2.0253906",
+                "max_value": "0.37939453"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.7963185",
+                "weight_std": "0.18999957",
+                "min_value": "0.561027",
+                "max_value": "3.9957893"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.9.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.023447726",
+                "weight_std": "0.42561492",
+                "min_value": "-1.6008005",
+                "max_value": "1.6934003"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "1.3833253e-06",
+                "weight_std": "0.015608294",
+                "min_value": "-0.20410156",
+                "max_value": "0.2878418"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0011725946",
+                "weight_std": "0.012379567",
+                "min_value": "-0.05722046",
+                "max_value": "0.06994629"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.2969974e-05",
+                "weight_std": "0.017349422",
+                "min_value": "-0.074645996",
+                "max_value": "0.08526611"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00062168017",
+                "weight_std": "0.045931697",
+                "min_value": "-0.17907715",
+                "max_value": "0.17883301"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-3.0259449e-05",
+                "weight_std": "0.015714914",
+                "min_value": "-0.18383789",
+                "max_value": "0.18640137"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.015920896",
+                "weight_std": "0.44483843",
+                "min_value": "-2.640625",
+                "max_value": "2.1699219"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-7.903747e-06",
+                "weight_std": "0.016211733",
+                "min_value": "-0.15100098",
+                "max_value": "0.120788574"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0018372936",
+                "weight_std": "0.11832371",
+                "min_value": "-0.29370117",
+                "max_value": "0.5097656"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.287953",
+                "weight_std": "0.18209265",
+                "min_value": "0.38171172",
+                "max_value": "4.200157"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.003802929",
+                "weight_std": "0.21823224",
+                "min_value": "-2.6899042",
+                "max_value": "2.798445"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-5.4277763e-05",
+                "weight_std": "0.014839665",
+                "min_value": "-0.11907959",
+                "max_value": "0.1541748"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.38930655",
+                "weight_std": "0.12932423",
+                "min_value": "-0.94677734",
+                "max_value": "0.86035156"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-6.982915e-06",
+                "weight_std": "0.01483873",
+                "min_value": "-0.31323242",
+                "max_value": "0.33422852"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.00047368393",
+                "weight_std": "0.07503945",
+                "min_value": "-0.59375",
+                "max_value": "0.55078125"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.6812742",
+                "weight_std": "0.19801396",
+                "min_value": "0.8150068",
+                "max_value": "4.3411508"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.10.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.019957632",
+                "weight_std": "0.25062716",
+                "min_value": "-1.766388",
+                "max_value": "1.15461"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.self_attn.k_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "1.5059204e-05",
+                "weight_std": "0.0151901515",
+                "min_value": "-0.15710449",
+                "max_value": "0.1616211"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.self_attn.k_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "6.92812e-05",
+                "weight_std": "0.0037238789",
+                "min_value": "-0.017669678",
+                "max_value": "0.021652222"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.self_attn.v_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-6.142869e-06",
+                "weight_std": "0.019719731",
+                "min_value": "-0.099609375",
+                "max_value": "0.09631348"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.self_attn.v_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0017666791",
+                "weight_std": "0.05975538",
+                "min_value": "-0.22180176",
+                "max_value": "0.21777344"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.self_attn.q_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-1.1372644e-05",
+                "weight_std": "0.01537726",
+                "min_value": "-0.106933594",
+                "max_value": "0.15112305"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.self_attn.q_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.014546048",
+                "weight_std": "0.39162105",
+                "min_value": "-2.5488281",
+                "max_value": "2.34375"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.self_attn.out_proj.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "1.5121464e-06",
+                "weight_std": "0.01763166",
+                "min_value": "-0.2130127",
+                "max_value": "0.11975098"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.self_attn.out_proj.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0026467098",
+                "weight_std": "0.20829275",
+                "min_value": "-0.5180664",
+                "max_value": "2.4238281"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.layer_norm1.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "2.292699",
+                "weight_std": "0.13603115",
+                "min_value": "0.36091465",
+                "max_value": "2.9562078"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.layer_norm1.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.0037852954",
+                "weight_std": "0.21061887",
+                "min_value": "-2.1103597",
+                "max_value": "1.9568067"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.mlp.fc1.weight",
+                "shape": [
+                    2048,
+                    512
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-3.201066e-05",
+                "weight_std": "0.015204293",
+                "min_value": "-0.11450195",
+                "max_value": "0.11859131"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.mlp.fc1.bias",
+                "shape": [
+                    2048
+                ],
+                "num_parameters": 2048,
+                "weight_mean": "-0.34360182",
+                "weight_std": "0.18674077",
+                "min_value": "-0.9897461",
+                "max_value": "0.6425781"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.mlp.fc2.weight",
+                "shape": [
+                    512,
+                    2048
+                ],
+                "num_parameters": 1048576,
+                "weight_mean": "-7.1015e-06",
+                "weight_std": "0.015043492",
+                "min_value": "-0.112976074",
+                "max_value": "0.17150879"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.mlp.fc2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.0023993226",
+                "weight_std": "0.1742667",
+                "min_value": "-0.6503906",
+                "max_value": "1.4423828"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.layer_norm2.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "1.9991255",
+                "weight_std": "0.22241302",
+                "min_value": "1.7005339",
+                "max_value": "3.9881933"
+            },
+            {
+                "layer_name": "text_model.encoder.layers.11.layer_norm2.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.030925374",
+                "weight_std": "0.24959843",
+                "min_value": "-0.9748983",
+                "max_value": "1.3845099"
+            },
+            {
+                "layer_name": "text_model.final_layer_norm.weight",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "0.98042595",
+                "weight_std": "0.09897579",
+                "min_value": "0.879575",
+                "max_value": "1.8820003"
+            },
+            {
+                "layer_name": "text_model.final_layer_norm.bias",
+                "shape": [
+                    512
+                ],
+                "num_parameters": 512,
+                "weight_mean": "-0.078102216",
+                "weight_std": "0.19386084",
+                "min_value": "-0.7610061",
+                "max_value": "0.5738177"
+            },
+            {
+                "layer_name": "vision_model.embeddings.class_embedding",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.002539615",
+                "weight_std": "0.23389882",
+                "min_value": "-1.5536661",
+                "max_value": "1.0031509"
+            },
+            {
+                "layer_name": "vision_model.embeddings.patch_embedding.weight",
+                "shape": [
+                    768,
+                    3,
+                    16,
+                    16
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "5.222308e-05",
+                "weight_std": "0.018973855",
+                "min_value": "-0.14782715",
+                "max_value": "0.14428711"
+            },
+            {
+                "layer_name": "vision_model.embeddings.position_embedding.weight",
+                "shape": [
+                    197,
+                    768
+                ],
+                "num_parameters": 151296,
+                "weight_mean": "-0.007335951",
+                "weight_std": "0.028194496",
+                "min_value": "-0.21955954",
+                "max_value": "0.23684262"
+            },
+            {
+                "layer_name": "vision_model.pre_layrnorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.39308465",
+                "weight_std": "0.45492673",
+                "min_value": "-0.0011710173",
+                "max_value": "4.068589"
+            },
+            {
+                "layer_name": "vision_model.pre_layrnorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0012131605",
+                "weight_std": "0.072494164",
+                "min_value": "-0.30323228",
+                "max_value": "0.5645427"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.74089e-05",
+                "weight_std": "0.015595636",
+                "min_value": "-0.18652344",
+                "max_value": "0.19152832"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00076811836",
+                "weight_std": "0.016858157",
+                "min_value": "-0.06939697",
+                "max_value": "0.06347656"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-3.2411703e-05",
+                "weight_std": "0.010082415",
+                "min_value": "-0.117004395",
+                "max_value": "0.10498047"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0012875871",
+                "weight_std": "0.052238777",
+                "min_value": "-0.28564453",
+                "max_value": "0.2919922"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.3626168e-06",
+                "weight_std": "0.016150404",
+                "min_value": "-0.18823242",
+                "max_value": "0.18908691"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.022712233",
+                "weight_std": "0.9296428",
+                "min_value": "-2.2734375",
+                "max_value": "2.5703125"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-9.5160226e-07",
+                "weight_std": "0.011180485",
+                "min_value": "-0.18737793",
+                "max_value": "0.15576172"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0013943816",
+                "weight_std": "0.042685043",
+                "min_value": "-0.47924805",
+                "max_value": "0.4375"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.4927194",
+                "weight_std": "0.33429223",
+                "min_value": "-0.00041644683",
+                "max_value": "1.4830499"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.014461168",
+                "weight_std": "0.18040417",
+                "min_value": "-1.1501424",
+                "max_value": "2.1952727"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-0.00019740609",
+                "weight_std": "0.014528737",
+                "min_value": "-0.27954102",
+                "max_value": "0.22424316"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.45527697",
+                "weight_std": "0.3361037",
+                "min_value": "-1.4863281",
+                "max_value": "0.37719727"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "3.0355373e-05",
+                "weight_std": "0.009486593",
+                "min_value": "-0.2175293",
+                "max_value": "0.22680664"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0042725964",
+                "weight_std": "0.07393912",
+                "min_value": "-0.37670898",
+                "max_value": "1.0078125"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.9188078",
+                "weight_std": "0.40115684",
+                "min_value": "0.22085388",
+                "max_value": "5.1016974"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.0.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.023408087",
+                "weight_std": "0.22266571",
+                "min_value": "-1.2188671",
+                "max_value": "0.7430196"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "4.3916265e-05",
+                "weight_std": "0.020150093",
+                "min_value": "-0.20715332",
+                "max_value": "0.21398926"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "7.890692e-05",
+                "weight_std": "0.011304177",
+                "min_value": "-0.05429077",
+                "max_value": "0.06088257"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.4795213e-05",
+                "weight_std": "0.01171399",
+                "min_value": "-0.14257812",
+                "max_value": "0.11065674"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "8.463301e-05",
+                "weight_std": "0.028361378",
+                "min_value": "-0.18139648",
+                "max_value": "0.2043457"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.6136986e-06",
+                "weight_std": "0.019946337",
+                "min_value": "-0.16711426",
+                "max_value": "0.16906738"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.015901072",
+                "weight_std": "0.81986415",
+                "min_value": "-2.1308594",
+                "max_value": "2.2382812"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "5.631765e-06",
+                "weight_std": "0.011242026",
+                "min_value": "-0.20739746",
+                "max_value": "0.1907959"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0009515022",
+                "weight_std": "0.08077109",
+                "min_value": "-0.99609375",
+                "max_value": "0.38916016"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.82371473",
+                "weight_std": "0.24313584",
+                "min_value": "-3.405745e-05",
+                "max_value": "1.6919662"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00091607403",
+                "weight_std": "0.15906356",
+                "min_value": "-1.3696122",
+                "max_value": "2.4159784"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-7.218076e-05",
+                "weight_std": "0.014491104",
+                "min_value": "-0.19641113",
+                "max_value": "0.20263672"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.39226744",
+                "weight_std": "0.22081468",
+                "min_value": "-1.3447266",
+                "max_value": "0.22387695"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-2.2299733e-05",
+                "weight_std": "0.010101833",
+                "min_value": "-0.3227539",
+                "max_value": "0.32641602"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0048989234",
+                "weight_std": "0.10194553",
+                "min_value": "-0.9682617",
+                "max_value": "0.9013672"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.1719006",
+                "weight_std": "0.47346985",
+                "min_value": "0.06867367",
+                "max_value": "2.6316319"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.1.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00874376",
+                "weight_std": "0.1706085",
+                "min_value": "-1.524537",
+                "max_value": "1.5253731"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-9.206954e-06",
+                "weight_std": "0.018555187",
+                "min_value": "-0.16430664",
+                "max_value": "0.16967773"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0010448741",
+                "weight_std": "0.025522536",
+                "min_value": "-0.11590576",
+                "max_value": "0.1104126"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.21376115e-05",
+                "weight_std": "0.013207678",
+                "min_value": "-0.120788574",
+                "max_value": "0.105407715"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.002034656",
+                "weight_std": "0.057067845",
+                "min_value": "-0.2668457",
+                "max_value": "0.3076172"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.1228281e-05",
+                "weight_std": "0.018193463",
+                "min_value": "-0.14233398",
+                "max_value": "0.14868164"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.010927201",
+                "weight_std": "0.79090494",
+                "min_value": "-2.3613281",
+                "max_value": "2.6054688"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-4.973313e-07",
+                "weight_std": "0.012105957",
+                "min_value": "-0.10272217",
+                "max_value": "0.10119629"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.005673976",
+                "weight_std": "0.091330566",
+                "min_value": "-1.0332031",
+                "max_value": "0.55566406"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.92245036",
+                "weight_std": "0.18852384",
+                "min_value": "0.14573684",
+                "max_value": "2.2523766"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0046000704",
+                "weight_std": "0.19383946",
+                "min_value": "-1.9494599",
+                "max_value": "2.3632996"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-0.00018087028",
+                "weight_std": "0.014177334",
+                "min_value": "-0.22595215",
+                "max_value": "0.20031738"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.3309134",
+                "weight_std": "0.16159803",
+                "min_value": "-1.2177734",
+                "max_value": "0.08190918"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "4.181153e-06",
+                "weight_std": "0.010827022",
+                "min_value": "-0.32617188",
+                "max_value": "0.40600586"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00032797913",
+                "weight_std": "0.07051084",
+                "min_value": "-0.5761719",
+                "max_value": "0.32128906"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.2099916",
+                "weight_std": "0.15677808",
+                "min_value": "0.31676483",
+                "max_value": "2.4706104"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.2.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0079073785",
+                "weight_std": "0.14630972",
+                "min_value": "-2.1978745",
+                "max_value": "0.5373647"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.7758466e-05",
+                "weight_std": "0.018457998",
+                "min_value": "-0.15454102",
+                "max_value": "0.15734863"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00037113274",
+                "weight_std": "0.016187446",
+                "min_value": "-0.07141113",
+                "max_value": "0.07110596"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-9.996836e-06",
+                "weight_std": "0.012352476",
+                "min_value": "-0.075683594",
+                "max_value": "0.06964111"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00015699437",
+                "weight_std": "0.042148065",
+                "min_value": "-0.27368164",
+                "max_value": "0.3305664"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-6.276621e-06",
+                "weight_std": "0.018397743",
+                "min_value": "-0.13598633",
+                "max_value": "0.13244629"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0014036385",
+                "weight_std": "0.7001956",
+                "min_value": "-2.7539062",
+                "max_value": "2.8476562"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "3.5189607e-06",
+                "weight_std": "0.011647349",
+                "min_value": "-0.08392334",
+                "max_value": "0.09692383"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0012228754",
+                "weight_std": "0.060168587",
+                "min_value": "-0.7680664",
+                "max_value": "0.6591797"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.1859332",
+                "weight_std": "0.131468",
+                "min_value": "0.3603558",
+                "max_value": "1.8044308"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00857283",
+                "weight_std": "0.19164607",
+                "min_value": "-1.9062114",
+                "max_value": "3.2838905"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-0.00026435303",
+                "weight_std": "0.013809728",
+                "min_value": "-0.1920166",
+                "max_value": "0.19616699"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.30925804",
+                "weight_std": "0.1780778",
+                "min_value": "-1.1738281",
+                "max_value": "0.10858154"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "3.429045e-06",
+                "weight_std": "0.010302332",
+                "min_value": "-0.31225586",
+                "max_value": "0.31176758"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00070005003",
+                "weight_std": "0.0547931",
+                "min_value": "-0.33569336",
+                "max_value": "0.5991211"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.3334084",
+                "weight_std": "0.13406932",
+                "min_value": "0.35670897",
+                "max_value": "2.866575"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.3.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.010368974",
+                "weight_std": "0.14488368",
+                "min_value": "-1.9839675",
+                "max_value": "0.5922443"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.3431078e-05",
+                "weight_std": "0.01685328",
+                "min_value": "-0.14624023",
+                "max_value": "0.12780762"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0014649885",
+                "weight_std": "0.056392293",
+                "min_value": "-0.50390625",
+                "max_value": "0.6533203"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "9.110676e-06",
+                "weight_std": "0.013026408",
+                "min_value": "-0.08831787",
+                "max_value": "0.07739258"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00168991",
+                "weight_std": "0.041915767",
+                "min_value": "-0.3388672",
+                "max_value": "0.24279785"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.5610103e-05",
+                "weight_std": "0.017788041",
+                "min_value": "-0.11114502",
+                "max_value": "0.1003418"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.019877968",
+                "weight_std": "0.5521193",
+                "min_value": "-2.6523438",
+                "max_value": "2.7304688"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "6.4618166e-07",
+                "weight_std": "0.012215832",
+                "min_value": "-0.06939697",
+                "max_value": "0.07006836"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0003432558",
+                "weight_std": "0.057459634",
+                "min_value": "-0.62353516",
+                "max_value": "0.6694336"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.2904481",
+                "weight_std": "0.121911146",
+                "min_value": "0.51216656",
+                "max_value": "1.7305852"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0022395544",
+                "weight_std": "0.25493485",
+                "min_value": "-2.2670078",
+                "max_value": "4.693926"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-0.00011688823",
+                "weight_std": "0.014151249",
+                "min_value": "-0.17126465",
+                "max_value": "0.17456055"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.31561378",
+                "weight_std": "0.17647289",
+                "min_value": "-0.97314453",
+                "max_value": "0.1048584"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-2.4909505e-06",
+                "weight_std": "0.010725542",
+                "min_value": "-0.30737305",
+                "max_value": "0.27612305"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0007718783",
+                "weight_std": "0.057331957",
+                "min_value": "-0.24841309",
+                "max_value": "0.63427734"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.4443264",
+                "weight_std": "0.10453311",
+                "min_value": "0.5270045",
+                "max_value": "2.4136853"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.4.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.007607033",
+                "weight_std": "0.21200167",
+                "min_value": "-2.4836411",
+                "max_value": "1.0764618"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.3659602e-05",
+                "weight_std": "0.017260281",
+                "min_value": "-0.15148926",
+                "max_value": "0.17199707"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.000112940244",
+                "weight_std": "0.038424972",
+                "min_value": "-0.22314453",
+                "max_value": "0.22583008"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "7.500477e-06",
+                "weight_std": "0.012840282",
+                "min_value": "-0.09094238",
+                "max_value": "0.07098389"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00043062246",
+                "weight_std": "0.035432216",
+                "min_value": "-0.25756836",
+                "max_value": "0.1899414"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "6.5507415e-06",
+                "weight_std": "0.017864164",
+                "min_value": "-0.11743164",
+                "max_value": "0.11090088"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.014233849",
+                "weight_std": "0.5440338",
+                "min_value": "-2.921875",
+                "max_value": "2.7011719"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.8055833e-06",
+                "weight_std": "0.012057179",
+                "min_value": "-0.09539795",
+                "max_value": "0.10583496"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00033707698",
+                "weight_std": "0.068456665",
+                "min_value": "-1.0048828",
+                "max_value": "0.99609375"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.2859601",
+                "weight_std": "0.14593257",
+                "min_value": "0.46857482",
+                "max_value": "2.363044"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0020915885",
+                "weight_std": "0.21965145",
+                "min_value": "-2.4647777",
+                "max_value": "2.8092928"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.00030678572",
+                "weight_std": "0.014430734",
+                "min_value": "-0.17749023",
+                "max_value": "0.21057129"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.33112824",
+                "weight_std": "0.18098263",
+                "min_value": "-1.0244141",
+                "max_value": "0.13293457"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-2.0075458e-06",
+                "weight_std": "0.01118831",
+                "min_value": "-0.24926758",
+                "max_value": "0.27612305"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00043362504",
+                "weight_std": "0.052603897",
+                "min_value": "-0.24145508",
+                "max_value": "0.6035156"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.4915133",
+                "weight_std": "0.11154677",
+                "min_value": "0.7486957",
+                "max_value": "2.4983702"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.5.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.052180916",
+                "weight_std": "0.3053884",
+                "min_value": "-5.0171056",
+                "max_value": "1.3198978"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.8446595e-05",
+                "weight_std": "0.017404292",
+                "min_value": "-0.17272949",
+                "max_value": "0.16833496"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0015513878",
+                "weight_std": "0.17793687",
+                "min_value": "-1.1621094",
+                "max_value": "0.9135742"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.0026841e-06",
+                "weight_std": "0.012706705",
+                "min_value": "-0.09753418",
+                "max_value": "0.08331299"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00023398176",
+                "weight_std": "0.043550618",
+                "min_value": "-0.19946289",
+                "max_value": "0.1652832"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "5.2370615e-05",
+                "weight_std": "0.018079614",
+                "min_value": "-0.14562988",
+                "max_value": "0.12585449"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.016566126",
+                "weight_std": "0.49222147",
+                "min_value": "-2.5234375",
+                "max_value": "2.6347656"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.1696214e-06",
+                "weight_std": "0.012164566",
+                "min_value": "-0.10644531",
+                "max_value": "0.07739258"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0009102985",
+                "weight_std": "0.08540481",
+                "min_value": "-1.1337891",
+                "max_value": "1.2509766"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.3685259",
+                "weight_std": "0.11653793",
+                "min_value": "0.4218134",
+                "max_value": "2.1439204"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.005969265",
+                "weight_std": "0.2095333",
+                "min_value": "-2.435697",
+                "max_value": "2.331279"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.00020400621",
+                "weight_std": "0.014682047",
+                "min_value": "-0.16394043",
+                "max_value": "0.19921875"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.3589678",
+                "weight_std": "0.1920836",
+                "min_value": "-1.28125",
+                "max_value": "0.20812988"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "2.4298274e-07",
+                "weight_std": "0.012249476",
+                "min_value": "-0.19689941",
+                "max_value": "0.35473633"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00030253013",
+                "weight_std": "0.06169074",
+                "min_value": "-0.6557617",
+                "max_value": "0.86572266"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.6492043",
+                "weight_std": "0.14108482",
+                "min_value": "0.6117013",
+                "max_value": "2.5599678"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.6.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.051102523",
+                "weight_std": "0.46128714",
+                "min_value": "-7.90394",
+                "max_value": "2.940732"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-3.0558815e-05",
+                "weight_std": "0.01740556",
+                "min_value": "-0.15429688",
+                "max_value": "0.13452148"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0009242722",
+                "weight_std": "0.06397116",
+                "min_value": "-0.42504883",
+                "max_value": "0.61035156"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.2162087e-05",
+                "weight_std": "0.012758825",
+                "min_value": "-0.121398926",
+                "max_value": "0.08868408"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0005992637",
+                "weight_std": "0.03648906",
+                "min_value": "-0.13928223",
+                "max_value": "0.15026855"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.498783e-05",
+                "weight_std": "0.017599119",
+                "min_value": "-0.11932373",
+                "max_value": "0.12133789"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.045838863",
+                "weight_std": "0.5269995",
+                "min_value": "-2.5175781",
+                "max_value": "2.7929688"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.0816948e-06",
+                "weight_std": "0.012308036",
+                "min_value": "-0.087768555",
+                "max_value": "0.09075928"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00040898108",
+                "weight_std": "0.113196075",
+                "min_value": "-1.984375",
+                "max_value": "1.6982422"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.4705395",
+                "weight_std": "0.10519866",
+                "min_value": "0.28072554",
+                "max_value": "2.1920123"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.015930174",
+                "weight_std": "0.15961891",
+                "min_value": "-2.4755886",
+                "max_value": "1.0750802"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "0.00041895764",
+                "weight_std": "0.014798593",
+                "min_value": "-0.31396484",
+                "max_value": "0.3083496"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.3678329",
+                "weight_std": "0.18808655",
+                "min_value": "-1.0322266",
+                "max_value": "1.6152344"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "5.486256e-07",
+                "weight_std": "0.013028011",
+                "min_value": "-0.19238281",
+                "max_value": "0.40185547"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00020295304",
+                "weight_std": "0.08723541",
+                "min_value": "-1.5117188",
+                "max_value": "1.2304688"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.9445038",
+                "weight_std": "0.17235878",
+                "min_value": "0.6179738",
+                "max_value": "2.7972758"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.7.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.094653815",
+                "weight_std": "0.46369895",
+                "min_value": "-7.3637695",
+                "max_value": "2.5866811"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.4748982e-05",
+                "weight_std": "0.017248454",
+                "min_value": "-0.14135742",
+                "max_value": "0.14746094"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0023544626",
+                "weight_std": "0.124170415",
+                "min_value": "-0.76416016",
+                "max_value": "0.63671875"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.6671822e-05",
+                "weight_std": "0.012998149",
+                "min_value": "-0.12573242",
+                "max_value": "0.06573486"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0010366082",
+                "weight_std": "0.033742543",
+                "min_value": "-0.12249756",
+                "max_value": "0.10455322"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "3.9849157e-05",
+                "weight_std": "0.017447615",
+                "min_value": "-0.12384033",
+                "max_value": "0.111816406"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.030482106",
+                "weight_std": "0.56302726",
+                "min_value": "-2.6640625",
+                "max_value": "3.109375"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "3.357226e-06",
+                "weight_std": "0.012709932",
+                "min_value": "-0.13452148",
+                "max_value": "0.11425781"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00016874184",
+                "weight_std": "0.046289876",
+                "min_value": "-0.5439453",
+                "max_value": "0.3569336"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.5984392",
+                "weight_std": "0.114591",
+                "min_value": "0.36662784",
+                "max_value": "2.581747"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.02087686",
+                "weight_std": "0.16336437",
+                "min_value": "-2.567135",
+                "max_value": "0.70043516"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-1.509644e-05",
+                "weight_std": "0.014030926",
+                "min_value": "-0.13024902",
+                "max_value": "0.118652344"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.3793578",
+                "weight_std": "0.21627603",
+                "min_value": "-0.9584961",
+                "max_value": "0.33276367"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "7.5121926e-07",
+                "weight_std": "0.014346814",
+                "min_value": "-0.31103516",
+                "max_value": "0.17614746"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0004594149",
+                "weight_std": "0.12527014",
+                "min_value": "-0.8305664",
+                "max_value": "3.0722656"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "2.692506",
+                "weight_std": "0.2584749",
+                "min_value": "0.29152355",
+                "max_value": "3.7974656"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.8.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.03838413",
+                "weight_std": "0.50906557",
+                "min_value": "-2.7835717",
+                "max_value": "2.5641587"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "5.7194625e-06",
+                "weight_std": "0.016920932",
+                "min_value": "-0.12561035",
+                "max_value": "0.123291016"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0042079804",
+                "weight_std": "0.10776417",
+                "min_value": "-0.89453125",
+                "max_value": "0.7636719"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.9117435e-05",
+                "weight_std": "0.013847196",
+                "min_value": "-0.13757324",
+                "max_value": "0.07745361"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-6.6292785e-05",
+                "weight_std": "0.04211622",
+                "min_value": "-0.17285156",
+                "max_value": "0.21240234"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "9.472253e-06",
+                "weight_std": "0.017011944",
+                "min_value": "-0.117370605",
+                "max_value": "0.10131836"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.029972553",
+                "weight_std": "0.5613206",
+                "min_value": "-2.9296875",
+                "max_value": "3.4511719"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.5360537e-07",
+                "weight_std": "0.013703395",
+                "min_value": "-0.1895752",
+                "max_value": "0.25268555"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0015147934",
+                "weight_std": "0.10589203",
+                "min_value": "-0.7036133",
+                "max_value": "2.4589844"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.8013244",
+                "weight_std": "0.114136524",
+                "min_value": "0.30046797",
+                "max_value": "2.3781726"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.031351715",
+                "weight_std": "0.15890594",
+                "min_value": "-2.0844703",
+                "max_value": "0.6030761"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-0.0002760621",
+                "weight_std": "0.014401332",
+                "min_value": "-0.08520508",
+                "max_value": "0.10095215"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.38225964",
+                "weight_std": "0.24125218",
+                "min_value": "-1.15625",
+                "max_value": "1.1337891"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-8.645222e-06",
+                "weight_std": "0.0149293095",
+                "min_value": "-0.22729492",
+                "max_value": "0.13708496"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0006253856",
+                "weight_std": "0.113390826",
+                "min_value": "-0.78515625",
+                "max_value": "2.5683594"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "4.4312778",
+                "weight_std": "0.43769383",
+                "min_value": "0.22329925",
+                "max_value": "5.6689663"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.9.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.05663626",
+                "weight_std": "0.6647128",
+                "min_value": "-3.7334483",
+                "max_value": "3.350089"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "2.4829676e-06",
+                "weight_std": "0.016752725",
+                "min_value": "-0.16442871",
+                "max_value": "0.21203613"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.01156303",
+                "weight_std": "0.37203434",
+                "min_value": "-2.2011719",
+                "max_value": "4.9453125"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-2.761764e-05",
+                "weight_std": "0.015000944",
+                "min_value": "-0.07861328",
+                "max_value": "0.09283447"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.00057817955",
+                "weight_std": "0.052957054",
+                "min_value": "-0.43041992",
+                "max_value": "0.1940918"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.4460082e-05",
+                "weight_std": "0.016797263",
+                "min_value": "-0.14550781",
+                "max_value": "0.1817627"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.013340485",
+                "weight_std": "0.57224315",
+                "min_value": "-3.1679688",
+                "max_value": "2.9707031"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.3443495e-06",
+                "weight_std": "0.014937077",
+                "min_value": "-0.22619629",
+                "max_value": "0.14257812"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00022396616",
+                "weight_std": "0.087744005",
+                "min_value": "-0.35473633",
+                "max_value": "1.1474609"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "2.0184097",
+                "weight_std": "0.14567155",
+                "min_value": "0.19083844",
+                "max_value": "2.8023639"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.048981342",
+                "weight_std": "0.2098051",
+                "min_value": "-1.9227804",
+                "max_value": "1.2035813"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "5.919073e-05",
+                "weight_std": "0.014701255",
+                "min_value": "-0.09185791",
+                "max_value": "0.15002441"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.40040955",
+                "weight_std": "0.177715",
+                "min_value": "-1.6689453",
+                "max_value": "0.80322266"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-2.763972e-05",
+                "weight_std": "0.017100502",
+                "min_value": "-0.29052734",
+                "max_value": "0.22741699"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.002115396",
+                "weight_std": "0.09972491",
+                "min_value": "-0.34960938",
+                "max_value": "0.76416016"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "4.7464595",
+                "weight_std": "0.40903777",
+                "min_value": "0.07950175",
+                "max_value": "5.9094915"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.10.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.010993633",
+                "weight_std": "0.58701265",
+                "min_value": "-3.298295",
+                "max_value": "3.5042129"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.self_attn.k_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "1.16924375e-05",
+                "weight_std": "0.013388158",
+                "min_value": "-0.15112305",
+                "max_value": "0.125"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.self_attn.k_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.0001581059",
+                "weight_std": "0.004071294",
+                "min_value": "-0.033935547",
+                "max_value": "0.05557251"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.self_attn.v_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-8.197187e-06",
+                "weight_std": "0.018375786",
+                "min_value": "-0.09863281",
+                "max_value": "0.1026001"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.self_attn.v_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00017518736",
+                "weight_std": "0.09828495",
+                "min_value": "-0.31689453",
+                "max_value": "0.3215332"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.self_attn.q_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "-1.027926e-05",
+                "weight_std": "0.013790713",
+                "min_value": "-0.07836914",
+                "max_value": "0.07745361"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.self_attn.q_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.00513817",
+                "weight_std": "0.29416925",
+                "min_value": "-2.2089844",
+                "max_value": "2.3515625"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.self_attn.out_proj.weight",
+                "shape": [
+                    768,
+                    768
+                ],
+                "num_parameters": 589824,
+                "weight_mean": "5.1500315e-06",
+                "weight_std": "0.017775413",
+                "min_value": "-0.15600586",
+                "max_value": "0.14465332"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.self_attn.out_proj.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.0028667084",
+                "weight_std": "0.30167693",
+                "min_value": "-7.1875",
+                "max_value": "2.8535156"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.layer_norm1.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "2.0278332",
+                "weight_std": "0.15938942",
+                "min_value": "0.34047207",
+                "max_value": "3.4342377"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.layer_norm1.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.02431974",
+                "weight_std": "0.20151307",
+                "min_value": "-2.099618",
+                "max_value": "1.8674351"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.mlp.fc1.weight",
+                "shape": [
+                    3072,
+                    768
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-0.00029612848",
+                "weight_std": "0.01437199",
+                "min_value": "-0.15930176",
+                "max_value": "0.12963867"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.mlp.fc1.bias",
+                "shape": [
+                    3072
+                ],
+                "num_parameters": 3072,
+                "weight_mean": "-0.38581833",
+                "weight_std": "0.21525511",
+                "min_value": "-1.3623047",
+                "max_value": "0.7832031"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.mlp.fc2.weight",
+                "shape": [
+                    768,
+                    3072
+                ],
+                "num_parameters": 2359296,
+                "weight_mean": "-9.532723e-07",
+                "weight_std": "0.014327109",
+                "min_value": "-0.11462402",
+                "max_value": "0.18127441"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.mlp.fc2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "-0.005888652",
+                "weight_std": "0.16388045",
+                "min_value": "-2.9101562",
+                "max_value": "1.2167969"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.layer_norm2.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "1.7904974",
+                "weight_std": "0.136987",
+                "min_value": "0.8881607",
+                "max_value": "3.0367186"
+            },
+            {
+                "layer_name": "vision_model.encoder.layers.11.layer_norm2.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.04431261",
+                "weight_std": "0.52252877",
+                "min_value": "-2.3093178",
+                "max_value": "1.43037"
+            },
+            {
+                "layer_name": "vision_model.post_layernorm.weight",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.9505005",
+                "weight_std": "0.10155254",
+                "min_value": "-0.19742344",
+                "max_value": "1.8936634"
+            },
+            {
+                "layer_name": "vision_model.post_layernorm.bias",
+                "shape": [
+                    768
+                ],
+                "num_parameters": 768,
+                "weight_mean": "0.19231497",
+                "weight_std": "0.30992806",
+                "min_value": "-1.6608378",
+                "max_value": "1.0696716"
+            },
+            {
+                "layer_name": "visual_projection.weight",
+                "shape": [
+                    512,
+                    768
+                ],
+                "num_parameters": 393216,
+                "weight_mean": "7.638417e-05",
+                "weight_std": "0.012786656",
+                "min_value": "-0.10266113",
+                "max_value": "0.12805176"
+            },
+            {
+                "layer_name": "text_projection.weight",
+                "shape": [
+                    512,
+                    512
+                ],
+                "num_parameters": 262144,
+                "weight_mean": "-2.3290146e-05",
+                "weight_std": "0.012872899",
+                "min_value": "-0.14807129",
+                "max_value": "0.115234375"
+            }
+        ]
+    }
+}

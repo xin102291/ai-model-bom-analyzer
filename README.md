@@ -63,39 +63,18 @@ final_score = 0.3 * 結構 + 0.2 * 超參數 + 0.5 * 權重相似度
 
 使用者可進行模型上傳、比對與結果查看。
 
-以下是目前收集在資料夾data的模型
+📄 huggingface_list.py
 
-distilbert/distilbert-base-uncased-finetuned-sst-2-english
+連線至 Hugging Face 平台，搜尋並擷取下載量排名前 100 名的公開模型（public models），並將結果輸出為一個 CSV 檔案。
 
-state-spaces/mamba-130m-hf
+📄 huggingface_top100_public_models.csv
 
-teknium/OpenHermes-2.5-Mistral-7B
+此檔案為 huggingface_list.py 的匯出檔
 
-HuggingFaceH4/zephyr-7b-beta
+📄 import_100.py
 
-stabilityai/stablelm-2-zephyr-1_6b
+此腳本會讀取由 huggingface_list.py 產生的 CSV 檔案(huggingface_top100_public_models.csv)，針對其中每一筆模型資訊進行進一步處理，並將詳細資料（包含模型架構、參數設定、權重資訊等）匯入資料庫。
 
-openchat/openchat-3.5-0106
+📄 sql_model_comparison.py
 
-EleutherAI/gpt-j-6bs
-
-google/flan-t5-xl
-
-facebook/opt-6.7b
-
-mosaicml/mpt-7b-instruct
-
-cerebras/Cerebras-GPT-6.7B
-
-togethercomputer/RedPajama-INCITE-7B-Instruct
-
-EleutherAI/pythia-6.9b
-
-ai4bharat/IndicBARTSS
-
-facebook/bart-large-cnn
-
-google/mt5-base
-
-facebook/mbart-large-50-many-to-many-mmt
-
+用資料庫裏面的資訊來比對模型相似度，方式和show_model_comparison.py 使用的一樣。

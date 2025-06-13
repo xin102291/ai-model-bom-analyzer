@@ -97,7 +97,7 @@ def load_openvino_weight_info(xml_path, bin_path):
         return []
 
 
-def get_weight_info(model_name, weight_file_path=None):
+def get_weight_info(model_name, weight_file_path=None, token=None):
     """
     判斷是 transformers 模型還是 OpenVINO 權重，自動切換處理方式。
     """
@@ -112,7 +112,7 @@ def get_weight_info(model_name, weight_file_path=None):
         # 預設使用 transformers 模型載入方式
         print("🤗 使用 transformers 模型載入")
         from transformers import AutoModel
-        model = AutoModel.from_pretrained(model_name)
+        model = AutoModel.from_pretrained(model_name, use_auth_token=token)
         return get_weight_info_from_model(model)
 
     except Exception as e:
@@ -159,9 +159,9 @@ def safe_join_architecture(config):
     except Exception:
         return "Unknown"
 
-def get_model_fields(model_id):
+def get_model_fields(model_id, token=None):
     try:
-        config = AutoConfig.from_pretrained(model_id)
+        config = AutoConfig.from_pretrained(model_id, use_auth_token=token)
         config_dict = config.to_dict()
         if config.__class__.__name__ in ["CLIPConfig", "CLIPSegConfig", "SiglipConfig", "BlipConfig"]:
             return {
@@ -201,7 +201,7 @@ def get_model_fields(model_id):
         }
 
 
-def import_model_to_mysql(model_name):
+def import_model_to_mysql(model_name, token=None):
     """將單一模型的資料匯入資料庫"""
     # 連線到 MySQL
     try:
@@ -221,13 +221,19 @@ def import_model_to_mysql(model_name):
         # 步驟 1: 取得模型類型和權限
         api = HfApi()
         model_info = api.model_info(model_name)
-        config = AutoConfig.from_pretrained(model_name)
+        config = AutoConfig.from_pretrained(model_name, use_auth_token=token)
         model_type = getattr(config, "model_type", "Unknown")
-        model_architecture = ", ".join(getattr(config, "architectures", ["Unknown"]))
-        layer_count = str(getattr(config, "num_hidden_layers", "Unknown"))
-        hidden_size = str( getattr(config, "hidden_size", getattr(config, "n_embd", getattr(config, "d_model", "Unknown"))))
-        embedding_size = str( getattr(config, "n_embd", getattr(config, "hidden_size", getattr(config, "d_model", "Unknown"))))
-        attention_heads = str(getattr(config, "num_attention_heads", "Unknown"))
+        value = get_model_fields(model_name,token= token)
+        model_architecture = value["model_architecture"]
+        layer_count = value["layer_count"]
+        hidden_size = value["hidden_size"]
+        embedding_size = value["embedding_size"]
+        attention_heads = value["attention_heads"]
+        # model_architecture = ", ".join(getattr(config, "architectures", ["Unknown"]))
+        # layer_count = str(getattr(config, "num_hidden_layers", "Unknown"))
+        # hidden_size = str( getattr(config, "hidden_size", getattr(config, "n_embd", getattr(config, "d_model", "Unknown"))))
+        # embedding_size = str( getattr(config, "n_embd", getattr(config, "hidden_size", getattr(config, "d_model", "Unknown"))))
+        # attention_heads = str(getattr(config, "num_attention_heads", "Unknown"))
 
         model_permissions = "public"  # 預設為 public
         if model_info.gated:
@@ -264,7 +270,7 @@ def import_model_to_mysql(model_name):
 
         # 步驟 4: 提取超參數
         try:
-            config = AutoConfig.from_pretrained(model_name)
+            config = AutoConfig.from_pretrained(model_name, use_auth_token=token)
             hyperparameters = get_hyperparameters(config)
             for param in hyperparameters:
                 # value = json.dumps(param["value"], ensure_ascii=False)
@@ -283,10 +289,10 @@ def import_model_to_mysql(model_name):
             for weight_file in weight_files:
                 print(f"ℹ️ 正在下載權重檔案: {weight_file}")
                 cache_dir = os.path.expanduser("~/.cache/huggingface/hub")
-                local_path = hf_hub_download(repo_id=model_name, filename=weight_file, cache_dir=cache_dir)
+                local_path = hf_hub_download(repo_id=model_name, filename=weight_file, cache_dir=cache_dir, token=token)
 
                 # 提取權重資訊
-                weight_details = get_weight_info(model_name, local_path)
+                weight_details = get_weight_info(model_name, local_path ,token)
 
                 for layer in weight_details:
                     shape = json.dumps(layer["shape"], ensure_ascii=False)
@@ -324,22 +330,26 @@ def import_model_to_mysql(model_name):
             print("✅ 資料庫連線已關閉")
 
 if __name__ == "__main__":
-    csv_file = "huggingface_top100_public_models.csv"  # CSV 檔案名稱
-    start = 6  # 要處理的起始第幾筆（從 1 開始算）
-    end = 10    # 要處理的結束第幾筆（包含）
+    model_list = ["meta-llama/Llama-3.2-1B-Instruct"]
+    HF_TOKEN = "hf_REMOVED"
+    for i in model_list:
+        import_model_to_mysql(i,token=HF_TOKEN)
+    # csv_file = "huggingface_top100_public_models.csv"  # CSV 檔案名稱
+    # start = 6  # 要處理的起始第幾筆（從 1 開始算）
+    # end = 10    # 要處理的結束第幾筆（包含）
 
-    with open(csv_file, 'r', encoding='utf-8') as file:
-        csv_reader = csv.reader(file)
-        next(csv_reader)  # 跳過標題列
+    # with open(csv_file, 'r', encoding='utf-8') as file:
+    #     csv_reader = csv.reader(file)
+    #     next(csv_reader)  # 跳過標題列
 
-        for index, row in enumerate(csv_reader, start=1):
-            if index < start:
-                continue
-            if index > end:
-                break
+    #     for index, row in enumerate(csv_reader, start=1):
+    #         if index < start:
+    #             continue
+    #         if index > end:
+    #             break
 
-            model_name = row[0]
-            print(f"ℹ️ 正在處理第 {index} 筆模型: {model_name}")
-            import_model_to_mysql(model_name)
+    #         model_name = row[0]
+    #         print(f"ℹ️ 正在處理第 {index} 筆模型: {model_name}")
+    #         import_model_to_mysql(model_name)
 
     print("🎉 匯入完成！")

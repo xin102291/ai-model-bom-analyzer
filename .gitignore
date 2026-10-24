@@ -1,0 +1,11 @@
+# 環境變數與密碼
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 執行時產出
+sbom.json
+*_spdx_bom.json

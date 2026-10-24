@@ -1,0 +1,23 @@
+# 核心：模型資訊擷取與相似度比對
+transformers
+huggingface_hub
+torch
+safetensors
+numpy
+scikit-learn
+
+# 資料庫（import_100.py、sql_model_comparison.py、update_model_architecture_fields.py）
+mysql-connector-python
+python-dotenv
+
+# huggingface_list.py（模型清單統計）
+pandas
+
+# file_information.py（GitHub API）
+requests
+
+# model_sbom.py（CycloneDX SBOM）
+cyclonedx-python-lib
+
+# import_100.py 讀取 OpenVINO IR 權重
+openvino

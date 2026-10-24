@@ -1,14 +1,18 @@
+import os
 import json
 import mysql.connector
+from dotenv import load_dotenv
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
-# --- 資料庫設定 ---
+load_dotenv()
+
+# MySQL 連線設定：從 .env 讀取（範本見 .env.example）
 db_config = {
-    "host": "localhost",
-    "user": "root",
-    "password": "REMOVED_PASSWORD",
-    "database": "testdb",
+    "host": os.getenv("DB_HOST", "localhost"),
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", ""),
+    "database": os.getenv("DB_NAME", "testdb"),
 }
 
 # --- 載入未知模型 JSON ---

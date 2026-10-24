@@ -1,14 +1,18 @@
+import os
 import mysql.connector
 from transformers import AutoConfig
+from dotenv import load_dotenv
 from huggingface_hub import hf_hub_download
 import json
 
-# 🛠️ 資料庫連線設定
+load_dotenv()
+
+# MySQL 連線設定：從 .env 讀取（範本見 .env.example）
 db_config = {
-    "host": "localhost",
-    "user": "root",  # 請替換為你的 MySQL 使用者名稱
-    "password": "REMOVED_PASSWORD",  # 請替換為你的 MySQL 密碼
-    "database": "testdb",
+    "host": os.getenv("DB_HOST", "localhost"),
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", ""),
+    "database": os.getenv("DB_NAME", "testdb"),
 }
 # 安全 join model_architecture
 def safe_join_architecture(config):

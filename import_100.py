@@ -9,15 +9,17 @@ import torch
 from safetensors.torch import load_file as load_safetensors
 import shutil
 from openvino.runtime import Core
-from safetensors.torch import load_file as load_safetensors
+from dotenv import load_dotenv
 
 
-# MySQL 連線設定
+load_dotenv()
+
+# MySQL 連線設定：從 .env 讀取（範本見 .env.example）
 db_config = {
-    "host": "localhost",
-    "user": "root",  # 請替換為你的 MySQL 使用者名稱
-    "password": "REMOVED_PASSWORD",  # 請替換為你的 MySQL 密碼
-    "database": "testdb",
+    "host": os.getenv("DB_HOST", "localhost"),
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", ""),
+    "database": os.getenv("DB_NAME", "testdb"),
 }
 
 # SQL 語句
@@ -331,7 +333,7 @@ def import_model_to_mysql(model_name, token=None):
 
 if __name__ == "__main__":
     model_list = ["meta-llama/Llama-3.2-1B-Instruct"]
-    HF_TOKEN = "hf_REMOVED"
+    HF_TOKEN = os.getenv("HF_TOKEN")  # 從 .env 讀取；只處理公開模型時可留空
     for i in model_list:
         import_model_to_mysql(i,token=HF_TOKEN)
     # csv_file = "huggingface_top100_public_models.csv"  # CSV 檔案名稱

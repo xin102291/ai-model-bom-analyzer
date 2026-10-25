@@ -17,8 +17,7 @@ Generate SPDX-style AI BOM files for Hugging Face models and identify an unknown
 ## 專案背景
 
 - 單位：財團法人資訊工業策進會（III）
-- 期間：〔請補實習期間〕
-- 我負責：〔請補負責範圍〕
+- 分工：全部功能由本人獨立設計與開發
 
 ## 架構
 
